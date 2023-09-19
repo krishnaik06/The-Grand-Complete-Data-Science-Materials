@@ -44,4 +44,9 @@
 - End To End ML Projects Playlist In English: https://www.youtube.com/watch?v=S_F_c9e2bz4&list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG&index=1
 - End To End ML Playlist In Hindi: https://www.youtube.com/watch?v=NuwUnRpxq2c&list=PLTDARY42LDV7jzL_f68SY-eOQ9tY2lYvR
 
+## 10. Generative AI And Open AI Playlist:
+- OPENAI Playlist English(In Progress): https://www.youtube.com/watch?v=CbpsDMwFG2g&list=PLZoTAELRMXVMTWGW9iS45ZTcMsntos6VO
+- Langchain Playlist(In Progress): https://www.youtube.com/watch?v=_FpT1cwcSLg&list=PLZoTAELRMXVORE4VF7WQ_fAl0L1Gljtar
+- 
+
 
