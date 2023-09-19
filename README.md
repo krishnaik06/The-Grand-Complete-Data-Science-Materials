@@ -37,6 +37,11 @@
 ## 8. Complete Docker Tutorials MLOPS
 - Complete Dockers In One Shot English: https://www.youtube.com/watch?v=8vmKtS8W7IQ
 - Complete Docker In One Shot Hindi: **Coming soon**
-- Complete Github Action In English: **Coming soon** 
+- Complete Github Action In English: **Coming soon**
+- Complete Kubernetes And Kubeflow Tutorials: **Coming Soon**
   
-## 9.
+## 9. End To End ML,DL and NLP Projects- Entire Lifecycle Till Deployment
+- End To End ML Projects Playlist In English: https://www.youtube.com/watch?v=S_F_c9e2bz4&list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG&index=1
+- End To End ML Playlist In Hindi: https://www.youtube.com/watch?v=NuwUnRpxq2c&list=PLTDARY42LDV7jzL_f68SY-eOQ9tY2lYvR
+
+
