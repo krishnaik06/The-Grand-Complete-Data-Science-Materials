@@ -11,7 +11,7 @@
 
 ## 3. Complete SQL For Data Analytics And Data Science
 - Complete SQl Detailed Playlist English: https://www.youtube.com/watch?v=us1XyayQ6fU&list=PLZoTAELRMXVNMRWlVf0bDDSxNEn38u9Cl
-- Complete SQL Detailed Playlist Hindi : -- Coming Soon
+- Complete SQL Detailed Playlist Hindi : **Coming Soon**
 - Complete SQL One Shot : ** Coming Soon
 
 ## 4. Git And Github Tutorials 
@@ -32,11 +32,11 @@
 ## 7. Complete Deep Learning And NLP Playlist:
 - Complete Deep Learning And NLP Detailed Playlist In English: https://www.youtube.com/watch?v=YFNKnUhm_-s&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi
 - Complete NLP Live Playlist English: https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn
-- Complete Deep Learning And NLP Playlist Hindi: **Coming soon
+- Complete Deep Learning And NLP Playlist Hindi: **Coming soon**
 
 ## 8. Complete Docker Tutorials MLOPS
 - Complete Dockers In One Shot English: https://www.youtube.com/watch?v=8vmKtS8W7IQ
-- Complete Docker In One Shot Hindi: **coming soon
-- Complete Github Action In English: ** coming soon 
+- Complete Docker In One Shot Hindi: **Coming soon**
+- Complete Github Action In English: **Coming soon** 
   
 ## 9.
