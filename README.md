@@ -12,7 +12,7 @@
 ## 3. Complete SQL For Data Analytics And Data Science
 - Complete SQl Detailed Playlist English: https://www.youtube.com/watch?v=us1XyayQ6fU&list=PLZoTAELRMXVNMRWlVf0bDDSxNEn38u9Cl
 - Complete SQL Detailed Playlist Hindi : **Coming Soon**
-- Complete SQL One Shot : ** Coming Soon
+- Complete SQL One Shot : **Coming Soon**
 
 ## 4. Git And Github Tutorials 
 - Git and Github Tutorials In English: https://www.youtube.com/watch?v=GW7B6vwktPA&list=PLZoTAELRMXVOSsBerFZKsdCaA4RYr4RGW
