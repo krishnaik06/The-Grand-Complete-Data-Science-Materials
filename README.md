@@ -1,4 +1,4 @@
-# The Grand Complete Data Science Materials
+# The Grand Complete Data Science Guide With Videos And Materials
 
 ## 1. Complete Python Playlist For Data Analytics And Data Science
 - Python In English: https://www.youtube.com/watch?v=bPrmA1SEN2k&list=PLZoTAELRMXVNUL99R4bDlVYsncUNvwUBB
@@ -47,6 +47,14 @@
 ## 10. Generative AI And Open AI Playlist:
 - OPENAI Playlist English(In Progress): https://www.youtube.com/watch?v=CbpsDMwFG2g&list=PLZoTAELRMXVMTWGW9iS45ZTcMsntos6VO
 - Langchain Playlist(In Progress): https://www.youtube.com/watch?v=_FpT1cwcSLg&list=PLZoTAELRMXVORE4VF7WQ_fAl0L1Gljtar
-- 
+- ChainLit Playlist **(In Progress)**
+
+## Youtube Channels Foe Referring All Videos. Consider Subscribing and pressing the bell icon.
+- Krish Naik : https://www.youtube.com/@krishnaik06
+- Krish Naikn Hindi: https://www.youtube.com/@krishnaikhindi
+- Success Stories By Krish(Coming up): https://www.youtube.com/channel/UCNSHtBgZ3dhcpv190JrK_LQ
+
+
+  
 
 
