@@ -51,7 +51,7 @@
 
 ## Youtube Channels Foe Referring All Videos. Consider Subscribing and pressing the bell icon.
 - Krish Naik : https://www.youtube.com/@krishnaik06
-- Krish Naikn Hindi: https://www.youtube.com/@krishnaikhindi
+- Krish Naik Hindi: https://www.youtube.com/@krishnaikhindi
 - Success Stories By Krish(Coming up): https://www.youtube.com/channel/UCNSHtBgZ3dhcpv190JrK_LQ
 
 
