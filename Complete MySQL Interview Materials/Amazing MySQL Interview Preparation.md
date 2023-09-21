@@ -1,12 +1,4 @@
-**You:**
-
-provide 30 mysql queries interviews questions with answers starting from basics. It should include creating database,creating table, joins,where clause,having,exists , like and inserting values,dropping table,altering table with detailed code examples
-
-------------------
-
-**ChatGPT:**
-
-Certainly! Here are 30 MySQL interview questions with their answers, ranging from basic to more intermediate topics:
+Here are 30 MySQL interview questions with their answers, ranging from basic to more intermediate topics:
 
 
 - **How do you create a new database in MySQL?**
@@ -172,21 +164,7 @@ ALTER TABLE table_name ADD PRIMARY KEY (column_name);
 
 ```
 
-I hope this helps with your interview preparations! Remember to familiarize yourself with the concepts and practice these queries on an actual MySQL instance to get comfortable.
 
-
-
-------------------
-
-**You:**
-
-provide the next 30 questions and answers and increase the complexity
-
-------------------
-
-**ChatGPT:**
-
-Certainly! Let's move on to the next set of 30 MySQL interview questions, delving into more complex concepts and operations:
 
 
 - **What is a foreign key constraint, and why is it used?**
@@ -294,17 +272,7 @@ RENAME TABLE new_table TO original_table;
 
 
 
-------------------
 
-**You:**
-
-provide more 30 questions and answers with detailed mysql code and increase the complexity
-
-------------------
-
-**ChatGPT:**
-
-Sure! Let's continue diving into advanced MySQL topics:
 
 
 - **What is the purpose of the `SET` data type in MySQL?**
@@ -486,17 +454,7 @@ These questions cover a range of advanced topics and should help in assessing th
 
 
 
-------------------
 
-**You:**
-
-provide more 30 mysql interviews questions and answers with detailed sql queries mostly asked in product based companies
-
-------------------
-
-**ChatGPT:**
-
-Absolutely! Let's dive into more advanced MySQL topics that are often probed in interviews by product-based companies.
 
 **89. Explain the `WITH` clause and provide an example.**
 
