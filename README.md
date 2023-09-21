@@ -65,6 +65,9 @@
 ## 13. Pyspark Complete Tutorials
 - Pyspark Detailed Playlist: https://www.youtube.com/watch?v=WyZmM6K7ubc&list=PLZoTAELRMXVNjiiawhzZ0afHcPvC8jpcg
 
+## 14. Complete Data Science,Machine Learning And Deep Learning Interview Questions
+https://github.com/iNeuronai/interview-question-data-science-
+
 ## Youtube Channels For Referring All Videos. Consider Subscribing and pressing the bell icon.
 - Krish Naik : https://www.youtube.com/@krishnaik06
 - Krish Naik Hindi: https://www.youtube.com/@krishnaikhindi
