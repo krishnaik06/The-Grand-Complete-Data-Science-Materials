@@ -68,6 +68,13 @@
 ## 14. Complete Data Science,Machine Learning And Deep Learning Interview Questions
 https://github.com/iNeuronai/interview-question-data-science-
 
+## Internships
+https://internship.ineuron.ai/
+
+## Data Science TrackerSheet For Learning
+https://drive.google.com/file/d/18doA_wMja2nAawcE6imIcfnEMf-Pir2n/view
+
+
 ## Youtube Channels For Referring All Videos. Consider Subscribing and pressing the bell icon.
 - Krish Naik : https://www.youtube.com/@krishnaik06
 - Krish Naik Hindi: https://www.youtube.com/@krishnaikhindi
