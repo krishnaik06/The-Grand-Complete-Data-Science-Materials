@@ -80,6 +80,9 @@ https://drive.google.com/file/d/18doA_wMja2nAawcE6imIcfnEMf-Pir2n/view
 - Krish Naik Hindi: https://www.youtube.com/@krishnaikhindi
 - Success Stories By Krish(Coming up): https://www.youtube.com/channel/UCNSHtBgZ3dhcpv190JrK_LQ
 
+## Join the Whatsapp community Group For Further Discussion
+https://chat.whatsapp.com/HxCY9AKAikYAoGvzPn9vn4
+
 
 
   
