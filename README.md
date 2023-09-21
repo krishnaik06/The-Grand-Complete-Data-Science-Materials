@@ -34,17 +34,30 @@
 - Complete NLP Live Playlist English: https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn
 - Complete Deep Learning And NLP Playlist Hindi: **Coming soon**
 
-## 8. Complete Docker Tutorials MLOPS
+## 8. Important Frameworks for Production Deployments
+- Flask Detailed Playlist In English: https://www.youtube.com/watch?v=4L_xAWDRs7w&list=PLZoTAELRMXVPBaLN3e-uoVRR9hlRFRfUc
+- Flask One Shot Hindi: https://www.youtube.com/watch?v=KF-rDqQfqz0
+- Gradio Framework: https://www.youtube.com/watch?v=wruyZWre2sM
+- BentoML: https://www.youtube.com/watch?v=i_FtfdOKa2M
+- MLFLOw and Dagshub: https://www.youtube.com/watch?v=qdcHHrsXA48
+
+## 9. Complete AWS Sagemaker And Sagemaker Studio Tools
+- Sagemaker Detailed Playlist: https://www.youtube.com/watch?v=LkR3GNDB0HI&list=PLZoTAELRMXVONh5mHrXowH6-dgyWoC_Ew
+- Sagemaker End to End Projects- **Coming Soon** 
+
+## 10. Complete MLOPS tutorials
 - Complete Dockers In One Shot English: https://www.youtube.com/watch?v=8vmKtS8W7IQ
+- MLFLOW End to End Tutorials With Deployment: https://www.youtube.com/watch?v=pxk1Fr33-L4
+- Evidently AI Model Monitoring: https://www.youtube.com/watch?v=cgc3dSEAel0
 - Complete Docker In One Shot Hindi: **Coming soon**
 - Complete Github Action In English: **Coming soon**
 - Complete Kubernetes And Kubeflow Tutorials: **Coming Soon**
   
-## 9. End To End ML,DL and NLP Projects- Entire Lifecycle Till Deployment
+## 11. End To End ML,DL and NLP Projects- Entire Lifecycle Till Deployment Using Open Source Tools
 - End To End ML Projects Playlist In English: https://www.youtube.com/watch?v=S_F_c9e2bz4&list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG&index=1
 - End To End ML Playlist In Hindi: https://www.youtube.com/watch?v=NuwUnRpxq2c&list=PLTDARY42LDV7jzL_f68SY-eOQ9tY2lYvR
 
-## 10. Generative AI And Open AI Playlist:
+## 12. Generative AI And Open AI Playlist:
 - OPENAI Playlist English(In Progress): https://www.youtube.com/watch?v=CbpsDMwFG2g&list=PLZoTAELRMXVMTWGW9iS45ZTcMsntos6VO
 - Langchain Playlist(In Progress): https://www.youtube.com/watch?v=_FpT1cwcSLg&list=PLZoTAELRMXVORE4VF7WQ_fAl0L1Gljtar
 - ChainLit Playlist **(In Progress)**
