@@ -49,7 +49,7 @@
 - Langchain Playlist(In Progress): https://www.youtube.com/watch?v=_FpT1cwcSLg&list=PLZoTAELRMXVORE4VF7WQ_fAl0L1Gljtar
 - ChainLit Playlist **(In Progress)**
 
-## Youtube Channels Foe Referring All Videos. Consider Subscribing and pressing the bell icon.
+## Youtube Channels For Referring All Videos. Consider Subscribing and pressing the bell icon.
 - Krish Naik : https://www.youtube.com/@krishnaik06
 - Krish Naik Hindi: https://www.youtube.com/@krishnaikhindi
 - Success Stories By Krish(Coming up): https://www.youtube.com/channel/UCNSHtBgZ3dhcpv190JrK_LQ
