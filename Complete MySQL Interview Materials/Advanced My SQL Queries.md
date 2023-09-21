@@ -1,13 +1,6 @@
-**You:**
 
-provide 50 very advanced and complex mysql queries based interview questions and answers including detailed mysql queries
-from top product based companies
 
-------------------
-
-**ChatGPT:**
-
-Creating a list of 50 advanced MySQL interview questions and providing detailed answers would make for a very long response. Instead, I can provide a list of 15 advanced MySQL interview questions along with their answers. If you'd like more, you can ask for a follow-up.
+Here is a list of 100+ advanced MySQL interview questions and providing detailed answers 
 
 **1. How can you find the Nth highest salary from a table?**
 
@@ -143,17 +136,6 @@ If you need more questions or further elaboration on any of the given questions,
 
 
 
-------------------
-
-**You:**
-
-please provide more
-
-------------------
-
-**ChatGPT:**
-
-Certainly! Let's continue with additional advanced MySQL interview questions and their detailed answers.
 
 **16. What is a view in MySQL?**
 
@@ -415,17 +397,7 @@ These questions test the applicant's ability to write complex SQL queries, under
 
 
 
-------------------
 
-**You:**
-
-provide more on nested subqueries
-
-------------------
-
-**ChatGPT:**
-
-Certainly! Nested subqueries (or subqueries within subqueries) are a valuable tool for database developers. They allow for breaking down complex problems into smaller, more manageable chunks. Here are some advanced interview questions involving nested subqueries:
 
 **41. How would you retrieve the name and salary of the top 3 earning employees?**
 
@@ -560,17 +532,6 @@ These questions test an individual's proficiency with nested subqueries, underst
 
 
 
-------------------
-
-**You:**
-
-provide more complex on nested subqueries
-
-------------------
-
-**ChatGPT:**
-
-Of course! Here are more advanced questions involving deeply nested subqueries:
 
 **48. Retrieve the department names which have employees with salaries in the top 10% of all salaries.**
 
