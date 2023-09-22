@@ -79,8 +79,7 @@ https://drive.google.com/file/d/18doA_wMja2nAawcE6imIcfnEMf-Pir2n/view
 - Krish Naik : https://www.youtube.com/@krishnaik06
 - Krish Naik Hindi: https://www.youtube.com/@krishnaikhindi
 - Success Stories By Krish(Coming up): https://www.youtube.com/channel/UCNSHtBgZ3dhcpv190JrK_LQ
-Support Channel and Join this channel to get access to perks:
-https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join
+- Support Channel and Join this channel to get access to perks: https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join
 
 
 
