@@ -18,3 +18,6 @@
 - https://www.youtube.com/watch?v=_FpT1cwcSLg&list=PLZoTAELRMXVORE4VF7WQ_fAl0L1Gljtar
 8. End to End ML Project With MLFLOW
 - https://www.youtube.com/watch?v=pxk1Fr33-L4
+9. Kidney Disease Classification
+-https://www.youtube.com/watch?v=86BKEv0X2xU
+
