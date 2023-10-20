@@ -94,6 +94,11 @@ DELETE FROM table_name WHERE condition;
 DROP TABLE table_name;
 
 ```
+Alternate approach
+```sql
+DROP TABLE IF EXISTS table_name;
+
+```
 - **What is the purpose of the `ALTER` table command?**
    - **Answer:** To modify an existing table structure, such as adding, deleting, or modifying columns.
 - **How would you add a new column `email` to the `students` table?**
