@@ -108,7 +108,15 @@
 ## 13. Pyspark Complete Tutorials
 
 - Detailed Pyspark Playlist In English -> [Pyspark Playlist In English](https://youtube.com/playlist?list=PLZoTAELRMXVNjiiawhzZ0afHcPvC8jpcg&feature=shared)
-  
+
+---
+
+<h2 align="center">14. Complete Data Science, Machine Learning And Deep Learning Interview Questions :clipboard:</h2>  
+
+<p align="center">Program Introduction -> <a href="https://youtu.be/QnDIY-nRHPw?feature=shared">Introduction To 30 Days Data Science Interview Preparation Roadmap</a></p>
+
+<p align="center">30 Days to Your Dream Data Science Job Interview Preparation Series -> <a href="https://github.com/iNeuronai/interview-question-data-science-">Download All PDF's</a>:rocket:</p>
+
 ---
 
 <h2 align="center">Youtube Channels For Referring All Videos:movie_camera:.<br>Consider Subscribing And Pressing The Bell Icon:bell:.</h2> 
@@ -117,14 +125,6 @@
 2. Check out My Hindi Youtube Channel -> [Krish Naik Hindi](https://www.youtube.com/@krishnaikhindi)
 3. Listen to Success Story (Coming up) -> [Success Stories By Krish](https://www.youtube.com/channel/UCNSHtBgZ3dhcpv190JrK_LQ)
 - Support Channel and [Join us](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join):link: for exclusive perks and the latest in data science adventures!
-
----
-
-<h2 align="center">Complete Data Science, Machine Learning And Deep Learning Interview Questions :clipboard:</h2>  
-
-<p align="center">Program Introduction -> <a href="https://youtu.be/QnDIY-nRHPw?feature=shared">Introduction To 30 Days Data Science Interview Preparation Roadmap</a></p>
-
-<p align="center">30 Days to Your Dream Data Science Job Interview Preparation Series -> <a href="https://github.com/iNeuronai/interview-question-data-science-">Download All PDF's</a>:rocket:</p>
 
 ---
 
