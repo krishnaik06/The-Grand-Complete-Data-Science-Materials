@@ -1,3 +1,0 @@
-_catboost
-_hnsw
-catboost

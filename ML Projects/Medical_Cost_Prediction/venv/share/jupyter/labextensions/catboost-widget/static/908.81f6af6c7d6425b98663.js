@@ -1,1 +1,0 @@
-(self.webpackChunkcatboost_widget=self.webpackChunkcatboost_widget||[]).push([[908],{908:(t,e,i)=>{var o=i(138),s=i(395);t.exports={id:"catboost-widget:plugin",requires:[s.IJupyterWidgetRegistry],activate:function(t,e){e.registerWidget({name:"catboost-widget",version:o.version,exports:o})},autoStart:!0}}}]);
