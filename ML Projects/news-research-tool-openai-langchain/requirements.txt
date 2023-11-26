@@ -1,0 +1,9 @@
+openai
+langchain
+unstructured
+libmagic
+python-magic
+faiss-cpu
+sentence-transformers
+streamlit
+watchdog

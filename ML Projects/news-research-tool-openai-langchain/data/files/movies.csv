@@ -1,0 +1,10 @@
+movie_id,title,industry,release_year,imdb_rating,studio,language_id,budget,revenue,unit,currency
+101,K.G.F: Chapter 2,Bollywood,2022,8.4,Hombale Films,3,1,12.5,Billions,INR
+102,Doctor Strange in the Multiverse of Madness,Hollywood,2022,7,Marvel Studios,5,200,954.8,Millions,USD
+103,Thor: The Dark World,Hollywood,2013,6.8,Marvel Studios,5,165,644.8,Millions,USD
+104,Thor: Ragnarok,Hollywood,2017,7.9,Marvel Studios,5,180,854,Millions,USD
+105,Thor: Love and Thunder,Hollywood,2022,6.8,Marvel Studios,5,250,670,Millions,USD
+106,Sholay,Bollywood,1975,8.1,United Producers,1,Not Available,Not Available,Not Available,Not Available
+107,Dilwale Dulhania Le Jayenge,Bollywood,1995,8,Yash Raj Films,1,400,2000,Millions,INR
+108,3 Idiots,Bollywood,2009,8.4,Vinod Chopra Films,1,550,4000,Millions,INR
+109,Kabhi Khushi Kabhie Gham,Bollywood,2001,7.4,Dharma Productions,1,390,1360,Millions,INR
