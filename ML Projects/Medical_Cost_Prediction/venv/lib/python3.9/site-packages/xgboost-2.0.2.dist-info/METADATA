@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: xgboost
+Version: 2.0.2
+Summary: XGBoost Python Package
+Project-URL: documentation, https://xgboost.readthedocs.io/en/stable/
+Project-URL: repository, https://github.com/dmlc/xgboost
+Author-email: Hyunsu Cho <chohyu01@cs.washington.edu>, Jiaming Yuan <jm.yuan@outlook.com>
+License: Apache-2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: dask
+Requires-Dist: dask; extra == 'dask'
+Requires-Dist: distributed; extra == 'dask'
+Requires-Dist: pandas; extra == 'dask'
+Provides-Extra: datatable
+Requires-Dist: datatable; extra == 'datatable'
+Provides-Extra: pandas
+Requires-Dist: pandas; extra == 'pandas'
+Provides-Extra: plotting
+Requires-Dist: graphviz; extra == 'plotting'
+Requires-Dist: matplotlib; extra == 'plotting'
+Provides-Extra: pyspark
+Requires-Dist: cloudpickle; extra == 'pyspark'
+Requires-Dist: pyspark; extra == 'pyspark'
+Requires-Dist: scikit-learn; extra == 'pyspark'
+Provides-Extra: scikit-learn
+Requires-Dist: scikit-learn; extra == 'scikit-learn'
+Description-Content-Type: text/x-rst
+
+======================
+XGBoost Python Package
+======================
+
+|PyPI version|
+
+Installation
+============
+
+From `PyPI <https://pypi.python.org/pypi/xgboost>`_
+---------------------------------------------------
+
+For a stable version, install using ``pip``::
+
+    pip install xgboost
+
+.. |PyPI version| image:: https://badge.fury.io/py/xgboost.svg
+   :target: http://badge.fury.io/py/xgboost
+
+For building from source, see `build <https://xgboost.readthedocs.io/en/latest/build.html>`_.

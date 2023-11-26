@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Medical-Cost-Prediction
+Version: 0.0.1
+Author: Anirudh Nuti
+Author-email: nuti.krish4@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: catboost
+Requires-Dist: xgboost
+Requires-Dist: dill
+Requires-Dist: Flask

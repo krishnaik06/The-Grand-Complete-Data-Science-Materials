@@ -1,0 +1,10 @@
+[ 2023-11-21 02:01:38,599 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-11-21 02:01:38,606 ] 96 werkzeug - INFO -  * Debugger PIN: 759-366-912
+[ 2023-11-21 02:01:42,990 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:42] "GET / HTTP/1.1" 200 -
+[ 2023-11-21 02:01:46,774 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:46] "GET /prediction HTTP/1.1" 200 -
+[ 2023-11-21 02:01:46,827 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:46,830 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:46] "[36mGET /static/Image/medical.jpeg HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:57,327 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:57] "POST /prediction HTTP/1.1" 200 -
+[ 2023-11-21 02:01:57,351 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:57,365 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:57] "[36mGET /static/Image/medical.jpeg HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:02:44,859 ] 96 werkzeug - INFO -  * Detected change in '/Users/anirudhnuti/Documents/MLOps_Projects/Medical_Cost_Prediction/application.py', reloading

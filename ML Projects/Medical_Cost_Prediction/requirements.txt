@@ -1,0 +1,12 @@
+pandas
+numpy 
+seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
+dill
+Flask
+# -e .
+# -e . is used to automatically run setup.py (which helps to install all the required packages). Comment it out after the first run of pip install -r requirements.txt because the whole setup.py will run each time 
+# you use requirements.txt

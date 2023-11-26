@@ -1,0 +1,4 @@
+[ 2023-11-20 18:02:08,321 ] 21 root - INFO - Started data ingestion component
+[ 2023-11-20 18:02:08,325 ] 28 root - INFO - Read the required data as pandas dataframe
+[ 2023-11-20 18:02:08,329 ] 34 root - INFO - Initiating train test split
+[ 2023-11-20 18:02:08,335 ] 40 root - INFO - Data Ingestion is completed
