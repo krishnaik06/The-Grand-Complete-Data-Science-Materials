@@ -1,0 +1,28 @@
+Title: OpenAI ‘was working on advanced model so powerful it alarmed staff’
+
+
+
+
+Reports say new model Q* fuelled safety fears, with workers airing their concerns to the board before CEO Sam Altman’s sacking
+OpenAI was reportedly working on an advanced system before Sam Altman’s sacking that was so powerful it caused safety concerns among staff at the company.
+The artificial intelligence model triggered such alarm with some OpenAI researchers that they wrote to the board of directors before Altman’s dismissal warning it could threaten humanity, Reuters reported.
+The model, called Q* – and pronounced as “Q-Star” – was able to solve basic maths problems it had not seen before, according to the tech news site the Information, which added that the pace of development behind the system had alarmed some safety researchers. The ability to solve maths problems would be viewed as a significant development in AI.
+The reports followed days of turmoil at San Francisco-based OpenAI, whose board sacked Altman last Friday but then reinstated him on Tuesday night after nearly all the company’s 750 staff threatened to resign if he was not brought back. Altman also had the support of OpenAI’s biggest investor, Microsoft.
+Many experts are concerned that companies such as OpenAI are moving too fast towards developing artificial general intelligence (AGI), the term for a system that can perform a wide variety of tasks at human or above human levels of intelligence – and which could, in theory, evade human control.
+Andrew Rogoyski, of the Institute for People-Centred AI at the University of Surrey, said the existence of a maths-solving large language model (LLM) would be a breakthrough. He said: “The intrinsic ability of LLMs to do maths is a major step forward, allowing AIs to offer a whole new swathe of analytical capabilities.”
+We want to speak to employees at OpenAI about recent developments at the company.  
+Please include as much detail as possible
+Your contact details are helpful so we can contact you for more information. They will only be seen by the Guardian.
+Your contact details are helpful so we can contact you for more information. They will only be seen by the Guardian.
+If you include other people's names please ask them first.
+Contact us on WhatsApp or Signal at +447766780300 or Telegram at +447799322095.
+For more information, please see our guidance on contacting us via WhatsApp, contacting us via Telegram. For true anonymity please use our SecureDrop service instead.
+Speaking on Thursday last week, the day before his surprise sacking, Altman indicated that the company behind ChatGPT had made another breakthrough.
+In an appearance at the Asia-Pacific Economic Cooperation (Apec) summit, he said: “Four times now in the history of OpenAI, the most recent time was just in the last couple weeks, I’ve gotten to be in the room, when we sort of push the veil of ignorance back and the frontier of discovery forward, and getting to do that is the professional honour of a lifetime.”
+OpenAI was founded as a nonprofit venture with a board that governs a commercial subsidiary, run by Altman. Microsoft is the biggest investor in the for-profit business. As part of the agreement in principle for Altman’s return, OpenAI will have a new board chaired by Bret Taylor, a former co-chief executive of software company Salesforce.
+Sign up to Business Today
+Get set for the working day – we'll point you to all the business news and analysis you need every morning
+after newsletter promotion
+The ChatGPT developer states that it was established with the goal of developing “safe and beneficial artificial general intelligence for the benefit of humanity” and that the for-profit company would be “legally bound to pursue the nonprofit’s mission”.
+The emphasis on safety at the nonprofit led to speculation that Altman had been sacked for endangering the company’s core mission. However, his brief successor as interim chief executive, Emmett Shear, wrote this week that the board “did *not* remove Sam over any specific disagreement on safety”.
+OpenAI has been approached for comment.

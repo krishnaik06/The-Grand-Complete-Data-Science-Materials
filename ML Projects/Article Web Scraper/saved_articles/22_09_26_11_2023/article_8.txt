@@ -1,0 +1,20 @@
+Title: Does Australia exist? Well, that depends on which search engine you ask …
+
+
+
+
+Microsoft’s Bing falls victim to long-running part-joke internet conspiracy theory
+Australia doesn’t exist. That’s at least according to Bing search results for some users on Wednesday when the Microsoft search engine cited long-running internet conspiracy theories denying the existence of the country.
+Several very real Australian users on Bluesky and Mastodon reported that when they searched for “does Australia exist” on Bing, it would come back with an emphatic “No” written in a text box before the link results.
+“Bing is denying the existence of Australia,” the technology reporter Stilgherrian posted on Bluesky on Wednesday.
+One user replied: “It’s buying into conspiracy theories.” Another asked: “Does that mean I don’t have to pay my bills?”
+Some were able to replicate the result while others found Bing confirming that Australia does, in fact, exist.
+One user pointed out that running the regular search and the AI search showed Bing Chat contradicting the search result.
+The result appears in regular Bing searches, rather than the conversational searches Microsoft has integrated with its large language model artificial intelligence. Searches using Microsoft’s AI confirm the existence of Australia.
+“Yes, Australia is a real country,” Bing co-pilot responded on Thursday.
+“It is a sovereign nation that comprises the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands.
+“However, there are some conspiracy theories that claim Australia doesn’t exist. These theories suggest that the country was invented by the British government as an excuse to execute tens of thousands of prisoners … These theories are not true and have been debunked by scientific evidence.”
+A spokesperson for Microsoft said the issue had been rectified. “Thank you for bringing this to our attention,” the spokesperson said. “We’ve investigated this query and have rolled out a fix to address it.”
+Guardian Australia was unable to replicate the result in Bing’s regular search on Thursday. One of the top Bing search results points to a Guardian article from 2018 mentioning that the part-joke conspiracy had been circulating on social media after originating on Reddit in 2017.
+A since-deleted post shared 20,000 times on Facebook at the time claimed Australia is “one of the biggest hoaxes ever created”.
+But the conspiracy reportedly dates back even further back to 2006, when a user on the Flat Earth Society forum reportedly claimed everything about Australia was made up and everyone who claimed to be Australian were “secret government agents”.
