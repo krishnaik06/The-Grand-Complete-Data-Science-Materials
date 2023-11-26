@@ -1,0 +1,6 @@
+openai
+langchain
+streamlit
+requests
+sounddevice
+wavio
