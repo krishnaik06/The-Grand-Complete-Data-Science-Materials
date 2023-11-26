@@ -1,5 +1,9 @@
 # Article-Web-Scraping
 
+- [LinkedIn](https://www.linkedin.com/in/hemakalyan)
+  
+- [Medium](https://medium.com/@kalyanmurapaka274)
+
 ## About The Project
 
 This Python script is designed to scrape articles from The Guardian's technology section using their API. It fetches article data, extracts the titles and content, and then saves each article's content to separate text files. The text files are organized in a folder named with the current date and time of the scraping. You can customize the script by changing the URL to target different sections or sources on The Guardian's website. This script is useful for collecting and archiving articles for research or analysis.
