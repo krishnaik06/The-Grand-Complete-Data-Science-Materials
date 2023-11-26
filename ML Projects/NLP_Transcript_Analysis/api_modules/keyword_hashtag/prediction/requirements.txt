@@ -1,0 +1,11 @@
+click
+h11
+pydantic
+starlette
+fastapi
+uvicorn
+nltk
+transformers
+keyphrase_vectorizers
+keybert
+spacy
