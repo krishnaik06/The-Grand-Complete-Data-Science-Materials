@@ -7,13 +7,13 @@ This project is a simple personal voice assistant powered by OpenAI's GPT-3.5 an
 
 Prerequisites
 
-Python 3.6 or higher
-streamlit
-requests
-sounddevice
-wavio
-openai
-langchain
+* Python 3.6 or higher
+* streamlit
+* requests
+* sounddevice
+* wavio
+* openai
+* langchain
 
 ## Install dependencies:
 
