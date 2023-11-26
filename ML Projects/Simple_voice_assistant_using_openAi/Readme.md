@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Set up OpenAI API Key:
 
-Obtain your OpenAI API key from [OpenAI](https://beta.openai.com/signup/).
+Obtain your OpenAI API key from [OpenAI](https://beta.openai.com/signup/).</br>
 Set the API key as an environment variable: export OPENAI_API_KEY=your-api-key
 
 ## Run the Streamlit app:
