@@ -1,0 +1,15 @@
+[ 2023-11-21 15:25:24,928 ] 23 root - INFO - Started data ingestion component
+[ 2023-11-21 15:25:24,935 ] 27 root - INFO - Read the required data as pandas dataframe
+[ 2023-11-21 15:25:24,942 ] 43 root - INFO - Applied necessary data cleaning and feature engineering techniques
+[ 2023-11-21 15:25:24,948 ] 49 root - INFO - Initiating train test split
+[ 2023-11-21 15:25:24,954 ] 55 root - INFO - Data Ingestion is completed
+[ 2023-11-21 15:25:24,956 ] 68 root - INFO - Loaded train and test dataset
+[ 2023-11-21 15:25:24,956 ] 69 root - INFO - Obtaining preprocessor object
+[ 2023-11-21 15:25:24,956 ] 47 root - INFO - Handled missing values for both numerical and categorical features
+[ 2023-11-21 15:25:24,957 ] 48 root - INFO - Numerical features are scaled
+[ 2023-11-21 15:25:24,957 ] 49 root - INFO - Categorical features are encoded using OneHotEncoder
+[ 2023-11-21 15:25:24,957 ] 81 root - INFO - Applying preprocessor object on training and testing dataframe
+[ 2023-11-21 15:25:24,971 ] 94 root - INFO - Saved Preprocessing object successfully
+[ 2023-11-21 15:25:24,971 ] 27 root - INFO - Splitting trainig and test input data
+[ 2023-11-21 15:26:05,418 ] 88 root - INFO - Found best model on training and testing data
+[ 2023-11-21 15:26:05,498 ] 95 root - INFO - Saved the best model successfully

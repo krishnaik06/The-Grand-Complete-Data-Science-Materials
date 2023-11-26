@@ -1,0 +1,27 @@
+[ 2023-11-21 01:58:37,054 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-11-21 01:58:37,061 ] 96 werkzeug - INFO -  * Debugger PIN: 759-366-912
+[ 2023-11-21 01:58:47,391 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:58:47] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+[ 2023-11-21 01:58:47,424 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:58:47] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:58:47,426 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:58:47] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:58:47,450 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:58:47] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:58:47,499 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:58:47] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:00:20,015 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:20] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+[ 2023-11-21 02:00:20,036 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:20] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:00:20,037 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:20] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:00:20,051 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:20] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:00:20,083 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:20] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:00:25,089 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:25] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+[ 2023-11-21 02:00:25,107 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:25] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:00:25,108 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:25] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:00:25,119 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:25] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:00:25,146 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:00:25] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:25,716 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:25] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+[ 2023-11-21 02:01:25,738 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:25] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:25,741 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:25] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:25,755 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:25] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:25,787 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:25] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:30,449 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:30] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+[ 2023-11-21 02:01:30,468 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:30] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:30,469 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:30] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:30,481 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:30] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 02:01:30,513 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 02:01:30] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

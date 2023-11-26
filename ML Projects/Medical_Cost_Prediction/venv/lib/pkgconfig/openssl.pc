@@ -1,0 +1,9 @@
+prefix=/Users/anirudhnuti/Documents/MLOps_Projects/Medical_Cost_Prediction/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1w
+Requires: libssl libcrypto

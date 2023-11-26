@@ -1,0 +1,36 @@
+{
+  "build": "hd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "importlib-metadata >=6.8.0,<6.8.1.0a0"
+  ],
+  "extracted_package_dir": "/Users/anirudhnuti/miniforge3/pkgs/importlib_metadata-6.8.0-hd8ed1ab_0",
+  "features": "",
+  "files": [],
+  "fn": "importlib_metadata-6.8.0-hd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/Users/anirudhnuti/miniforge3/pkgs/importlib_metadata-6.8.0-hd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b279b07ce18058034e5b3606ba103a8b",
+  "name": "importlib_metadata",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/anirudhnuti/miniforge3/pkgs/importlib_metadata-6.8.0-hd8ed1ab_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b96e01dc42d547d6d9ceb1c5b52a5232cc04e40153534350f702c3e0418a6b3f",
+  "size": 9428,
+  "subdir": "noarch",
+  "timestamp": 1688754660209,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/importlib_metadata-6.8.0-hd8ed1ab_0.conda",
+  "version": "6.8.0"
+}

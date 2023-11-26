@@ -1,0 +1,17 @@
+[ 2023-11-21 01:16:45,496 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-11-21 01:16:45,505 ] 96 werkzeug - INFO -  * Debugger PIN: 759-366-912
+[ 2023-11-21 01:16:59,208 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:16:59] "GET /prediction HTTP/1.1" 200 -
+[ 2023-11-21 01:16:59,241 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:16:59] "[32mGET /static//Image/medical.jpeg HTTP/1.1[0m" 308 -
+[ 2023-11-21 01:16:59,251 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:16:59] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2023-11-21 01:16:59,252 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:16:59] "GET /static/Image/medical.jpeg HTTP/1.1" 200 -
+[ 2023-11-21 01:17:01,310 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:01] "GET / HTTP/1.1" 200 -
+[ 2023-11-21 01:17:01,536 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-11-21 01:17:09,832 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:09] "GET /prediction HTTP/1.1" 200 -
+[ 2023-11-21 01:17:09,893 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:17:09,902 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:09] "[36mGET /static/Image/medical.jpeg HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:17:44,348 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:44] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+[ 2023-11-21 01:17:44,371 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:44] "GET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-11-21 01:17:44,371 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:44] "GET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-11-21 01:17:44,399 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:44] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:17:44,448 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:17:44] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:20:57,242 ] 96 werkzeug - INFO -  * Detected change in '/Users/anirudhnuti/Documents/MLOps_Projects/Medical_Cost_Prediction/src/components/data_transformation.py', reloading

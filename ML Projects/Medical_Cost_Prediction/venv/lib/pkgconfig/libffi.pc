@@ -1,0 +1,11 @@
+prefix=/Users/anirudhnuti/Documents/MLOps_Projects/Medical_Cost_Prediction/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/anirudhnuti/Documents/MLOps_Projects/Medical_Cost_Prediction/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

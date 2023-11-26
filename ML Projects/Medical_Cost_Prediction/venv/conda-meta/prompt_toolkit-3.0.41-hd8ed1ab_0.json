@@ -1,0 +1,36 @@
+{
+  "build": "hd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "prompt-toolkit >=3.0.41,<3.0.42.0a0"
+  ],
+  "extracted_package_dir": "/Users/anirudhnuti/miniforge3/pkgs/prompt_toolkit-3.0.41-hd8ed1ab_0",
+  "features": "",
+  "files": [],
+  "fn": "prompt_toolkit-3.0.41-hd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/anirudhnuti/miniforge3/pkgs/prompt_toolkit-3.0.41-hd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b1387bd091fa0420557f801a78587678",
+  "name": "prompt_toolkit",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/anirudhnuti/miniforge3/pkgs/prompt_toolkit-3.0.41-hd8ed1ab_0.conda",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dd2fea25930d258159441ad4a45e5d3274f0d2f1dea92fe25b44b48c486aa969",
+  "size": 6704,
+  "subdir": "noarch",
+  "timestamp": 1699963217068,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/prompt_toolkit-3.0.41-hd8ed1ab_0.conda",
+  "version": "3.0.41"
+}
