@@ -11,6 +11,7 @@ Text-keyword_extractor-from-Image-and-PDF
 ### Activate the virtual environment
 
 `source env/bin/activate` `On Linux/macOS`
+
 `myenv\Scripts\activate` `On Windows`
 
 ### Install requirements file
