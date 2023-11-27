@@ -1,0 +1,13 @@
+srsly==2.4.6
+statsmodels==0.14.0
+streamlit==1.21.0
+sympy==1.11.1
+tempora==5.2.2
+tenacity==8.2.2
+tensorboard==2.12.2
+tensorboard-data-server==0.7.0
+tensorboard-plugin-wit==1.8.1
+tensorflow==2.12.0
+tensorflow-estimator==2.12.0
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==2.2.0
