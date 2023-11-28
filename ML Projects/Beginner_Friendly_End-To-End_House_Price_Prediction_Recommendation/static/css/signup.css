@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #96a8d8;
+}
+
+::selection {
+  background: rgba(26, 188, 156, 0.3);
+}
+
+.container {
+  /* max-width: 440px; */
+  padding: 0 20px;
+  margin: 20px auto;
+}
+
+.wrapper {
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .title {
+  height: 90px;
+  background: #4070f4;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper form {
+  padding: 30px 25px 25px 25px;
+}
+
+.wrapper form .options {
+  display: grid;
+  justify-items: center;
+  row-gap: 25px;
+  margin: 0 30px;
+  grid-row: 121%;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 48%);
+}
+
+
+
+.wrapper form .row {
+  height: 55px;
+  width: 100%;
+}
+
+
+
+.wrapper form .button {
+  height: 45px;
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.wrapper form .row input {
+  width: 100%;
+  outline: none;
+  padding-left: 5%;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.wrapper form .row .selection {
+  display: flex;
+  border: 1px solid lightgrey;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+
+}
+
+.wrapper form .row label {
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 5% 8%;
+  background: #0956cf;
+  width: 265px;
+  justify-content: center;
+
+}
+
+.wrapper form .row select {
+  width: 100%;
+  padding: 0 5%;
+  border-radius: 0 15px 15px 0;
+
+}
+
+form .row input:focus {
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+form .row input::placeholder {
+  color: #999;
+}
+
+.wrapper form .pass {
+  margin: -8px 0 20px 0;
+}
+
+.wrapper form .pass a {
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+
+.wrapper form .button input {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #4070f4;
+  border: 1px solid #16a085;
+  cursor: pointer;
+  width: 350px;
+  height: 50px;
+  border-radius: 4px;
+  justify-content: center;
+  display: flex;
+
+}
+
+.wrapper .output {
+  display: flex;
+  justify-content: center;
+}
+
+.output .result {
+  background-color: #a7dede;
+  border-radius: 10px;
+  font-size: 22px;
+  margin-bottom: 30px;
+  padding: 14px;
+
+}
+
+form .button input:hover {
+  background: #4070f4;
+}
+
+.grid-container {
+  padding: 30px 22px;
+  justify-content: space-between;
+  display: grid;
+  row-gap: 25px;
+  grid-template-columns: repeat(3, 32%);
+}
+
+.data-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  height: fit-content;
+
+}
+
+.data-card img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+
+
+}
+
+.data-card .recommended-content {
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+
+  padding: 20px;
+  background: #ddc39b;
+
+}
+
+.data-card .recommended-content p {
+  word-wrap: break-word;
+}
+
+
+.recommend-info {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.recommend-title {
+
+  display: flex;
+  background-color: #4e7fbb;
+  justify-content: center;
+  padding: 25px;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 50%;
+  text-align: center;
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  /* For mobile: */
+  .grid-container {
+    grid-template-columns: repeat(2, 48%);
+  }
+
+  .output .result {
+    margin: 15px;
+
+  }
+
+  .wrapper form .row label {
+    font-size: 11px;
+    width: 100%;
+  }
+
+  .wrapper form .row input {
+    font-size: 11px;
+  }
+
+  .wrapper .title {
+    font-size: 20px;
+
+  }
+
+
+}
