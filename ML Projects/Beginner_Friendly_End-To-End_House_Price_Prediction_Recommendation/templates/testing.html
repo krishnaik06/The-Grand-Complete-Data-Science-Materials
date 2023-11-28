@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Sweet Home</title>
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <link rel="icon" href="{{ url_for('static', filename='img/house_home_building_property_icon.ico') }}" />
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    
+    <script type = "text/javascript"
+        src = "https://cdn.jsdelivr.net/npm/brython@3.8.9/brython.min.js">
+    </script>
+
+    <!-- If you uncomment the text/javascript code, the onchange event would work, but it doesn't work for text/python -->
+
+    <!-- <script type="text/javascript">
+      function populate(s1,s2){
+         var s1 = document.getElementById(s1);
+         var s2 = document.getElementById(s2);
+
+         s2.innerHTML="";
+         
+         if(s1.value == "apple"){
+          var option_array = ["Locality A", "Locality B", "Locality C"];
+         } else if(s1.value == "banana"){
+          var option_array = ["Locality D", "Locality E", "Locality F"];
+         } else if(s1.value == "orange"){
+          var option_array = ["Locality G", "Locality H", "Locality I"];
+         } else if(s1.value == "grape"){
+          var option_array = ["Locality J", "Locality K", "Locality L"];
+         }
+         console.log(option_array)
+         for (var option in option_array){
+          var new_option = document.createElement("option");
+          new_option.value = option_array[option];
+          new_option.innerHTML = option_array[option];
+          console.log(new_option.value)
+          console.log(new_option.innerHTML)
+
+          s2.options.add(new_option);
+         }
+}
+    </script> -->
+    
+    <!-- <script type="text/python">
+      def populate(s1, s2):
+          s1 = document.getElementById(s1)
+          s2 = document.getElementById(s2)
+
+          s2.innerHTML = ""
+
+          selected_city = s1.value
+
+          if selected_city == "apple":
+              option_array = ["Locality A", "Locality B", "Locality C"]
+          elif selected_city == "banana":
+              option_array = ["Locality D", "Locality E", "Locality F"]
+          elif selected_city == "orange":
+              option_array = ["Locality G", "Locality H", "Locality I"]
+          elif selected_city == "grape":
+              option_array = ["Locality J", "Locality K", "Locality L"]
+
+          for option in option_array:
+              new_option = document.createElement("option")
+              new_option.value = option
+              new_option.innerHTML = option
+              s2.options.add(new_option)
+        // Call the Skulpt function to transpile and execute Python code
+        Skulpt.configure({
+            output: function(text) {
+                var s2 = document.getElementById('BHK');
+                var new_option = document.createElement("option");
+                new_option.value = text;
+                new_option.innerHTML = text;
+                s2.options.add(new_option);
+            },
+            read: function (x) { return Sk.builtinFiles[x] },
+            inputfun: function (prompt) { return window.prompt(prompt) }
+        });
+
+        function runPythonCode() {
+            var pythonCode = document.getElementById('pythonCode').value;
+            Sk.misceval.asyncToPromise(function() {
+                Sk.importMainWithBody("<stdin>", false, pythonCode, true);
+            });
+        }
+  </script> -->
+  <py-script>
+    def populate(s1, s2):
+        s1 = document.getElementById(s1)
+        s2 = document.getElementById(s2)
+        console.log("hi")
+        print("bye")
+
+        s2.innerHTML = ""
+
+        selected_city = s1.value
+
+        if selected_city == "apple":
+            option_array = ["Locality A", "Locality B", "Locality C"]
+        elif selected_city == "banana":
+            option_array = ["Locality D", "Locality E", "Locality F"]
+        elif selected_city == "orange":
+            option_array = ["Locality G", "Locality H", "Locality I"]
+        elif selected_city == "grape":
+            option_array = ["Locality J", "Locality K", "Locality L"]
+
+        for option in option_array:
+            new_option = document.createElement("option")
+            new_option.value = option
+            new_option.innerHTML = option
+            s2.options.add(new_option)
+</py-script>
+    
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title">
+          <!-- <py-script>display("hello")</py-script> -->
+          <span>House price prediction and house Recommend</span>
+        </div>
+        <form action="#">
+          <div class="options">
+            <div class="row">
+              <div class="selection">
+                <label for="selectField">City</label>
+                <select id="selected_city" name="selected_city" py-onchange="populate(this.id,'BHK')">
+                  
+                  <option value="apple">Apple</option>
+                  <option value="banana">Banana</option>
+                  <option value="orange">Orange</option>
+                  <option value="grape">Grape</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <input id= "locality" name="locality" list="scripts" type="text" placeholder="Locality" required />
+              <datalist id="scripts" name = "scripts">
+                
+                
+              </datalist>
+            </div>
+            <div class="row">
+              <div class="selection">
+                <label for="selectField">BHK</label>
+                <select id="BHK" name="BHK" >
+                  
+                  
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <input type="text" placeholder="Furnishing" required />
+            </div>
+            <div class="row">
+              <input type="text" placeholder="Rent or Sale" required />
+            </div>
+            <div class="row">
+              <input type="text" placeholder="Property Type" required />
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="Predict and Recommend" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.2/brython.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.2/brython_stdlib.js"></script>
+    
+  </body>
+</html>

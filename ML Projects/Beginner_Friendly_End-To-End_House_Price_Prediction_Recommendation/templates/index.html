@@ -1,0 +1,149 @@
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My Sweet Home</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/signup.css') }}" />
+      <link rel="icon" href="{{ url_for('static', filename='img/house_home_building_property_icon.ico') }}" />
+    </head>
+
+    <body>
+    
+
+      <div class="container">
+        
+        <div class="wrapper">
+          <div class="title">
+            
+            <span>House price prediction and house Recommend</span>
+            
+          </div>
+          <form action="/" method="post">
+            <div class="options">
+              <div class="row">
+                <div class="selection">
+                  <label for="selected_city">City</label>
+                  <input id="selected_city" list="scripts_city" name="city" type="text" placeholder="City" required onchange="populateLocalityOptions()"  />
+                  <datalist id="scripts_city">
+                    <option value="">Select City</option>
+                  </datalist>
+              
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="selection">
+                <label for="selected_BHK">BHK</label>
+                <input id="selected_BHK" list="scripts_BHK" name="BHK" type="text" placeholder="BHK" required />
+                <datalist id="scripts_BHK">
+                  {%for i in BHK%}
+                    <option value="{{i}}">{{i}}</option>
+                  {%endfor%}
+                </datalist>
+              </div>
+              </div>
+              <div class="row">
+                <div class="selection">
+                <label for="selected_Furnish">Furnishing</label>
+                <input id="selected_Furnish" list="scripts_Furnish" name="furnishing" type="text" placeholder="Furnishing" required />
+                <datalist id="scripts_Furnish">
+                  {%for i in Furnish%}
+                    <option value="{{i}}">{{i}}</option>
+                  {%endfor%}
+                </datalist>
+                </div>
+              </div>
+              <div class="row">
+                <div class="selection">
+                <label for="selected_loc">Locality</label>
+                <input id="selected_loc" list="scripts_loc" name="locality" type="text" placeholder="Locality" required />
+                <datalist id="scripts_loc">
+                </datalist>
+                </div>
+              </div>
+              <div class="row">
+                <div class="selection">
+                <label for="selected_RoS">Rent or Sale</label>
+                <input id="selected_RoS" list="scripts_RoS" name="RentOrSale" type="text" placeholder="Rent or Sale" required />
+                <datalist id="scripts_RoS">
+                  {%for i in Ros%}
+                    <option value="{{i}}">{{i}}</option>
+                  {%endfor%}
+                </datalist>
+                </div>
+              </div>
+              <div class="row">
+                <div class="selection">
+                <label for="selected_PropType">Property Type</label>
+                <input id="selected_PropType" list="scripts_PropType" name="propertyType" type="text" placeholder="Property Type" required />
+                <datalist id="scripts_PropType">
+                  {%for i in PropType%}
+                    <option value="{{i}}">{{i}}</option>
+                  {%endfor%}
+                  <option value="No Preference">No Preference</option>
+                </datalist>
+                </div>
+              </div>
+            </div>
+            <div class="button">
+              <input type="submit" value="Predict and Recommend" required />
+            </div>
+          </form>
+        </div>
+        
+        
+      </div>
+      
+      
+      <script>
+        function populateCityOptions() {
+            // Fetch cities from the API endpoint
+            fetch('/api/city_arr')
+                .then(response => response.json())
+                .then(data => {
+                    const citySelect = document.getElementById('scripts_city');
+                    citySelect.innerHTML = '<option value="">Select City</option>';
+                    data.forEach(city => {
+                        const optionElement = document.createElement('option');
+                        optionElement.value = city;
+                        optionElement.innerText = city;
+                        citySelect.appendChild(optionElement);
+                    });
+                })
+                .catch(error => console.error('Error fetching city data:', error));
+        }
+
+        function populateLocalityOptions() {
+            const selectedCity = document.getElementById('selected_city').value;
+            
+            // Fetch localities for the selected city from the API endpoint
+            fetch(`/api/main_arr/${selectedCity}`)
+                .then(response => response.json())
+                .then(data => {
+                    const localitySelect = document.getElementById('scripts_loc');
+                    localitySelect.innerHTML = '<option value="">Select Locality</option>';
+                    data.forEach(locality => {
+                        const optionElement = document.createElement('option');
+                        optionElement.value = locality;
+                        optionElement.innerText = locality;
+                        localitySelect.appendChild(optionElement);
+                        
+                    });
+                    const optionElement = document.createElement('option');
+                    optionElement.value = "No Preference";
+                    optionElement.innerText = "No Preference";
+                    
+                    localitySelect.appendChild(optionElement);
+                    
+                })
+                .catch(error => console.error('Error fetching locality data:', error));
+        }
+
+        // Populate the cities on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            populateCityOptions();
+        });
+    </script>
+    </body>
+  </html>
+  

@@ -1,0 +1,6 @@
+# ul_element = Element("navigation")  
+# first_element = ul_element.select('.home').add_class('first')  
+# second_element = ul_element.select('.about').remove_class('about')  
+# div_element = Element("output")  
+# div_element.write("Value set from PyScript") 
+print("hi")
