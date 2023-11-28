@@ -1,0 +1,64 @@
+/* static/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Set a wider width for desktop */
+    max-width: 600px; /* Limit maximum width for larger screens */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px; /* Add margin to the top of the form */
+}
+
+label {
+    margin-bottom: 8px;
+    color: #333; /* Dark gray text color */
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border around the result */
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Slightly off-white background */
+    color: #333; /* Dark gray text color */
+}
