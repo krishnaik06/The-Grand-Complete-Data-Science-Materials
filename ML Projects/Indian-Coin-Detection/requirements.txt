@@ -1,0 +1,17 @@
+dvc
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2
+pyYAML
+tqdm
+ensure==1.0.2
+joblib
+types-PyYAML
+Flask
+Flask-Cors
+boto3
+ultralytics==8.0.171
+streamlit==1.26.0
+-e .

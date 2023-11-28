@@ -1,0 +1,26 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+  bucket_name: 'your-bucket-name'
+  file_name: 'your-file-name.zip'  
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/coin-data-small
+  STATUS_FILE: artifacts/data_validation/status.txt
+  data_validation_req_dir_1 : ["images","labels"]
+  data_validation_req_dir_2 : ["train", "valid"]
+  yolo_config_file_path: yolo_config/yolo_config.yaml
+
+
+
+training:
+  root_dir: artifacts/training
+  trained_model_dir: artifacts/training/model/temporary_model
+  yolo_config_file_path: yolo_config/yolo_config.yaml
