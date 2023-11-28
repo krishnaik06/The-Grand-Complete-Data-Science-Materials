@@ -1,0 +1,88 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1><center>Heart Disease Prediction</center></h1>
+        <form method="post">
+            <label for="age">Age:</label>
+            <input type="text" name="age" required>
+
+            <label for="sex">Sex:</label>
+            <select name="sex" required>
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+            </select>
+
+            <label for="cp">Chest Pain Type:</label>
+            <select name="cp" required>
+                <option value="0">Typical Angina</option>
+                <option value="1">Atypical Angina</option>
+                <option value="2">Non-Anginal Pain</option>
+                <option value="3">Asymptomatic</option>
+            </select>
+
+            <label for="trestbps">Resting Blood Pressure (mm Hg):</label>
+            <input type="text" name="trestbps" required>
+
+            <label for="chol">Serum Cholesterol (mg/dl):</label>
+            <input type="text" name="chol" required>
+
+            <label for="fbs">Fasting Blood Sugar > 120 mg/dl:</label>
+            <select name="fbs" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <label for="restecg">Resting Electrocardiographic Results:</label>
+            <select name="restecg" required>
+                <option value="0">Normal</option>
+                <option value="1">ST-T Wave Abnormality</option>
+                <option value="2">Left Ventricular Hypertrophy</option>
+            </select>
+
+            <label for="thalach">Maximum Heart Rate Achieved:</label>
+            <input type="text" name="thalach" required>
+
+            <label for="exang">Exercise Induced Angina:</label>
+            <select name="exang" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <label for="oldpeak">Oldpeak:</label>
+            <input type="text" name="oldpeak" required>
+
+            <label for="slope">Slope of the Peak Exercise ST Segment:</label>
+            <select name="slope" required>
+                <option value="0">Upsloping</option>
+                <option value="1">Flat</option>
+                <option value="2">Downsloping</option>
+            </select>
+
+            <label for="ca">Number of Major Vessels Colored by Fluoroscopy:</label>
+            <select name="ca" required>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+
+            <label for="thal">Thalassemia:</label>
+            <select name="thal" required>
+                <option value="0">Normal</option>
+                <option value="1">Fixed Defect</option>
+                <option value="2">Reversible Defect</option>
+            </select>
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
