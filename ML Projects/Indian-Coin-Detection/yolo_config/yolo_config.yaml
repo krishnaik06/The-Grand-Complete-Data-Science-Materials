@@ -1,0 +1,11 @@
+
+path: '/home/debasish/home/Indian-Coin-Detection/artifacts/data_ingestion/coin-data-small' # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/valid  # val images (relative to 'path')
+
+# Classes
+names:
+  0: ₹1
+  1: ₹2
+  2: ₹5
+  3: ₹10
