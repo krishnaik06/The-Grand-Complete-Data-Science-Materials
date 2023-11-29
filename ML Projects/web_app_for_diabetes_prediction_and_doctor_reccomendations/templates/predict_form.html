@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Register</title>
+    <style>
+      body {
+        /* background-image: linear-gradient(#f5cadf, #f7a1a1); */
+        /* background-image: url("static/images/background1.jpg"); */
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.712),
+            rgba(255, 255, 255, 0.656)
+          ),
+          url("static/images/background1.jpg");
+        color: black;
+        font-weight: 500;
+      }
+      main {
+        opacity: 0.9;
+      }
+      .btn {
+        background-color: #f88;
+      }
+      .btn:hover {
+        background-color: rgb(248, 92, 92);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="row d-flex justify-content-center mt-4">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <!-- <div class="card shadow" style="border-radius: 15px"> -->
+                <!-- <div class="card-body p-4 mt-0"> -->
+                  <h3 class="display-4">Detect Diabetes Early</h3>
+                  <p class="lead">
+                    Our app uses ML algorithm to predict your risk of
+                    developing diabetes based on your personal information.
+                  </p>
+                  <hr class="my-4" />
+                  <p>
+                    Simply enter your glucose level, age, BMI, insulin, and DPF
+                    score to get started.
+                  </p>
+                  <form action="{{ url_for('predict') }}" method="post" novalidate>
+                    {{ form.csrf_token }}
+                    <div class="d-flex flex-column">
+                      <div
+                        class="d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          src="/static/images/di-logo.png"
+                          alt=""
+                          style="width: 40%"
+                        />
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-center"
+                      >
+                        <!-- <h2>Sign Up</h2> -->
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col mb-4">
+                        <div class="form-outline mb-4">
+                          <label class="form-label" for="pregnancies"
+                            >Pregnancies</label
+                          >
+                          {{ form.pregnancies(size=64, class="form-control form-control-md", id="pregnancies", placeholder="Number of times pregnant e.g. 6") }}
+                        </div>
+                      </div>
+                      <div class="col mb-4">
+                        <div class="form-outline mb-4">
+                          <label class="form-label" for="glucose"
+                            >Glucose</label
+                          >
+                          {{ form.glucose(size=64, class="form-control form-control-md", id="glucose", placeholder="Glucose concentration e.g. 166") }}
+
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                    <div class="row">
+                      <div class="col mb-4">
+                        <label class="form-label" for="bloodPressure"
+                          >Blood Pressure</label
+                        >
+                        {{ form.bloodPressure(size=64, class="form-control form-control-md", id="bloodPressure", placeholder="Blood pressure (mm Hg) e.g. 72") }}
+                      </div>
+
+                      <div class="col mb-4">
+                        <label class="form-label" for="skinThickness"
+                          >Skin Thickness</label
+                        >
+                        {{ form.skinThickness(size=64, class="form-control form-control-md", id="skinThickness", placeholder="Triceps skin thickness (mm) e.g. 19") }}
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col mb-4">
+                        <label class="form-label" for="insulin"
+                          >Insulin</label
+                        >
+                        {{ form.insulin(size=64, class="form-control form-control-md", id="insulin", placeholder="Insulin (mu U/ml) e.g. 175") }}
+                      </div>
+                      <div class="col mb-4">
+                        <label class="form-label" for="bmi"
+                          >BMI</label
+                        >
+                        {{ form.bmi(size=64, class="form-control form-control-md", id="bmi", placeholder="Body mass index e.g. 25.8") }}
+                      </div>
+
+                      <div class="row">
+                        <div class="col mb-4">
+                          <div class="col mb-4">
+                            <label class="form-label" for="dpf"
+                              >DPF</label
+                            >
+                            {{ form.dpf(size=64, class="form-control form-control-md", id="dpf", placeholder="Diabetes pedigree function e.g. 0.587") }}
+                          </div>
+                          
+                        </div>
+                        <div class="col mb-4">
+                          <div class="col mb-4">
+                            <label class="form-label" for="age"
+                              >Age</label
+                            >
+                            {{ form.age(size=64, class="form-control form-control-md", id="age", placeholder="Age (years) e.g. 51") }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+                    <div class="text-center pt-1 mb-0 pb-1">
+                      <!-- <button
+                        class="btn btn-lg btn-block fa-lg gradient-custom-2 mb-0"
+                        type="button"
+                      >
+                        Check
+                      </button> -->
+                      {{form.submit(class="btn btn-lg btn-block fa-lg gradient-custom-2 mb-0")}}
+                    </div>
+                    <br />
+                    <p>
+                      <em
+                        >Note: This is a basic prototype of the app, and is not
+                        intended for diagnostic purposes.</em
+                      >
+                    </p>
+                    <p>
+                      <em
+                        >Disclaimer: The information provided is for
+                        informational purposes only and is not a substitute for
+                        professional medical advice, diagnosis, or treatment.
+                        Always consult your healthcare provider with any
+                        questions you may have regarding a medical
+                        condition.</em
+                      >
+                    </p>
+                    <p>
+                      <em
+                        >Additional feature from my side: You can add a feature
+                        to show the user whether their glucose level falls
+                        within the normal range or not based on the entered
+                        values.</em
+                      >
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-sm" style="background-color: red;">One of three columns</div> -->
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- 
+  
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <h1 class="display-4">Detect Diabetes Early</h1>
+        <p class="lead">
+          Our app uses advanced algorithms to predict your risk of developing
+          diabetes based on your personal information.
+        </p>
+        <hr class="my-4" />
+        <p>
+          Simply enter your glucose level, age, BMI, insulin, and DPF score to
+          get started.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">Enter Your Information</div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="glucose_level">Glucose Level:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="glucose_level"
+                    placeholder="Enter glucose level"
+                  />
+                  <small id="glucose_help" class="form-text text-muted"
+                    >This should be your current glucose level, measured in
+                    mg/dL.</small
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="age">Age:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="age"
+                    placeholder="Enter age"
+                  />
+                  <small id="age_help" class="form-text text-muted"
+                    >This should be your current age in years.</small
+                  > -->

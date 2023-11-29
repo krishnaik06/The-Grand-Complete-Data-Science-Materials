@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Diabeteasy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./static/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/857540c3de.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col">
+        <div class="p-5">
+          <h2 class="text-center">Recomended Doctors</h2>
+          <hr />
+          <!-- <p>
+                  It is important to follow the recommendations of a doctor, but it is
+                  also important to understand that we do not take responsibility of
+                  treatment done by suggested doctor. It is up to the doctor to make the
+                  best medical decisions for their patients.
+                </p> -->
+          {% for doctor in doctors %}
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{doctor['name']}}</h5>
+              <p class="card-text">Rating: {{ doctor['rating']}}</p>
+              <p class="card-text">Address: {{doctor['address']}}</p>
+              <a href="{{doctor['url']}}" class="btn btn-primary"
+                >Visit the doctor</a
+              >
+            </div>
+          </div>
+          {% endfor %}
+
+          <!-- <h1>Diabetes Doctors Near You</h1>
+                <p>Here are the top diabetes doctors near your location:</p>
+                <ul>
+                  {% for doctor in doctors %}
+                  <li>
+                    <strong>{{ doctor.name }}</strong><br />
+                    {{ doctor.address }}<br />
+                    Rating: {{ doctor.rating }}<br />
+                    Distance: {{ doctor.distance }}<br />
+                    <a href="{{ doctor.url }}" target="_blank">View on Google Maps</a
+                    ><br />
+                    <iframe
+                      src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q={{ doctor.location.lat }},{{ doctor.location.lng }}"
+                      allowfullscreen
+                    ></iframe>
+                  </li>
+                  {% endfor %}
+                </ul> -->
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-5">
+          <div class="d-flex justify-content-between">
+            <h2>Track your medications</h2>
+            <a href="{{url_for('logout')}}" class="btn btn-outline-danger"
+              >Logout</a
+            >
+          </div>
+
+          <hr />
+          <form method="POST" action="{{ url_for('add_medication') }}">
+            <label for="name" class="form-label">Medication Name</label>
+            <input
+              type="text"
+              class="form-control form-control-md"
+              id="name"
+              name="name"
+            /><br />
+
+            <label for="dosage" class="form-label">Dosage</label>
+            <input
+              type="number"
+              class="form-control form-control-md"
+              id="dosage"
+              name="dosage"
+            /><br />
+
+            <label for="frequency" class="form-label">Frequency</label>
+            <input
+              type="text"
+              class="form-control form-control-md"
+              id="frequency"
+              name="frequency"
+            /><br />
+
+            <label for="start_date" class="form-label">Start Date</label>
+            <input
+              type="date"
+              class="form-control form-control-md"
+              id="start_date"
+              name="start_date"
+            /><br />
+
+            <label for="end_date" class="form-label">End Date</label>
+            <input
+              type="date"
+              class="form-control form-control-md"
+              id="end_date"
+              name="end_date"
+            /><br />
+
+            <input type="submit" value="Submit" />
+          </form>
+          <hr />
+          <h1>Medication List</h1>
+          <table class="table table-bordred table-striped">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Dosage</th>
+                <th>Frequency</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for medication in medications %}
+              <tr>
+                <td>{{ medication.id }}</td>
+                <td>{{ medication.name }}</td>
+                <td>{{ medication.dosage }}</td>
+                <td>{{ medication.frequency }}</td>
+                <td>{{ medication.start_date }}</td>
+                <td>{{ medication.end_date }}</td>
+                <td>
+                  <form
+                    action="{{ url_for('delete_medication', medication_id=medication.id) }}"
+                    method="POST"
+                  >
+                    <button type="submit" class="btn btn-danger">🗑️</button>
+                  </form>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

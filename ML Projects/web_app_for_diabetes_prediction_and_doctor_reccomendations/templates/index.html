@@ -1,0 +1,251 @@
+{% extends "base.html" %} {% block body %}
+<section id="title">
+  <div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="{{url_for('index')}}">Diabeteasy</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('predict')}}">Di-Detector</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            {% if logged %}
+            <a class="nav-link" href="{{url_for('logout')}}">Logout</a>
+            {% else %}
+            <a class="nav-link" href="{{url_for('login')}}">Login</a>
+            {% endif %}
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Title -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div>
+          <h2>
+            The ML-powered diabetes detection tool for personalized risk
+            assessment.
+          </h2>
+        </div>
+        <div class="mt-5">
+          <img
+            style="width: 20%; transform: rotate(160deg)"
+            src="./static/images/press.png"
+            alt=""
+          />
+        </div>
+        <!-- <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button> -->
+        <!-- <button
+          type="button"
+          class="btn btn-outline-light btn-lg di-button"
+          style="top: -30px; position: relative; left: 30px; font-weight: bold"
+        >
+          Di-Detector
+        </button> -->
+        <div
+          class="btn btn-lg di-button"
+          style="
+            top: -30px;
+            position: relative;
+            left: 30px;
+            font-weight: bold;
+            border: solid 1px white;
+          "
+        >
+          <a
+            href="{{url_for('predict')}}"
+            style="text-decoration: none; color: white"
+            >Di-Detector</a
+          >
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <img
+          class="title-image"
+          src="./static/images/doctor.png"
+          alt="iphone-mockup"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+
+<section class="white-section" id="features">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="fa-solid fa-check fa-4x" style="color: #f88686"></i>
+        <h3>Easy to use.</h3>
+        <p>Just put your required values and get result in an instant.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fa-solid fa-bullseye fa-4x" style="color: #f88686"></i>
+        <h3>Accurate</h3>
+        <p>Our model has accuracy score of 0.877</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="fa-solid fa-heart fa-4x" style="color: #f88686"></i>
+        <h3>Be Healthy.</h3>
+        <p>Beat diabetes by detecting it early.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+
+<section
+  id="testimonials"
+  style="color: white; background: #f88686"
+  class="p-5"
+>
+  <div class="row mb-5 p-5">
+    <div class="col mb-2">
+      <p class="mb-5">
+        Diabetes is a chronic disease that affects millions of people in India.
+        In fact, India has the highest number of people with diabetes in the
+        world. This disease is a major public health concern in India and has
+        significant implications for individuals, families, and society as a
+        whole.
+      </p>
+      <p>
+        There are two main types of diabetes - type 1 and type 2. Type 1
+        diabetes is an autoimmune disease that usually develops in childhood or
+        adolescence, while type 2 diabetes is a metabolic disorder that
+        typically develops in adults. Type 2 diabetes is more common in India
+        and is often associated with lifestyle factors such as poor diet, lack
+        of physical activity, and obesity.
+      </p>
+    </div>
+    <div class="col mb-2">
+      <img
+        src="/static/images/abc.png"
+        class="img-fluid mx-auto d-block"
+        style="width: 40%"
+        alt=""
+      />
+    </div>
+  </div>
+  <div class="row mt-5 p-5">
+    <div class="col">
+      <img src="/static/images/abcd.png" style="width: 50%" alt="" />
+    </div>
+    <div class="col">
+      <p>
+        The symptoms of diabetes can vary, but some of the most common symptoms
+        include excessive thirst, frequent urination, fatigue, blurred vision,
+        and slow healing of wounds. If left untreated, diabetes can lead to a
+        number of complications, including heart disease, kidney disease, nerve
+        damage, and blindness.
+      </p>
+      <p>
+        Fortunately, diabetes can be managed with proper care and treatment.
+        This typically involves making lifestyle changes, such as improving diet
+        and increasing physical activity, as well as taking medications as
+        prescribed by a healthcare provider. Regular monitoring of blood glucose
+        levels is also important for managing diabetes.
+      </p>
+      <p>
+        If you have diabetes, it is important to work closely with your
+        healthcare provider to develop a personalized treatment plan that meets
+        your individual needs. With proper care and management, people with
+        diabetes can lead long, healthy lives.
+      </p>
+    </div>
+  </div>
+  <!-- <p>
+    Diabetes is a chronic disease that affects millions of people in India. In
+    fact, India has the highest number of people with diabetes in the world.
+    This disease is a major public health concern in India and has significant
+    implications for individuals, families, and society as a whole.
+  </p>
+  <p>
+    There are two main types of diabetes - type 1 and type 2. Type 1 diabetes is
+    an autoimmune disease that usually develops in childhood or adolescence,
+    while type 2 diabetes is a metabolic disorder that typically develops in
+    adults. Type 2 diabetes is more common in India and is often associated with
+    lifestyle factors such as poor diet, lack of physical activity, and obesity.
+  </p>
+  <p>
+    Symptoms of diabetes can vary, but some of the most common include excessive
+    thirst, frequent urination, fatigue, blurred vision, and slow healing of
+    wounds. In some cases, individuals with diabetes may also experience
+    unexplained weight loss, numbness or tingling in the hands or feet, and
+    frequent infections. If you experience any of these symptoms, it is
+    important to see a healthcare provider for proper diagnosis and treatment.
+    Early detection and management of diabetes can help prevent complications
+    and improve long-term health outcomes.
+  </p>
+  <p>
+    Fortunately, diabetes can be managed with proper care and treatment. This
+    typically involves making lifestyle changes, such as improving diet and
+    increasing physical activity, as well as taking medications as prescribed by
+    a healthcare provider. Regular monitoring of blood glucose levels is also
+    important for managing diabetes.
+  </p>
+  <p>
+    If you have diabetes, it is important to work closely with your healthcare
+    provider to develop a personalized treatment plan that meets your individual
+    needs. With proper care and management, people with diabetes can lead long,
+    healthy lives.
+  </p> -->
+</section>
+
+<!-- Call to Action -->
+
+<section class="colored-section" id="cta">
+  <div class="container-fluid text-center">
+    <h3 class="">Check our Di-Detector now and take control of your health.</h3>
+    <div
+      class="btn btn-lg di-button"
+      style="
+        top: -30px;
+        position: relative;
+        left: 30px;
+        font-weight: bold;
+        border: solid 1px white;
+      "
+    >
+      <a
+        href="{{url_for('predict')}}"
+        style="text-decoration: none; color: white"
+        >Di-Detector</a
+      >
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- 
+<footer id="footer">
+  <p>© Copyright Diabeteasy</p>
+</footer> -->
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+  crossorigin="anonymous"
+></script>
+{% endblock %}
