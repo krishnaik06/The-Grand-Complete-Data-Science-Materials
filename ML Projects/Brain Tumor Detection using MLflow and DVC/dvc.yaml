@@ -1,0 +1,55 @@
+
+stages:
+  data_ingestion:
+    cmd: python src/brain_tumor/pipeline/stage_data_ingestion.py
+    deps:
+      - src/brain_tumor/pipeline/stage_data_ingestion.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_ingestion/data
+
+
+  prepare_base_model:
+    cmd: python src/brain_tumor/pipeline/stage_prepare_base_model.py
+    deps:
+      - src/brain_tumor/pipeline/stage_prepare_base_model.py
+      - config/config.yaml
+    params:
+      - IMAGE_SIZE
+      - INCLUDE_TOP
+      - CLASSES 
+      - WEIGHTS
+      - LEARNING_RATE
+    outs:
+      - artifacts/prepare_base_model
+
+
+  training:
+    cmd: python src/brain_tumor/pipeline/stage_training.py
+    deps:
+      - src/brain_tumor/pipeline/stage_training.py
+      - config/config.yaml
+      - artifacts/data_ingestion/data
+      - artifacts/prepare_base_model
+    params:
+      - AUGMENTATION
+      - IMAGE_SIZE
+      - BATCH_SIZE
+      - EPOCHS
+    outs:
+      - artifacts/training/model.h5
+
+
+  evaluation:
+    cmd: python src/brain_tumor/pipeline/stage_evaluation.py
+    deps:
+      - src/brain_tumor/pipeline/stage_evaluation.py
+      - config/config.yaml
+      - artifacts/data_ingestion/data
+      - artifacts/training/model.h5
+    params:
+      - IMAGE_SIZE
+      - BATCH_SIZE
+    metrics:
+    - scores.json:
+        cache: false 
