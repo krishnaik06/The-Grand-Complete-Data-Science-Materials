@@ -51,7 +51,7 @@ This project utilizes OpenAI's Whisper and DALL-E-2 models to convert spoken lan
 - This project assumes Python 3.6 or later.
 - Make sure to keep your OpenAI API key confidential.
 
-##Github account 
+## Github account 
 
 - https://github.com/NDSUKESH
 
