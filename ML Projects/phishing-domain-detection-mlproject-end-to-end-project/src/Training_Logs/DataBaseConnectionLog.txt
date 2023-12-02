@@ -1,0 +1,543 @@
+2022-07-06/17:36:49		Opened database connection successfully
+2022-07-06/18:09:57		Closed database successfully
+2022-07-06/18:11:59		Opened database connection successfully
+2022-07-06/18:11:59		Closed database successfully
+2022-07-06/18:15:47		Opened database connection successfully
+2022-07-06/18:15:47		Closed database successfully
+2022-07-06/18:17:48		Opened database connection successfully
+2022-07-06/18:17:49		Closed database successfully
+2022-07-06/18:18:44		Opened database connection successfully
+2022-07-06/18:18:44		Closed database successfully
+2022-07-06/18:24:47		Closed database successfully
+2022-07-06/18:38:10		Opened database connection successfully
+2022-07-06/18:38:10		Closed database successfully
+2022-07-06/18:39:19		Closed database successfully
+2022-07-06/18:40:50		Closed database successfully
+2022-07-06/18:41:14		Closed database successfully
+2022-07-06/18:44:47		Opened database connection successfully
+2022-07-06/18:44:48		Closed database successfully
+2022-07-06/18:46:29		Opened database connection successfully
+2022-07-06/18:46:29		Closed database successfully
+2022-07-06/18:49:02		Closed database successfully
+2022-07-06/18:50:28		Opened database connection successfully
+2022-07-06/18:50:28		Closed database successfully
+2022-07-06/18:55:12		Closed database successfully
+2022-07-06/18:58:05		Closed database successfully
+2022-07-06/18:58:57		Closed database successfully
+2022-07-06/18:59:58		Closed database successfully
+2022-07-06/19:00:40		Opened database connection successfully
+2022-07-06/19:00:40		Closed database successfully
+2022-07-06/19:14:11		Opened database connection successfully
+2022-07-06/19:14:11		Closed database successfully
+2022-07-06/19:39:16		Closed database successfully
+2022-07-06/19:39:59		Closed database successfully
+2022-07-06/19:40:51		Closed database successfully
+2022-07-06/19:41:58		Closed database successfully
+2022-07-06/19:43:49		Opened database connection successfully
+2022-07-06/19:44:00		Closed database successfully
+2022-07-06/19:45:48		Closed database successfully
+2022-07-06/19:47:17		Closed database successfully
+2022-07-06/19:52:16		Opened database connection successfully
+2022-07-06/19:52:16		Closed database successfully
+2022-07-06/19:53:11		Opened database connection successfully
+2022-07-06/19:53:11		Closed database successfully
+2022-07-11/17:53:56		Closed database successfully
+2022-07-11/17:56:43		Opened database connection successfully
+2022-07-11/17:56:43		Closed database successfully
+2022-07-11/17:58:33		Opened database connection successfully
+2022-07-11/17:58:33		Closed database successfully
+2022-07-11/18:02:07		Opened database connection successfully
+2022-07-11/18:02:07		Closed database successfully
+2022-07-11/18:03:20		Opened database connection successfully
+2022-07-11/18:03:20		Closed database successfully
+2022-07-11/18:04:24		Opened database connection successfully
+2022-07-11/18:04:34		Closed database successfully
+2022-07-11/18:07:00		Opened database connection successfully
+2022-07-11/18:07:00		Closed database successfully
+2022-07-11/18:26:40		Opened database connection successfully
+2022-07-11/18:26:40		Closed database successfully
+2022-07-11/18:27:55		Opened database connection successfully
+2022-07-11/18:27:55		Closed database successfully
+2022-07-11/18:29:54		Opened database connection successfully
+2022-07-11/18:29:54		Closed database successfully
+2022-07-11/18:34:46		Opened database connection successfully
+2022-07-11/18:34:46		Closed database successfully
+2022-07-11/18:36:17		Opened database connection successfully
+2022-07-11/18:36:17		Closed database successfully
+2022-07-11/18:38:42		Opened database connection successfully
+2022-07-11/18:38:55		Closed database successfully
+2022-07-11/18:43:29		Opened database connection successfully
+2022-07-11/18:43:29		Closed database successfully
+2022-07-11/18:45:17		Opened database connection successfully
+2022-07-11/18:45:17		Closed database successfully
+2022-07-11/18:48:05		Opened database connection successfully
+2022-07-11/18:48:05		Closed database successfully
+2022-07-11/18:49:11		Opened database connection successfully
+2022-07-11/18:49:11		Closed database successfully
+2022-07-11/18:50:57		Opened database connection successfully
+2022-07-11/18:51:44		Closed database successfully
+2022-07-11/18:53:51		Opened database connection successfully
+2022-07-11/18:54:00		Closed database successfully
+2022-07-11/18:54:55		Opened database connection successfully
+2022-07-11/18:55:04		Closed database successfully
+2022-07-11/18:55:36		Opened database connection successfully
+2022-07-11/18:55:51		Closed database successfully
+2022-07-11/19:12:14		Opened database connection successfully
+2022-07-11/19:12:32		Closed database successfully
+2022-07-11/19:17:13		Opened database connection successfully
+2022-07-11/19:17:30		Closed database successfully
+2022-07-11/19:18:33		Opened database connection successfully
+2022-07-11/19:18:53		Closed database successfully
+2022-07-11/19:25:17		Opened database connection successfully
+2022-07-11/19:25:32		Closed database successfully
+2022-07-11/19:26:45		Opened database connection successfully
+2022-07-11/19:27:01		Closed database successfully
+2022-07-11/19:28:18		Opened database connection successfully
+2022-07-11/19:28:33		Closed database successfully
+2022-07-11/19:29:55		Opened database connection successfully
+2022-07-11/19:30:13		Closed database successfully
+2022-07-11/19:32:10		Opened database connection successfully
+2022-07-11/19:32:26		Closed database successfully
+2022-07-11/19:33:43		Opened database connection successfully
+2022-07-11/19:34:14		Opened database connection successfully
+2022-07-11/19:34:14		Closed database successfully
+2022-07-11/19:34:54		Opened database connection successfully
+2022-07-11/19:34:54		Closed database successfully
+2022-07-11/19:35:26		Opened database connection successfully
+2022-07-11/19:35:42		Closed database successfully
+2022-07-11/19:36:57		Opened database connection successfully
+2022-07-11/19:36:57		Closed database successfully
+2022-07-11/19:42:41		Opened database connection successfully
+2022-07-11/19:42:41		Closed database successfully
+2022-07-11/19:43:57		Opened database connection successfully
+2022-07-11/19:43:57		Closed database successfully
+2022-07-11/19:46:49		Opened database connection successfully
+2022-07-11/19:46:49		Closed database successfully
+2022-07-11/19:52:01		Opened database connection successfully
+2022-07-11/19:52:12		Closed database successfully
+2022-07-11/19:56:50		Opened database connection successfully
+2022-07-11/19:57:00		Closed database successfully
+2022-07-11/19:59:11		Opened database connection successfully
+2022-07-11/19:59:20		Closed database successfully
+2022-07-11/20:00:43		Opened database connection successfully
+2022-07-11/20:00:53		Closed database successfully
+2022-07-11/20:12:33		Opened database connection successfully
+2022-07-11/20:12:36		Closed database successfully
+2022-07-13/20:30:38		Closed database successfully
+2022-07-13/20:32:12		Opened database connection successfully
+2022-07-13/20:32:12		Closed database successfully
+2022-07-13/20:33:50		Opened database connection successfully
+2022-07-13/20:33:50		Closed database successfully
+2022-07-13/20:40:51		Opened database connection successfully
+2022-07-13/20:40:51		Closed database successfully
+2022-07-13/20:44:09		Opened database connection successfully
+2022-07-13/20:44:19		Closed database successfully
+2022-07-13/21:23:12		Opened database connection successfully
+2022-07-13/21:23:12		Closed database successfully
+2022-07-13/21:24:36		Opened database connection successfully
+2022-07-13/21:24:36		Closed database successfully
+2022-07-13/21:33:23		Opened database connection successfully
+2022-07-13/21:33:34		Closed database successfully
+2022-07-13/21:34:59		Opened database connection successfully
+2022-07-13/21:36:00		Closed database successfully
+2022-07-13/21:38:44		Opened database connection successfully
+2022-07-13/21:38:54		Closed database successfully
+2022-07-14/17:57:27		Opened database connection successfully
+2022-07-14/17:57:33		Closed database successfully
+2022-07-14/17:58:01		Opened database connection successfully
+2022-07-14/17:58:09		Closed database successfully
+2022-07-14/18:00:23		Opened database connection successfully
+2022-07-14/18:00:29		Closed database successfully
+2022-07-14/18:06:11		Opened database connection successfully
+2022-07-14/18:06:23		Closed database successfully
+2022-07-14/18:14:50		Opened database connection successfully
+2022-07-14/18:14:50		Closed database successfully
+2022-07-14/19:04:05		Opened database connection successfully
+2022-07-14/19:04:05		Closed database successfully
+2022-07-14/19:04:11		Opened database connection successfully
+2022-07-14/19:31:18		Opened database connection successfully
+2022-07-14/19:31:19		Closed database successfully
+2022-07-14/19:31:25		Opened database connection successfully
+2022-07-14/19:33:59		Opened database connection successfully
+2022-07-14/19:34:00		Closed database successfully
+2022-07-14/19:34:06		Opened database connection successfully
+2022-07-14/19:35:00		Opened database connection successfully
+2022-07-14/19:35:00		Closed database successfully
+2022-07-14/19:35:07		Opened database connection successfully
+2022-07-14/19:37:41		Opened database connection successfully
+2022-07-14/19:37:41		Closed database successfully
+2022-07-14/19:39:44		Opened database connection successfully
+2022-07-14/19:39:44		Closed database successfully
+2022-07-14/19:39:52		Opened database connection successfully
+2022-07-14/19:43:50		Opened database connection successfully
+2022-07-14/19:43:50		Closed database successfully
+2022-07-14/19:43:57		Opened database connection successfully
+2022-07-14/19:48:15		Opened database connection successfully
+2022-07-14/19:48:15		Closed database successfully
+2022-07-14/19:48:21		Opened database connection successfully
+2022-07-14/19:50:23		Opened database connection successfully
+2022-07-14/19:50:23		Closed database successfully
+2022-07-14/19:50:30		Opened database connection successfully
+2022-07-14/19:55:01		Opened database connection successfully
+2022-07-14/19:55:01		Closed database successfully
+2022-07-14/19:55:07		Opened database connection successfully
+2022-07-14/20:00:49		Opened database connection successfully
+2022-07-14/20:00:49		Closed database successfully
+2022-07-14/20:00:56		Opened database connection successfully
+2022-07-14/20:02:49		Opened database connection successfully
+2022-07-14/20:02:49		Closed database successfully
+2022-07-14/20:02:58		Opened database connection successfully
+2022-07-14/20:04:25		Opened database connection successfully
+2022-07-14/20:04:25		Closed database successfully
+2022-07-14/20:04:32		Opened database connection successfully
+2022-07-14/20:05:40		Opened database connection successfully
+2022-07-14/20:05:40		Closed database successfully
+2022-07-14/20:05:47		Opened database connection successfully
+2022-07-14/20:07:20		Opened database connection successfully
+2022-07-14/20:07:20		Closed database successfully
+2022-07-14/20:07:28		Opened database connection successfully
+2022-07-14/20:19:06		Opened database connection successfully
+2022-07-14/20:19:06		Closed database successfully
+2022-07-14/20:19:13		Opened database connection successfully
+2022-07-14/20:26:08		Opened database connection successfully
+2022-07-14/20:26:09		Closed database successfully
+2022-07-14/20:26:15		Opened database connection successfully
+2022-07-14/20:27:47		Opened database connection successfully
+2022-07-14/20:27:47		Closed database successfully
+2022-07-14/20:27:54		Opened database connection successfully
+2022-07-14/20:29:05		Opened database connection successfully
+2022-07-14/20:29:05		Closed database successfully
+2022-07-14/20:29:12		Opened database connection successfully
+2022-07-14/20:32:12		Opened database connection successfully
+2022-07-14/20:32:12		Closed database successfully
+2022-07-14/20:32:19		Opened database connection successfully
+2022-07-14/20:33:55		Opened database connection successfully
+2022-07-14/20:33:55		Closed database successfully
+2022-07-14/20:34:03		Opened database connection successfully
+2022-07-15/21:08:57		Opened database connection successfully
+2022-07-15/21:08:57		Closed database successfully
+2022-07-15/21:09:04		Opened database connection successfully
+2022-07-15/21:10:49		Opened database connection successfully
+2022-07-15/21:10:49		Closed database successfully
+2022-07-15/21:10:58		Opened database connection successfully
+2022-07-15/21:11:42		Opened database connection successfully
+2022-07-15/21:11:42		Closed database successfully
+2022-07-15/21:11:49		Opened database connection successfully
+2022-07-15/21:12:56		Opened database connection successfully
+2022-07-15/21:12:57		Closed database successfully
+2022-07-15/21:13:03		Opened database connection successfully
+2022-07-15/21:15:01		Opened database connection successfully
+2022-07-15/21:15:01		Closed database successfully
+2022-07-15/21:15:08		Opened database connection successfully
+2022-07-15/21:16:13		Opened database connection successfully
+2022-07-15/21:16:13		Closed database successfully
+2022-07-15/21:16:20		Opened database connection successfully
+2022-07-15/21:19:17		Opened database connection successfully
+2022-07-15/21:19:17		Closed database successfully
+2022-07-15/21:19:23		Opened database connection successfully
+2022-07-15/21:21:51		Opened database connection successfully
+2022-07-15/21:21:51		Closed database successfully
+2022-07-15/21:21:58		Opened database connection successfully
+2022-07-15/21:28:44		Opened database connection successfully
+2022-07-15/21:28:44		Closed database successfully
+2022-07-15/21:28:51		Opened database connection successfully
+2022-07-15/21:29:45		Opened database connection successfully
+2022-07-15/21:29:45		Closed database successfully
+2022-07-15/21:29:54		Opened database connection successfully
+2022-07-15/21:34:48		Opened database connection successfully
+2022-07-15/21:34:48		Closed database successfully
+2022-07-15/21:34:56		Opened database connection successfully
+2022-07-15/21:37:32		Opened database connection successfully
+2022-07-15/21:37:32		Closed database successfully
+2022-07-15/21:37:40		Opened database connection successfully
+2022-07-15/21:41:07		Opened database connection successfully
+2022-07-15/21:41:07		Closed database successfully
+2022-07-15/21:41:13		Opened database connection successfully
+2022-07-15/21:43:48		Opened database connection successfully
+2022-07-15/21:43:48		Closed database successfully
+2022-07-15/21:43:55		Opened database connection successfully
+2022-07-15/21:46:17		Opened database connection successfully
+2022-07-15/21:46:17		Closed database successfully
+2022-07-15/21:46:24		Opened database connection successfully
+2022-07-15/21:47:19		Opened database connection successfully
+2022-07-15/21:47:20		Closed database successfully
+2022-07-15/21:47:26		Opened database connection successfully
+2022-07-15/21:48:27		Opened database connection successfully
+2022-07-15/21:48:27		Closed database successfully
+2022-07-15/21:48:34		Opened database connection successfully
+2022-07-15/21:55:59		Opened database connection successfully
+2022-07-15/21:56:11		Closed database successfully
+2022-07-15/21:56:18		Opened database connection successfully
+2022-07-15/22:01:10		Opened database connection successfully
+2022-07-15/22:01:10		Closed database successfully
+2022-07-15/22:02:21		Opened database connection successfully
+2022-07-15/22:02:27		Closed database successfully
+2022-07-15/22:02:33		Opened database connection successfully
+2022-07-15/22:03:54		Opened database connection successfully
+2022-07-15/22:04:58		Closed database successfully
+2022-07-15/22:05:05		Opened database connection successfully
+2022-07-15/22:10:26		Opened database connection successfully
+2022-07-15/22:10:30		Closed database successfully
+2022-07-15/22:10:37		Opened database connection successfully
+2022-07-17/16:19:27		Opened database connection successfully
+2022-07-17/16:19:30		Closed database successfully
+2022-07-17/16:19:36		Opened database connection successfully
+2022-07-17/16:21:13		Opened database connection successfully
+2022-07-17/16:21:16		Closed database successfully
+2022-07-17/16:21:22		Opened database connection successfully
+2022-07-17/17:14:32		Opened database connection successfully
+2022-07-17/17:14:36		Closed database successfully
+2022-07-17/17:14:42		Opened database connection successfully
+2022-07-17/17:23:29		Opened database connection successfully
+2022-07-17/17:23:32		Closed database successfully
+2022-07-17/17:23:38		Opened database connection successfully
+2022-07-17/17:27:16		Opened database connection successfully
+2022-07-17/17:27:22		Closed database successfully
+2022-07-17/17:27:30		Opened database connection successfully
+2022-07-17/17:37:17		Opened database connection successfully
+2022-07-17/17:37:21		Closed database successfully
+2022-07-17/17:37:28		Opened database connection successfully
+2022-07-17/17:38:44		Opened database connection successfully
+2022-07-17/17:38:48		Closed database successfully
+2022-07-17/17:38:55		Opened database connection successfully
+2022-07-17/17:39:50		Opened database connection successfully
+2022-07-17/17:39:54		Closed database successfully
+2022-07-17/17:40:01		Opened database connection successfully
+2022-07-17/17:41:41		Opened database connection successfully
+2022-07-17/17:41:45		Closed database successfully
+2022-07-17/17:41:52		Opened database connection successfully
+2022-07-17/17:43:11		Opened database connection successfully
+2022-07-17/17:43:15		Closed database successfully
+2022-07-17/17:43:22		Opened database connection successfully
+2022-07-17/17:46:12		Opened database connection successfully
+2022-07-17/17:46:16		Closed database successfully
+2022-07-17/17:46:22		Opened database connection successfully
+2022-07-17/17:47:01		Closed database successfully
+2022-07-17/17:48:15		Opened database connection successfully
+2022-07-17/17:48:19		Closed database successfully
+2022-07-17/17:48:24		Opened database connection successfully
+2022-07-17/17:52:34		Opened database connection successfully
+2022-07-17/17:52:40		Closed database successfully
+2022-07-17/17:52:46		Opened database connection successfully
+2022-07-17/17:57:01		Opened database connection successfully
+2022-07-17/17:57:06		Closed database successfully
+2022-07-17/17:57:12		Opened database connection successfully
+2022-07-17/17:59:19		Opened database connection successfully
+2022-07-17/17:59:24		Closed database successfully
+2022-07-17/17:59:30		Opened database connection successfully
+2022-07-17/18:22:45		Opened database connection successfully
+2022-07-17/18:22:49		Closed database successfully
+2022-07-17/18:22:56		Opened database connection successfully
+2022-07-17/18:32:17		Opened database connection successfully
+2022-07-17/18:32:21		Closed database successfully
+2022-07-17/18:32:28		Opened database connection successfully
+2022-07-17/18:33:40		Opened database connection successfully
+2022-07-17/18:33:43		Closed database successfully
+2022-07-17/18:33:51		Opened database connection successfully
+2022-07-17/18:34:40		Opened database connection successfully
+2022-07-17/18:34:43		Closed database successfully
+2022-07-17/18:34:49		Opened database connection successfully
+2022-07-17/18:35:46		Opened database connection successfully
+2022-07-17/18:35:49		Closed database successfully
+2022-07-17/18:35:55		Opened database connection successfully
+2022-07-17/18:37:20		Opened database connection successfully
+2022-07-17/18:37:24		Closed database successfully
+2022-07-17/18:37:31		Opened database connection successfully
+2022-07-17/18:39:11		Opened database connection successfully
+2022-07-17/18:39:14		Closed database successfully
+2022-07-17/18:39:20		Opened database connection successfully
+2022-07-17/18:42:46		Opened database connection successfully
+2022-07-17/18:42:50		Closed database successfully
+2022-07-17/18:42:58		Opened database connection successfully
+2022-07-18/11:48:25		Opened database connection successfully
+2022-07-18/11:48:29		Closed database successfully
+2022-07-18/11:53:58		Opened database connection successfully
+2022-07-18/11:54:56		Closed database successfully
+2022-07-18/12:01:31		Opened database connection successfully
+2022-07-18/12:01:31		Closed database successfully
+2022-07-18/12:01:39		Opened database connection successfully
+2022-07-18/12:07:05		Opened database connection successfully
+2022-07-18/12:07:06		Closed database successfully
+2022-07-18/12:07:12		Opened database connection successfully
+2022-07-18/12:09:42		Opened database connection successfully
+2022-07-18/12:09:42		Closed database successfully
+2022-07-18/12:09:49		Opened database connection successfully
+2022-07-18/12:10:40		Opened database connection successfully
+2022-07-18/12:10:40		Closed database successfully
+2022-07-18/12:10:46		Opened database connection successfully
+2022-07-18/12:11:50		Opened database connection successfully
+2022-07-18/12:11:50		Closed database successfully
+2022-07-18/12:11:57		Opened database connection successfully
+2022-07-18/12:14:56		Opened database connection successfully
+2022-07-18/12:14:56		Closed database successfully
+2022-07-18/12:15:04		Opened database connection successfully
+2022-07-18/12:15:58		Opened database connection successfully
+2022-07-18/12:15:58		Closed database successfully
+2022-07-18/12:16:05		Opened database connection successfully
+2022-07-18/12:18:12		Opened database connection successfully
+2022-07-18/12:18:12		Closed database successfully
+2022-07-18/12:18:19		Opened database connection successfully
+2022-07-18/12:22:54		Opened database connection successfully
+2022-07-18/12:22:54		Closed database successfully
+2022-07-18/12:23:00		Opened database connection successfully
+2022-07-18/12:25:28		Opened database connection successfully
+2022-07-18/12:25:28		Closed database successfully
+2022-07-18/12:25:36		Opened database connection successfully
+2022-07-18/12:27:41		Opened database connection successfully
+2022-07-18/12:27:41		Closed database successfully
+2022-07-18/12:27:48		Opened database connection successfully
+2022-07-18/14:05:19		Opened database connection successfully
+2022-07-18/14:05:30		Closed database successfully
+2022-07-18/14:29:55		Opened database connection successfully
+2022-07-18/14:30:05		Closed database successfully
+2022-07-18/14:34:15		Opened database connection successfully
+2022-07-18/14:34:25		Closed database successfully
+2022-07-18/14:45:44		Opened database connection successfully
+2022-07-18/14:45:44		Closed database successfully
+2022-07-18/14:46:14		Opened database connection successfully
+2022-07-18/14:46:14		Closed database successfully
+2022-07-18/14:46:22		Opened database connection successfully
+2022-07-18/14:47:42		Opened database connection successfully
+2022-07-18/14:47:42		Closed database successfully
+2022-07-18/14:47:50		Opened database connection successfully
+2022-07-18/14:50:03		Opened database connection successfully
+2022-07-18/14:50:03		Closed database successfully
+2022-07-18/14:50:12		Opened database connection successfully
+2022-07-18/17:28:11		Opened database connection successfully
+2022-07-18/17:28:12		Closed database successfully
+2022-07-18/17:28:18		Opened database connection successfully
+2022-07-18/17:30:54		Opened database connection successfully
+2022-07-18/17:30:54		Closed database successfully
+2022-07-18/17:31:02		Opened database connection successfully
+2022-07-18/17:32:53		Opened database connection successfully
+2022-07-18/17:32:53		Closed database successfully
+2022-07-18/17:33:00		Opened database connection successfully
+2022-07-18/18:38:27		Opened database connection successfully
+2022-07-18/18:38:28		Closed database successfully
+2022-07-18/18:38:34		Opened database connection successfully
+2022-07-18/18:45:06		Opened database connection successfully
+2022-07-18/18:45:06		Closed database successfully
+2022-07-18/18:45:13		Opened database connection successfully
+2022-07-18/18:46:42		Opened database connection successfully
+2022-07-18/18:46:42		Closed database successfully
+2022-07-18/18:46:49		Opened database connection successfully
+2022-07-18/18:51:34		Opened database connection successfully
+2022-07-18/18:51:35		Closed database successfully
+2022-07-18/18:51:41		Opened database connection successfully
+2022-07-18/18:52:54		Opened database connection successfully
+2022-07-18/18:52:54		Closed database successfully
+2022-07-18/18:53:03		Opened database connection successfully
+2022-07-18/18:54:49		Opened database connection successfully
+2022-07-18/18:54:49		Closed database successfully
+2022-07-18/18:54:56		Opened database connection successfully
+2022-07-18/18:57:44		Opened database connection successfully
+2022-07-18/18:57:44		Closed database successfully
+2022-07-18/18:57:52		Opened database connection successfully
+2022-07-18/19:28:34		Opened database connection successfully
+2022-07-18/19:28:34		Closed database successfully
+2022-07-18/19:28:41		Opened database connection successfully
+2022-07-18/19:34:11		Opened database connection successfully
+2022-07-18/19:34:11		Closed database successfully
+2022-07-18/19:34:17		Opened database connection successfully
+2022-07-19/20:07:10		Opened database connection successfully
+2022-07-19/20:07:10		Closed database successfully
+2022-07-19/20:07:17		Opened database connection successfully
+2022-07-19/20:08:28		Opened database connection successfully
+2022-07-19/20:08:28		Closed database successfully
+2022-07-19/20:08:34		Opened database connection successfully
+2022-07-19/20:10:35		Opened database connection successfully
+2022-07-19/20:10:35		Closed database successfully
+2022-07-19/20:10:43		Opened database connection successfully
+2022-07-19/20:11:59		Opened database connection successfully
+2022-07-19/20:11:59		Closed database successfully
+2022-07-19/20:12:06		Opened database connection successfully
+2022-07-19/20:13:04		Opened database connection successfully
+2022-07-19/20:13:04		Closed database successfully
+2022-07-19/20:13:11		Opened database connection successfully
+2022-07-19/20:14:26		Opened database connection successfully
+2022-07-19/20:14:26		Closed database successfully
+2022-07-19/20:14:33		Opened database connection successfully
+2022-07-19/20:15:37		Opened database connection successfully
+2022-07-19/20:15:37		Closed database successfully
+2022-07-19/20:15:44		Opened database connection successfully
+2022-07-19/20:18:52		Opened database connection successfully
+2022-07-19/20:18:52		Closed database successfully
+2022-07-19/20:18:59		Opened database connection successfully
+2022-07-19/20:24:17		Opened database connection successfully
+2022-07-19/20:24:17		Closed database successfully
+2022-07-19/20:24:25		Opened database connection successfully
+2022-07-19/20:35:06		Opened database connection successfully
+2022-07-19/20:35:06		Closed database successfully
+2022-07-19/20:35:14		Opened database connection successfully
+2022-07-19/20:40:10		Opened database connection successfully
+2022-07-19/20:40:10		Closed database successfully
+2022-07-19/20:40:16		Opened database connection successfully
+2022-07-19/20:41:29		Opened database connection successfully
+2022-07-19/20:41:29		Closed database successfully
+2022-07-19/20:41:35		Opened database connection successfully
+2022-07-19/20:49:55		Opened database connection successfully
+2022-07-19/20:49:55		Closed database successfully
+2022-07-19/20:52:10		Opened database connection successfully
+2022-07-19/20:53:14		Closed database successfully
+2022-07-19/20:57:55		Opened database connection successfully
+2022-07-19/20:57:55		Closed database successfully
+2022-07-19/20:58:01		Opened database connection successfully
+2022-07-19/20:58:29		Opened database connection successfully
+2022-07-19/20:58:29		Closed database successfully
+2022-07-19/20:58:36		Opened database connection successfully
+2022-07-19/21:10:44		Opened database connection successfully
+2022-07-19/21:10:44		Closed database successfully
+2022-07-19/21:10:51		Opened database connection successfully
+2022-07-19/21:13:34		Opened database connection successfully
+2022-07-19/21:13:34		Closed database successfully
+2022-07-19/21:13:40		Opened database connection successfully
+2022-07-19/21:16:56		Opened database connection successfully
+2022-07-19/21:16:57		Closed database successfully
+2022-07-19/21:17:44		Opened database connection successfully
+2022-07-19/21:17:44		Closed database successfully
+2022-07-19/21:17:50		Opened database connection successfully
+2022-07-20/10:41:28		Opened database connection successfully
+2022-07-20/10:41:28		Closed database successfully
+2022-07-20/10:41:35		Opened database connection successfully
+2022-07-20/14:29:53		Opened database connection successfully
+2022-07-20/14:29:53		Closed database successfully
+2022-07-20/14:30:00		Opened database connection successfully
+2022-07-20/15:25:55		Opened database connection successfully
+2022-07-20/15:25:55		Closed database successfully
+2022-07-20/15:26:02		Opened database connection successfully
+2022-07-20/16:42:13		Opened database connection successfully
+2022-07-20/16:42:13		Closed database successfully
+2022-07-20/16:42:20		Opened database connection successfully
+2022-07-20/21:02:53		Opened database connection successfully
+2022-07-20/21:02:53		Closed database successfully
+2022-07-20/21:03:01		Opened database connection successfully
+2022-07-20/21:44:04		Opened database connection successfully
+2022-07-20/21:44:05		Closed database successfully
+2022-07-20/21:44:11		Opened database connection successfully
+2022-07-20/22:11:12		Opened database connection successfully
+2022-07-20/22:11:12		Closed database successfully
+2022-07-20/22:11:19		Opened database connection successfully
+2022-07-21/10:14:33		Opened database connection successfully
+2022-07-21/10:14:33		Closed database successfully
+2022-07-21/10:14:40		Opened database connection successfully
+2022-07-21/11:24:17		Opened database connection successfully
+2022-07-21/11:24:17		Closed database successfully
+2022-07-21/11:24:24		Opened database connection successfully
+2022-07-21/11:47:20		Opened database connection successfully
+2022-07-21/11:47:20		Closed database successfully
+2022-07-21/11:47:27		Opened database connection successfully
+2022-07-21/16:52:06		Opened database connection successfully
+2022-07-21/16:52:06		Closed database successfully
+2022-07-21/16:52:13		Opened database connection successfully
+2022-07-21/18:51:29		Opened database connection successfully
+2022-07-21/18:51:29		Closed database successfully
+2022-07-21/18:51:36		Opened database connection successfully
+2022-07-22/20:44:09		Opened database connection successfully
+2022-07-22/20:44:09		Closed database successfully
+2022-07-22/20:44:16		Opened database connection successfully
+2022-07-22/20:52:15		Opened database connection successfully
+2022-07-22/20:52:15		Closed database successfully
+2022-07-22/20:52:23		Opened database connection successfully
+2022-07-22/21:05:12		Opened database connection successfully
+2022-07-22/21:05:12		Closed database successfully
+2022-07-22/21:05:19		Opened database connection successfully
