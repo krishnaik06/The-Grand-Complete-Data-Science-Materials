@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Loan Approval Prediction</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .banner{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .content{
+        margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="bg-primary text-center mt-5">
+    <div class="container">
+        <h1 class="font-weight-light text-white banner">Home Loan Approval System</h1>
+    </div>
+</header>
+
+<div class="container content">
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Input Features</div>
+            <div class="panel-body">
+                <form  action="{{ url_for('predictRoute') }}" method="post">
+
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select class="form-control" id="gender" name="gender">
+                            <option value="Male" {% if form_data.gender == 'Male' %} selected {% endif %}>Male</option>
+                            <option value="Female" {% if form_data.gender == 'Female' %} selected {% endif %}>Female</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="married">Marital status:</label>
+                        <select class="form-control" id="married" name="married">
+                            <option value="Yes" {% if form_data.married == 'Yes' %} selected {% endif %}>Married</option>
+                            <option value="No" {% if form_data.married == 'No' %} selected {% endif %}>Single</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="dependents">No. of dependents:</label>
+                        <select class="form-control" id="dependents" name="dependents">
+                            <option value="0" {% if form_data.dependents == '0' %} selected {% endif %}>0</option>
+                            <option value="1" {% if form_data.dependents == '1' %} selected {% endif %}>1</option>
+                            <option value="2" {% if form_data.dependents == '2' %} selected {% endif %}>2</option>
+                            <option value="3+" {% if form_data.dependents == '3+' %} selected {% endif %}>3+</option>
+                          </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="education">Educational qualification:</label>
+                        <select class="form-control" id="education" name="education">
+                            <option value="Graduate" {% if form_data.education == 'Graduate' %} selected {% endif %}>Graduate</option>
+                            <option value="Not Graduate" {% if form_data.education == 'Not Graduate' %} selected {% endif %}>Not Graduate</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="self_employed">Is self employed:</label>
+                        <select class="form-control" id="self_employed" name="self_employed">
+                          <option value="Yes" {% if form_data.self_employed == 'Yes' %} selected {% endif %}>Yes</option>
+                          <option value="No" {% if form_data.self_employed == 'No' %} selected {% endif %}>No</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                      <label for="applicant_income">Income:</label>
+                      <input type="number" class="form-control" id="applicant_income" placeholder="Income" name="applicant_income" value="{{ form_data.applicant_income }}" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="coapplicant_income">Coapplicant Income:</label>
+                        <input type="number" class="form-control" id="coapplicant_income" placeholder="Coapplicant Income" name="coapplicant_income" value="{{ form_data.coapplicant_income }}" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="loan_amount">Loan Amount:</label>
+                        <input type="number" class="form-control" id="loan_amount" placeholder="Loan Amount" name="loan_amount" value="{{ form_data.loan_amount }}" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="loan_amount_term">Loan Amount Term:</label>
+                        <select class="form-control" id="loan_amount_term" name="loan_amount_term">
+                          <option value="12" {% if form_data.loan_amount_term == '12' %} selected {% endif %}>12</option>
+                          <option value="36" {% if form_data.loan_amount_term == '36' %} selected {% endif %}>36</option>
+                          <option value="60" {% if form_data.loan_amount_term == '60' %} selected {% endif %}>60</option>
+                          <option value="84" {% if form_data.loan_amount_term == '84' %} selected {% endif %}>84</option>
+                          <option value="120" {% if form_data.loan_amount_term == '120' %} selected {% endif %}>120</option>
+                          <option value="180" {% if form_data.loan_amount_term == '180' %} selected {% endif %}>180</option>
+                          <option value="240" {% if form_data.loan_amount_term == '240' %} selected {% endif %}>240</option>
+                          <option value="300" {% if form_data.loan_amount_term == '300' %} selected {% endif %}>300</option>
+                          <option value="360" {% if form_data.loan_amount_term == '360' %} selected {% endif %}>360</option>
+                          <option value="480" {% if form_data.loan_amount_term == '480' %} selected {% endif %}>480</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="credit_history">Credit history:</label>
+                        <select class="form-control" id="credit_history" name="credit_history">
+                          <option value="1" {% if form_data.credit_history == '1' %} selected {% endif %}>Good</option>
+                          <option value="0" {% if form_data.credit_history == '0' %} selected {% endif %}>Bad</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="property_area">Property area:</label>
+                        <select class="form-control" id="property_area" name="property_area">
+                          <option value="Urban" {% if form_data.property_area == 'Urban' %} selected {% endif %}>Urban</option>
+                          <option value="Semiurban" {% if form_data.property_area == 'Semiurban' %} selected {% endif %}>Semiurban</option>
+                          <option value="Rural" {% if form_data.property_area == 'Rural' %} selected {% endif %}>Rural</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-success btn-block">Submit</button>
+                    </div>
+                  </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Prediction</div>
+            <div class="panel-body">Loan Status : 
+              {% if prediction == "Approved" %}
+                <span class="label label-success">{{ prediction }}</span>
+              {% else %}
+                <span class="label label-danger">{{ prediction }}</span>
+              {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

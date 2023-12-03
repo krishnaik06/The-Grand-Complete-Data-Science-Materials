@@ -1,0 +1,18 @@
+dill==0.3.5.1
+from-root==1.0.2
+python-box==6.0.2
+PyYAML
+tqdm
+ensure==1.0.2
+joblib
+gdown
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+Flask
+Flask-Cors
+
+
+-e .
