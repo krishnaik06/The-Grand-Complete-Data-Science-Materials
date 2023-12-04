@@ -1,6 +1,6 @@
 # Flight Fare Prediction
 
-- LinkedIn [Hema Kalyan Murapaka](https://www.linkedin.com/in/hemakalyan/)
+- LinkedIn [Hema Kalyan Murapaka](https://www.linkedin.com/in/hemakalyan/) <br>
 - Medium [KalyanMurapaka274](https://medium.com/@kalyanmurapaka274)
 
 ## About The Project
