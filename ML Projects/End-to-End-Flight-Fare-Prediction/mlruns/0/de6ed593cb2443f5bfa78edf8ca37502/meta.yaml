@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KALYAN/Desktop/Flight%20Fare%20Prediction/mlruns/0/de6ed593cb2443f5bfa78edf8ca37502/artifacts
+end_time: 1701683356245
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de6ed593cb2443f5bfa78edf8ca37502
+run_name: abundant-perch-265
+run_uuid: de6ed593cb2443f5bfa78edf8ca37502
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701683349425
+status: 3
+tags: []
+user_id: KALYAN

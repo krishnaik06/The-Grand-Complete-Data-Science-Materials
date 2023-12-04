@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KALYAN/Desktop/Flight%20Fare%20Prediction/mlruns/0/2da8808f1bbd49f68ccdb57221e43dd8/artifacts
+end_time: 1701683292572
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2da8808f1bbd49f68ccdb57221e43dd8
+run_name: bold-flea-869
+run_uuid: 2da8808f1bbd49f68ccdb57221e43dd8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701683285864
+status: 3
+tags: []
+user_id: KALYAN

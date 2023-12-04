@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KALYAN/Desktop/Flight%20Fare%20Prediction/mlruns/0/cd842d79b162498f854fff9523a2462a/artifacts
+end_time: 1701682672795
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cd842d79b162498f854fff9523a2462a
+run_name: adorable-bee-482
+run_uuid: cd842d79b162498f854fff9523a2462a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701682665895
+status: 3
+tags: []
+user_id: KALYAN

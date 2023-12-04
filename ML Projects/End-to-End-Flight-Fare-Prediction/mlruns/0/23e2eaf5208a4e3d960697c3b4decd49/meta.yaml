@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KALYAN/Desktop/Flight%20Fare%20Prediction/mlruns/0/23e2eaf5208a4e3d960697c3b4decd49/artifacts
+end_time: 1701682564015
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23e2eaf5208a4e3d960697c3b4decd49
+run_name: mercurial-eel-771
+run_uuid: 23e2eaf5208a4e3d960697c3b4decd49
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701682555738
+status: 3
+tags: []
+user_id: KALYAN

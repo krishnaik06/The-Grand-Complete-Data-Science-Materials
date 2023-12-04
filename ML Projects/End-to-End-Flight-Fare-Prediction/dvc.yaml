@@ -1,0 +1,16 @@
+stages:
+  training:
+    cmd: python src/FlightPricePrediction/pipeline/Training_pipeline.py
+    deps:
+      - src/FlightPricePrediction/pipeline/Training_pipeline.py
+      - src/FlightPricePrediction/components/Data_ingestion.py
+      - src/FlightPricePrediction/components/Data_transformation.py
+      - src/FlightPricePrediction/components/Model_trainer.py
+      - src/FlightPricePrediction/components/Model_evaluation.py
+
+    outs:
+      - Artifacts/Raw_data.csv
+      - Artifacts/Test_data.csv
+      - Artifacts/Train_data.csv
+      - Artifacts/Preprocessor.pkl
+      - Artifacts/Model.pkl

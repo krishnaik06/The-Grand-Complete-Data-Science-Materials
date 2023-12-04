@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+seaborn
+ipykernel
+matplotlib
+flask 
+dvc
+mlflow==2.2.2
+
+-e .

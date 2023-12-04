@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  training:
+    cmd: python src/FlightPricePrediction/pipeline/Training_pipeline.py
+    deps:
+    - path: src/FlightPricePrediction/components/Data_ingestion.py
+      hash: md5
+      md5: 85f79b340b4ed021eaa25964c99809c7
+      size: 1866
+    - path: src/FlightPricePrediction/components/Data_transformation.py
+      hash: md5
+      md5: b5130cc51521b29d9da039ea0ea29380
+      size: 4943
+    - path: src/FlightPricePrediction/components/Model_evaluation.py
+      hash: md5
+      md5: c51cf829b4d66a0e8f8f6a915868fa09
+      size: 2138
+    - path: src/FlightPricePrediction/components/Model_trainer.py
+      hash: md5
+      md5: 2d4843464a560e44365ecebaf16ba650
+      size: 2895
+    - path: src/FlightPricePrediction/pipeline/Training_pipeline.py
+      hash: md5
+      md5: 9dd9388825cc895aa200db4f164cc72e
+      size: 866
+    outs:
+    - path: Artifacts/Model.pkl
+      hash: md5
+      md5: c81b1ea083b6b25037c6679a2aa392c5
+      size: 302378818
+    - path: Artifacts/Preprocessor.pkl
+      hash: md5
+      md5: ae356d243b0ecf73a131005aa9c65570
+      size: 3750
+    - path: Artifacts/Raw_data.csv
+      hash: md5
+      md5: 0926c3753dc1f740aad1bc4d0ce9ef93
+      size: 22838618
+    - path: Artifacts/Test_data.csv
+      hash: md5
+      md5: c8072545a1e83ec15153697db5c44217
+      size: 4568018
+    - path: Artifacts/Train_data.csv
+      hash: md5
+      md5: c9c4bb44aabc65dcde8dc03ec7675a06
+      size: 18270715

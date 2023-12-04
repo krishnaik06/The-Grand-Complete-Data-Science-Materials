@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Flight Price Prediction</title>
+</head>
+<body>
+    <h1>Flight Price Prediction</h1>
+    <form method="post">
+        <label for="airline">Airline:</label>
+        <select name="airline" required>
+            <option value="SpiceJet">SpiceJet</option>
+            <option value="AirAsia">AirAsia</option>
+            <option value="Vistara">Vistara</option>
+            <option value="GO_FIRST">GO_FIRST</option>
+            <option value="Indigo">Indigo</option>
+            <option value="Air_India">Air India</option>
+        </select>
+
+        <label for="source_city">Source City:</label>
+        <select name="source_city" required>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+
+        <label for="departure_time">Departure Time:</label>
+        <select name="departure_time" required>
+            <option value="Evening">Evening</option>
+            <option value="Early_Morning">Early Morning</option>
+            <option value="Morning">Morning</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Night">Night</option>
+            <option value="Late_Night">Late Night</option>
+        </select>
+
+        <label for="stops">Stops:</label>
+        <select name="stops" required>
+            <option value="zero">No Stops</option>
+            <option value="one">Single Stop</option>
+            <option value="two_or_more">More Than 1 Stop</option>
+        </select>
+
+        <label for="arrival_time">Arrival Time:</label>
+        <select name="arrival_time" required>
+            <option value="Night">Night</option>
+            <option value="Morning">Morning</option>
+            <option value="Early_Morning">Early Morning</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Late_Night">Late Night</option>
+        </select>
+
+        <label for="destination_city">Destination City:</label>
+        <select name="destination_city" required>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+
+        <label for="classs">Class:</label>
+        <select name="classs" required>
+            <option value="Economy">Economy</option>
+            <option value="Business">Business</option>
+        </select>
+
+        <label for="duration">Duration:</label>
+        <input type="number" name="duration" step="0.01" required>
+
+        <label for="days_left">Days Left:</label>
+        <input type="number" name="days_left" required>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

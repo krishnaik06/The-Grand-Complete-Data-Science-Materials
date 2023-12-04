@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KALYAN/Desktop/Flight%20Fare%20Prediction/mlruns/0/075342a88791494ca9af4332efa67103/artifacts
+end_time: 1701682913951
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 075342a88791494ca9af4332efa67103
+run_name: amazing-ant-92
+run_uuid: 075342a88791494ca9af4332efa67103
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701682906948
+status: 3
+tags: []
+user_id: KALYAN
