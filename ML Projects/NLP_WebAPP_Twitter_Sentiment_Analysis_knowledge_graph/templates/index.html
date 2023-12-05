@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    {% if error %}
+    <p>{{ error }}</p>
+    {% endif %}
+    <form action="/result" method="POST">
+        <label for="text">Query text:</label>
+        <input type="text" id="text" name="text">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+
+        <label for="since">Since:</label>
+        <input type="date" id="since" name="since">
+
+        <label for="until">Until:</label>
+        <input type="date" id="until" name="until">
+
+        <label for="count">Count:</label>
+        <input type="number" id="count" name="count" min="-1">
+
+        <label for="retweet">Exclude retweets:</label>
+        <input type="checkbox" id="retweet" name="retweet" value="y">
+
+        <label for="replies">Exclude replies:</label>
+        <input type="checkbox" id="replies" name="replies" value="y">
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
