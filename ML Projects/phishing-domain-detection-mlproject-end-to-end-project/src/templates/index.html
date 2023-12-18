@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing classifier</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+     body {
+    background-image: url('static/phishing.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+</style>
+
+</head>
+
+<body>
+ <div class="login">
+	<h1 class="text-center text-warning">Phishing domain detection</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form style=" width: 50vw; margin-left : 25vw;" action="{{ url_for('predict')}}"method="post">
+        <div class="form-row">
+            {% if prediction_text %}
+                <div class="alert alert-{{ 'success' if prediction_text=='legitimate' else 'danger'}}" role="alert">
+                This is {{prediction_text}} website
+                </div>
+            {% endif %}
+            <div class="col-12 mb-3 float-start" >
+            <label class="w-50 float-start text-white" for="qty_slash_url">Enter no of slash in entire URL:</label>
+            <input type="number" class="form-control w-50 float-end" id="qty_slash_url" name="qty_slash_url" placeholder="Enter between 0 to 8" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start" >
+            <label class="w-50 float-start text-white" for="length_url">Enter no characters in entire URL:</label>
+            <input type="number" class="form-control w-50 float-end" id="length_url" name="length_url" placeholder="Enter between 5 to 100" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start">
+            <label class="w-50 float-start text-white" for="qty_dot_domain">Enter no dots in URL domain section:</label>
+            <input type="number" class="form-control w-50 float-end" id="qty_dot_domain" name="qty_dot_domain" placeholder="Enter between 0 to 19" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start" >
+            <label class="w-50 float-start text-white" for="qty_dot_directory">Enter no dots in URL directory section:</label>
+            <input type="number" class="form-control w-50 float-end" id="qty_dot_directory" name="qty_dot_directory" placeholder="Enter between 0 to 19" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start" >
+            <label class="w-50 float-start text-white" for="qty_hyphen_directory">Enter no hyphen in URL directory section:</label>
+            <input type="number" class="form-control w-50 float-end" id="qty_hyphen_directory" name="qty_hyphen_directory" placeholder="Enter between 1 to 23" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start" >
+            <label class="w-50 float-start text-white" for="file_length">Enter no of filename characters:</label>
+            <input type="number" class="form-control w-50 float-end" id="file_length" name="file_length" placeholder="Enter between 0 to 18" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start" >
+            <label class="w-50 float-start text-white" for="qty_underline_directory">Enter no of underlines in directory section of URLs:</label>
+            <input type="number" class="form-control w-50 float-end" id="qty_underline_directory" name="qty_underline_directory" placeholder="Enter between 0 to 18" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start" >
+            <label class="w-50 float-start text-white" for="asn_ip">Enter ASN ip no of the URL:</label>
+            <input type="number" class="form-control w-50 float-end" id="asn_ip" name="asn_ip" placeholder="Enter between 0 to 7000" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start">
+            <label class="w-50 float-start text-white" for="time_domain_activation">Enter time domain activation (in days):</label>
+            <input type="number" class="form-control w-50 float-end" id="time_domain_activation" name="time_domain_activation" placeholder="Enter between 0 to 14000" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start">
+            <label class="w-50 float-start text-white" for="time_domain_expiration">Enter time domain expiration (in days):</label>
+            <input type="number" class="form-control w-50 float-end" id="time_domain_expiration" name="time_domain_expiration" placeholder="Enter between 0 to 850" required="required" /><br>
+            </div>
+
+            <div class="col-12 mb-3 float-start" >
+            <label class="w-50 float-start text-white" for="ttl_hostname">Enter time to live:</label>
+            <input type="number" class="form-control w-50 float-end" id="ttl_hostname" name="ttl_hostname" placeholder="Enter between 0 to 28000" required="required" /><br>
+            </div>
+
+            <button type="submit" class="btn btn-warning btn-block btn-large">Predict</button>
+        </div>
+    </form>
+
+   <br>
+   <br>
+
+
+ </div>
+
+
+<div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body">
+    {{prediction_text}}
+   </div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+</div>
+
+</body>
+</html>

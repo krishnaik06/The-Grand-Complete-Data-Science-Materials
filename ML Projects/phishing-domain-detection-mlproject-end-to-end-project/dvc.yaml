@@ -1,0 +1,27 @@
+stages:
+  data_preprocessing:
+    cmd: python -m src.ML_pipelines.stage_01_data_preprocessing --config=params.yaml
+    deps:
+      - src\ML_pipelines\stage_01_data_preprocessing.py
+    params:
+      - data_source.data_source
+      - preprocessed_data.preprocessed_dir
+    outs:
+      - data\preprocessed\train.csv
+      - data\preprocessed\test.csv
+
+  model_selection_and_tuning:
+    cmd: python -m src.ML_pipelines.stage_02_model_selection_and_tuning --config=params.yaml
+    deps:
+      - src\ML_pipelines\stage_02_model_selection_and_tuning.py
+      - src\ML_pipelines\stage_01_data_preprocessing.py
+      - src\utils\common_utils.py
+      - data\preprocessed\train.csv
+      - data\preprocessed\test.csv
+    params:
+      - base.target_col
+      - preprocessed_data.train_data
+      - preprocessed_data.test_data
+      - base.random_state
+
+
