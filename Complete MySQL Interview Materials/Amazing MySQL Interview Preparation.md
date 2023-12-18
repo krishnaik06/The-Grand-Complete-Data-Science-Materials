@@ -5,8 +5,13 @@ Here are 100+ MySQL interview questions with their answers, ranging from basic t
    - **Answer:**
 ```sql
 CREATE DATABASE database_name;
-
 ```
+
+Alternate approach
+```sql
+CREATE DATABASE IF NOT EXISTS database_name;
+```
+
 - **How do you create a new table in MySQL?**
    - **Answer:**
 ```sql
@@ -16,6 +21,12 @@ CREATE TABLE table_name (
     ...
 );
 
+```sql
+CREATE TABLE IF NOT EXISTS table_name (
+    column1 datatype1,
+    column2 datatype2,
+    ...
+);
 ```
 - **How do you insert values into a table?**
    - **Answer:**
