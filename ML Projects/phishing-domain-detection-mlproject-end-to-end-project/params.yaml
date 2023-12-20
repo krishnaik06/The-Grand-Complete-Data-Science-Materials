@@ -1,0 +1,15 @@
+base:
+  project: phishing_domain_detection_mlproject
+  random_state: 42
+  target_col: phishing
+  test_size: 0.25
+  sampling_strategy: minority
+
+data_source:
+  data_source: \data\processed\Input.csv
+
+preprocessed_data:
+  preprocessed_dir: \data\preprocessed
+  train_data: \data\preprocessed\train.csv
+  test_data: \data\preprocessed\test.csv
+
