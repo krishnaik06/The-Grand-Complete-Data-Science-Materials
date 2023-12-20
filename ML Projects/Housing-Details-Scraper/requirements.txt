@@ -1,5 +1,0 @@
-scrapy
-pathlib
-pandas
-selenium
-scrapy-fake-useragent

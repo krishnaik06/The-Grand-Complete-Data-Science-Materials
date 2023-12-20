@@ -1,0 +1,14 @@
+pandas
+notebook
+scikit-learn
+matplotlib
+python-box==6.0.2
+pyYAML
+ensure==1.0.2
+joblib
+types-PyYAML
+Flask
+Flask-Cors
+mlflow==2.2.2
+seaborn
+-e .
