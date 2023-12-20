@@ -1,7 +1,0 @@
-click
-h11
-pydantic
-starlette
-fastapi
-uvicorn
-sentence_transformers

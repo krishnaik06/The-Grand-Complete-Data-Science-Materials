@@ -1,7 +1,0 @@
-sentencepiece
-transformers  
-accelerate
-torch
-rouge-score
-datasets
-streamlit

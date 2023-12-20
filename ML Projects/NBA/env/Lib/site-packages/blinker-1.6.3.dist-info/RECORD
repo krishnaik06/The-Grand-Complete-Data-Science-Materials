@@ -1,0 +1,14 @@
+blinker-1.6.3.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+blinker-1.6.3.dist-info/LICENSE.rst,sha256=nrc6HzhZekqhcCXSrhvjg5Ykx5XphdTw6Xac4p-spGc,1054
+blinker-1.6.3.dist-info/METADATA,sha256=yDLuXpi6nLMwYYWJlGDIBvbZxFZH23JHbdxPGzIU4vg,1918
+blinker-1.6.3.dist-info/RECORD,,
+blinker-1.6.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+blinker/__init__.py,sha256=E7dbyl7JyaK4RbWHlGrWY3mQ8d3BEnxRCeKQnqMa0bw,408
+blinker/__pycache__/__init__.cpython-39.pyc,,
+blinker/__pycache__/_saferef.cpython-39.pyc,,
+blinker/__pycache__/_utilities.cpython-39.pyc,,
+blinker/__pycache__/base.cpython-39.pyc,,
+blinker/_saferef.py,sha256=kWOTIWnCY3kOb8lZP74Rbx7bR_BLVg4TjwzNCRLhKHs,9096
+blinker/_utilities.py,sha256=GPXtJzykzVotoxHC79mgFQMPJtICwpVDCCpus4_JtsA,4110
+blinker/base.py,sha256=ZfN6L36P0BzPaQAcAF0tSNAicxiG4f7xLPug6iLsjjE,20293
+blinker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0

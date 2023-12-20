@@ -1,0 +1,3 @@
+[console_scripts]
+databricks = databricks_cli.cli:main
+dbfs = databricks_cli.dbfs.cli:dbfs_group

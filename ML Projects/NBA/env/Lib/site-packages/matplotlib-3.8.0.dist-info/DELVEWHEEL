@@ -1,0 +1,2 @@
+Version: 1.5.1
+Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-bfsw0ssy\\cp39-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-bfsw0ssy\\cp39-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-bfsw0ssy\\cp39-win_amd64\\built_wheel\\matplotlib-3.8.0-cp39-cp39-win_amd64.whl']

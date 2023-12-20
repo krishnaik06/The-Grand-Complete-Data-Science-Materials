@@ -1,0 +1,14 @@
+COLUMNS:
+
+  GP: int64 
+  MIN: float64
+  FTM: float64
+  3PA: float64
+  OREB: float64
+  BLK: float64
+  3P Made: float64
+  3P%: float64
+  FG%: float64
+
+TARGET_COLUMN:
+  name: TARGET_5Yrs  

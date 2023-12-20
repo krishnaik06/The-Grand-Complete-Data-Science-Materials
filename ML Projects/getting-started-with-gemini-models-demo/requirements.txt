@@ -1,7 +1,0 @@
-google-generativeai==0.3.0
-google-ai-generativelanguage==0.4.0
-python-dotenv==1.0.0
-jupyter==1.0.0
-notebook==7.0.6
-Pillow==10.1.0
-google-cloud-aiplatform

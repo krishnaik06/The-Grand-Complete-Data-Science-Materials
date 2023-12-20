@@ -1,0 +1,170 @@
+Metadata-Version: 2.1
+Name: waitress
+Version: 2.1.2
+Summary: Waitress WSGI server
+Home-page: https://github.com/Pylons/waitress
+Author: Zope Foundation and Contributors
+Author-email: zope-dev@zope.org
+Maintainer: Pylons Project
+Maintainer-email: pylons-discuss@googlegroups.com
+License: ZPL 2.1
+Project-URL: Documentation, https://docs.pylonsproject.org/projects/waitress/en/latest/index.html
+Project-URL: Changelog, https://docs.pylonsproject.org/projects/waitress/en/latest/index.html#change-history
+Project-URL: Issue Tracker, https://github.com/Pylons/waitress/issues
+Keywords: waitress wsgi server http
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Requires-Python: >=3.7.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=1.8.1) ; extra == 'docs'
+Requires-Dist: docutils ; extra == 'docs'
+Requires-Dist: pylons-sphinx-themes (>=1.0.9) ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cover ; extra == 'testing'
+Requires-Dist: coverage (>=5.0) ; extra == 'testing'
+
+Waitress
+========
+
+.. image:: https://img.shields.io/pypi/v/waitress.svg
+    :target: https://pypi.org/project/waitress/
+    :alt: latest version of waitress on PyPI
+
+.. image:: https://github.com/Pylons/waitress/workflows/Build%20and%20test/badge.svg
+    :target: https://github.com/Pylons/waitress/actions?query=workflow%3A%22Build+and+test%22
+
+.. image:: https://readthedocs.org/projects/waitress/badge/?version=master
+        :target: https://docs.pylonsproject.org/projects/waitress/en/master
+        :alt: master Documentation Status
+
+.. image:: https://img.shields.io/badge/irc-freenode-blue.svg
+        :target: https://webchat.freenode.net/?channels=pyramid
+        :alt: IRC Freenode
+
+Waitress is a production-quality pure-Python WSGI server with very acceptable
+performance. It has no dependencies except ones which live in the Python
+standard library. It runs on CPython on Unix and Windows under Python 3.7+. It
+is also known to run on PyPy 3 (version 3.7 compatible python) on UNIX. It
+supports HTTP/1.0 and HTTP/1.1.
+
+For more information, see the "docs" directory of the Waitress package or visit
+https://docs.pylonsproject.org/projects/waitress/en/latest/
+
+2.1.2
+-----
+
+Bugfix
+~~~~~~
+
+- When expose_tracebacks is enabled waitress would fail to properly encode
+  unicode thereby causing another error during error handling. See
+  https://github.com/Pylons/waitress/pull/378
+
+- Header length checking had a calculation that was done incorrectly when the
+  data was received across multple socket reads. This calculation has been
+  corrected, and no longer will Waitress send back a 413 Request Entity Too
+  Large. See https://github.com/Pylons/waitress/pull/376
+
+Security Bugfix
+~~~~~~~~~~~~~~~
+
+- in 2.1.0 a new feature was introduced that allowed the WSGI thread to start
+  sending data to the socket. However this introduced a race condition whereby
+  a socket may be closed in the sending thread while the main thread is about
+  to call select() therey causing the entire application to be taken down.
+  Waitress will no longer close the socket in the WSGI thread, instead waking
+  up the main thread to cleanup. See https://github.com/Pylons/waitress/pull/377
+
+2.1.1
+-----
+
+Security Bugfix
+~~~~~~~~~~~~~~~
+
+- Waitress now validates that chunked encoding extensions are valid, and don't
+  contain invalid characters that are not allowed. They are still skipped/not
+  processed, but if they contain invalid data we no longer continue in and
+  return a 400 Bad Request. This stops potential HTTP desync/HTTP request
+  smuggling. Thanks to Zhang Zeyu for reporting this issue. See
+  https://github.com/Pylons/waitress/security/advisories/GHSA-4f7p-27jc-3c36
+
+- Waitress now validates that the chunk length is only valid hex digits when
+  parsing chunked encoding, and values such as ``0x01`` and ``+01`` are no
+  longer supported. This stops potential HTTP desync/HTTP request smuggling.
+  Thanks to Zhang Zeyu for reporting this issue. See
+  https://github.com/Pylons/waitress/security/advisories/GHSA-4f7p-27jc-3c36
+
+- Waitress now validates that the Content-Length sent by a remote contains only
+  digits in accordance with RFC7230 and will return a 400 Bad Request when the
+  Content-Length header contains invalid data, such as ``+10`` which would
+  previously get parsed as ``10`` and accepted. This stops potential HTTP
+  desync/HTTP request smuggling Thanks to Zhang Zeyu for reporting this issue. See
+  https://github.com/Pylons/waitress/security/advisories/GHSA-4f7p-27jc-3c36
+
+2.1.0
+-----
+
+Python Version Support
+~~~~~~~~~~~~~~~~~~~~~~
+
+- Python 3.6 is no longer supported by Waitress
+
+- Python 3.10 is fully supported by Waitress
+
+Bugfix
+~~~~~~
+
+- ``wsgi.file_wrapper`` now sets the ``seekable``, ``seek``, and ``tell``
+  attributes from the underlying file if the underlying file is seekable. This
+  allows WSGI middleware to implement things like range requests for example
+
+  See https://github.com/Pylons/waitress/issues/359 and
+  https://github.com/Pylons/waitress/pull/363
+
+- In Python 3 ``OSError`` is no longer subscriptable, this caused failures on
+  Windows attempting to loop to find an socket that would work for use in the
+  trigger.
+
+  See https://github.com/Pylons/waitress/pull/361
+
+- Fixed an issue whereby ``BytesIO`` objects were not properly closed, and
+  thereby would not get cleaned up until garbage collection would get around to
+  it.
+
+  This led to potential for random memory spikes/memory issues, see
+  https://github.com/Pylons/waitress/pull/358 and
+  https://github.com/Pylons/waitress/issues/357 .
+
+  With thanks to Florian Schulze for testing/vaidating this fix!
+
+Features
+~~~~~~~~
+
+- When the WSGI app starts sending data to the output buffer, we now attempt to
+  send data directly to the socket. This avoids needing to wake up the main
+  thread to start sending data. Allowing faster transmission of the first byte.
+  See https://github.com/Pylons/waitress/pull/364
+
+  With thanks to Michael Merickel for being a great rubber ducky!
+
+- Add REQUEST_URI to the WSGI environment.
+
+  REQUEST_URI is similar to ``request_uri`` in nginx. It is a string that
+  contains the request path before separating the query string and
+  decoding ``%``-escaped characters. 

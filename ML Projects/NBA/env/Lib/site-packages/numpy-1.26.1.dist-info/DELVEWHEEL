@@ -1,0 +1,2 @@
+Version: 1.5.1
+Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-a1zb_s26\\cp39-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '--add-path', 'C:/opt/openblas/openblas_dll', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-a1zb_s26\\cp39-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-a1zb_s26\\cp39-win_amd64\\built_wheel\\numpy-1.26.1-cp39-cp39-win_amd64.whl']

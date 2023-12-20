@@ -1,4 +1,0 @@
-packages = ["pandas", "scikit-learn"]
-[[fetch]]
-from = 'https://raw.githubusercontent.com/LakshmanKishore/loanPrediction/main/model.pkl'
-name = "Loan Prediction"
