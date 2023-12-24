@@ -1,0 +1,10 @@
+sku,national_inv,lead_time,in_transit_qty,forecast_3_month,forecast_6_month,forecast_9_month,sales_1_month,sales_3_month,sales_6_month,sales_9_month,min_bank,potential_issue,pieces_past_due,perf_6_month_avg,perf_12_month_avg,local_bo_qty,deck_risk,oe_constraint,ppap_risk,stop_auto_buy,rev_stop,went_on_backorder
+100001,55,12,0,231,348,465,30,183,356,532,0,No,0,0.07,0.19,0,No,No,No,Yes,No,Yes
+100002,1,8,0,2,4,6,0,2,3,5,0,No,0,0.85,0.64,0,No,No,Yes,Yes,No,No
+100003,0,8,0,0,0,0,0,0,1,2,0,No,0,0.91,0.95,0,No,No,No,Yes,No,Yes
+100004,2,8,2,10,18,24,3,7,14,15,2,No,0,0.77,0.76,0,No,No,No,Yes,No,Yes
+100005,5,9,0,0,0,1,2,3,5,5,0,No,0,0.99,0.99,0,No,No,No,Yes,No,No
+100006,3,9,0,0,0,0,0,0,0,0,1,No,0,0.99,0.99,0,No,No,No,Yes,No,No
+100007,515,12,0,0,0,0,0,11,35,52,0,No,0,0.73,0.79,0,No,No,No,Yes,No,No
+100008,54,8,0,0,0,0,1,9,11,20,15,No,0,0.83,0.86,0,No,No,No,Yes,No,No
+100009,7,12,0,11,11,11,2,6,9,15,0,No,0,0.62,0.62,0,No,No,Yes,Yes,No,No

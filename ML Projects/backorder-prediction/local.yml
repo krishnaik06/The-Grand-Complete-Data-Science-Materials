@@ -1,0 +1,27 @@
+version: "3"
+
+volumes:
+  local_postgres_data: {}
+  local_postgres_data_backups: {}
+
+services:
+  django:
+    build:
+      context: app
+    image: backorder_prediction_django
+    # depends_on:
+    #   - postgres
+    command: /start
+    ports:
+      - "8000:8000"
+
+  # postgres:
+  #   image: postgres
+  #   container_name: qelza_backend_postgres_local
+  #   volumes:
+  #     - local_postgres_data:/var/lib/postgresql/data:Z
+  #     - local_postgres_data_backups:/backups:z
+  #   # env_file:
+  #   #   - .env
+  #   ports:
+  #     - "5432:5432"

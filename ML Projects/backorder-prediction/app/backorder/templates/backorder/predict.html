@@ -1,0 +1,90 @@
+{% extends "backorder/base.html" %}
+
+{% block title %}Predict Backorders{% endblock %}
+
+{% block content %}
+    <h1 class="predict-header">PREDICTION</h1>
+
+    <p1> Enter the necessary details for making a prediction or upload csv file.</p1>
+    <div class="form-wrapper">
+        <form action="{% url 'predict' %}" method="POST" class="prediction-form">
+            {% csrf_token %}
+            <h4>Enter the values for the following fields:</h4>
+
+            <label for="sku">SKU:</label>
+            <input type="text" name="sku" value="100001"><br>
+
+            <label for="national_inv">National Inventory:</label>
+            <input type="number" name="national_inv" value="55"><br>
+
+            <label for="lead_time">Lead Time:</label>
+            <input type="number" name="lead_time" value="12"><br>
+
+            <label for="in_transit_qty">In Transit Quantity:</label>
+            <input type="number" name="in_transit_qty" value="0"><br>
+
+            <label for="forecast_3_month">3-Month Forecast:</label>
+            <input type="number" name="forecast_3_month" value="231"><br>
+
+            <label for="forecast_6_month">6-Month Forecast:</label>
+            <input type="number" name="forecast_6_month" value="348"><br>
+
+            <label for="forecast_9_month">9-Month Forecast:</label>
+            <input type="number" name="forecast_9_month" value="465"><br>
+
+            <label for="sales_1_month">1-Month Sales:</label>
+            <input type="number" name="sales_1_month" value="30"><br>
+
+            <label for="sales_3_month">3-Month Sales:</label>
+            <input type="number" name="sales_3_month" value="183"><br>
+
+            <label for="sales_6_month">6-Month Sales:</label>
+            <input type="number" name="sales_6_month" value="356"><br>
+
+            <label for="sales_9_month">9-Month Sales:</label>
+            <input type="number" name="sales_9_month" value="532"><br>
+
+            <label for="min_bank">Minimum Bank:</label>
+            <input type="number" name="min_bank" value="0"><br>
+
+            <label for="potential_issue">Potential Issue:</label>
+            <input type="checkbox" name="potential_issue" value="No"><br>
+
+            <label for="pieces_past_due">Pieces Past Due:</label>
+            <input type="number" name="pieces_past_due" value="0"><br>
+
+            <label for="perf_6_month_avg">6-Month Performance Average:</label>
+            <input type="number" name="perf_6_month_avg" value="0.07"><br>
+
+            <label for="perf_12_month_avg">12-Month Performance Average:</label>
+            <input type="number" name="perf_12_month_avg" value="0.19"><br>
+
+            <label for="local_bo_qty">Local Backorder Quantity:</label>
+            <input type="number" name="local_bo_qty" value="0"><br>
+
+            <label for="deck_risk">Deck Risk:</label>
+            <input type="checkbox" name="deck_risk" value="No"><br>
+
+            <label for="oe_constraint">OE Constraint:</label>
+            <input type="checkbox" name="oe_constraint" value="No"><br>
+
+            <label for="ppap_risk">PPAP Risk:</label>
+            <input type="checkbox" name="ppap_risk" value="No"><br>
+
+            <label for="stop_auto_buy">Stop Auto Buy:</label>
+            <input type="checkbox" name="stop_auto_buy" value="True" checked><br>
+
+            <label for="rev_stop">Reversal Stop:</label>
+            <input type="checkbox" name="rev_stop" value="No"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <form action="{% url 'predict' %}" method="post" enctype="multipart/form-data" class="upload-file">
+            {% csrf_token %}
+            <h4>Upload a CSV file:</h4>
+            <input type="file" name="file"/>
+            <input type="submit" value="Predicted values"/>
+        </form>
+    </div>
+{% endblock %}
