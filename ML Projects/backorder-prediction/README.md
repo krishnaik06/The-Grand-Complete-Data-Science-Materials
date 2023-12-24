@@ -36,30 +36,30 @@ cd app
 ```
 
 1. Install the required dependencies by running the following command:
-    
+
     ```bash
     pip install -r requirements/local.txt
     ```
-    
+
 2. Run the Django migrations to set up the database:
-    
+
     ```bash
     python3 manage.py makemigrations
     python3 manage.py migrate
     ```
-    
+
 3. Start the Django development server:
-    
+
     ```bash
     python3 manage.py runserver
     ```
-    
+
 4. Open your web browser and navigate to **`http://localhost:8000/`** to view the application.
-    
+
     The application has a simple web interface where you can input the product features and get a prediction on whether the product will go on backorder or not.
-    
+
     You can also make predictions using the API endpoint by sending a POST request to **`http://localhost:8000/predict/`** with a JSON payload containing the product features.
-    
+
 
 ## Features
 
@@ -117,6 +117,6 @@ You can find more information about the Apache License 2.0 [here](https://www.ap
 
 ## Credits
 
-This project was created by [Pradyoth S P](https://github.com/Pradyothsp/backorder-prediction).
+This project was created by [Pradyoth S P](https://www.linkedin.com/in/pradyothsp/).
 
 The backorder dataset used to train the prediction model is from the [Kaggle](https://www.kaggle.com/datasets/gauravsbisht/backorder-prediction).
