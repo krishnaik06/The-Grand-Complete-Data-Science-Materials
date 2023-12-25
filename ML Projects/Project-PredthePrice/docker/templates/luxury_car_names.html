@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %}Motorcycle Features{% endblock %}
+
+{% block styles %}
+<style>
+    .top {
+        height: 100px;
+        object-fit: contain;
+        border: 10px solid white;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="text-center" style="height: 100vh;">
+    <form action="{{ url_for('getLuxuryFeatures') }}" method="POST">
+        <div class="card mb-3 mx-auto d-block" style="width: 18rem; margin-top: 25vh;">
+            <img src="{{ model_logo }}" class="card-img-top top" alt="{{ model_name }}">
+            <div class="card-body">
+                <p class="card-text">{{ model_name }}</p>
+            </div>
+        </div>
+
+        <select name="car_model" class="form-select form-select-lg mb-3 mx-auto d-block"
+            aria-label="Large select example" style="width: 50%; margin-top: 10px;">
+            <option selected>Select Car Model</option>
+            {% for i in luxurycar_models %}
+            <option>{{ i }}</option>
+            {% endfor %}
+        </select>
+        
+        <div class="d-grid gap-2 col-6 mx-auto" style="margin-top: 10px;">
+            <button class="btn btn-primary btn-lg" type="submit">Select Car Details</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

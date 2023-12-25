@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% block title %}Car{% endblock %}
+
+{% block styles %}
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 95vh;
+        width: auto;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    #carouselExampleAutoplaying,
+    #carouselExampleCaptions,
+    .carousel-inner,
+    .carousel-item {
+        height: 500px;
+        width: 1000px;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 50px;
+    }
+
+    @media (max-width: 1000px) {
+
+        #carouselExampleAutoplaying,
+        #carouselExampleCaptions,
+        .carousel-inner,
+        .carousel-item {
+            width: 100%;
+        }
+    }
+
+    section h2,
+    section p {
+        color: #fff;
+    }
+</style>
+
+{% endblock %}
+
+{% block content %}
+<div class="container" style="height: 100vh;">
+    <p class="text-center fs-1" style="padding-top: 20px;">Choose the Car Origin</p>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+        data-bs-pause="hover" data-bs-wrap="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="luxurycars">
+                    <img src="{{ url_for('static', filename='img/luxury-car-brands.png') }}"
+                        class="d-block w-100 center" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Click here to check Luxury cars resale prices</h5>
+                        <p>The foreign luxury cars are included here</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="indiancars">
+                    <img src="{{ url_for('static', filename='img/indian-car-brands.png') }}"
+                        class="d-block w-100 center" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Click here to check Indian available cars resale prices</h5>
+                        <p>Indian cars are included here.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+{% endblock %}

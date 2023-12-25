@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block styles %}
+
+<style>
+    .custom-image1 {
+        width: 200px;
+        border: 3px solid #fff;
+        padding: 0;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 95vh;
+        width: auto;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    #carouselExampleAutoplaying,
+    #carouselExampleCaptions,
+    .carousel-inner,
+    .carousel-item {
+        height: 500px;
+        width: 1000px;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 50px;
+    }
+
+    @media (max-width: 1000px) {
+
+        #carouselExampleAutoplaying,
+        #carouselExampleCaptions,
+        .carousel-inner,
+        .carousel-item {
+            width: 100%;
+        }
+    }
+
+    section h2,
+    section p {
+        color: #fff;
+    }
+</style>
+
+
+{% endblock %}
+
+
+{% block content %}
+<section class="bg-dark text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to Project-PredthePrice</h1>
+        <p class="lead">Exploring Resale Price Prediction for Cars, Motorcycles and Many more in future</p>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-8">
+                <p class="fs-5">Discover the world of resale price prediction with advanced models. This is a curated
+                    collection that includes foreign luxury cars, popular Indian vehicles, and a range of bikes,
+                    including some luxurious options. The prediction models boast an impressive accuracy score, ranging
+                    between 80-96%, ensuring reliable insights into the future resale value of your favorite rides.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <p class="h5">Key Features:</p>
+                <ul class="list-unstyled">
+                    <li>Foreign Luxury Cars</li>
+                    <li>Indian Vehicles</li>
+                    <li>Bikes - Indian and Luxury</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="{{ image }}" class="custom-image1" alt="Project Image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<p class="text-center fs-1" style="padding-top: 20px;">Check Resale Price for your car!</p>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+    data-bs-pause="hover" data-bs-wrap="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="car">
+                <img src="{{ url_for('static', filename='img/jakob-rosen-Carbg-unsplash.jpg') }}"
+                    class="d-block w-100 center" alt="...">
+                <div class="carousel-caption">
+                    <h5>Click here to check 4 wheeler Car resale prices</h5>
+                    <p>The foreign German luxury cars and Indian affordable cars are included here</p>
+                </div>
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="motorbike">
+                <img src="{{ url_for('static', filename='img/hans-ripa-Bikebg-unsplash.jpg') }}"
+                    class="d-block w-100 center" alt="...">
+                <div class="carousel-caption">
+                    <h5>Click here to check 2 wheeler Motorcycle resale prices</h5>
+                    <p>Indian motorcycles and Some Luxury motorcycles are included here.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<p class="text-center fs-1" style="padding-top: 40px;">Factors that matter</p>
+<p class="text-center fs-7">(Created with PowerBi)</p>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='img/modelvsprice(bike).png') }}" class="img-fluid mb-3" alt="...">
+        </div>
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='img/fuelvsprice(car).png') }}" class="img-fluid mb-3" alt="...">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='img/carbrandvsprice.png') }}" class="img-fluid mb-3" alt="...">
+        </div>
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='img/fueltypebybrandcount.png') }}" class="img-fluid mb-3"
+                alt="...">
+        </div>
+    </div>
+</div>
+
+<p class="text-center fs-1" style="padding-top: 40px;">About Developer</p>
+<img src="{{ url_for('static', filename='img/Anuraaga_Nath_Image.png') }}"
+    class="rounded-circle mx-auto mt-3 d-block rounded-0 border-info custom-image1" alt="...">
+<p class="text-center fs-4">Anuraaga Nath</p>
+
+
+
+{% endblock %}
