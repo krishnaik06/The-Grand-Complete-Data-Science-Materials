@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text & keyword Extraction with OCR</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Extraction with OCR</h1>
+        <div class="column">
+            <h2>Upload a File</h2>
+            <form class="upload-form" method="POST" enctype="multipart/form-data">
+                <label class="file-label" for="file">
+                    <span>Choose a File</span>
+                    <input type="file" name="file" id="file" accept=".pdf, .png, .jpg, .jpeg, .gif">
+                </label>
+                <br>
+                <label for="file-type">Select File Type:</label>
+                <select id="file-type" name="file-type">
+                    <option value="image">Image</option>
+                    <option value="pdf">PDF</option>
+                </select>
+                <br>
+                <button class="upload-btn" type="submit">Upload and Extract Text</button>
+            </form>
+        </div>
+        <h2>Extracted Keywords:</h2>
+    <div class="keywords">
+        {% if extracted_keywords %}
+            <ul>
+                {% for keyword in extracted_keywords %}
+                    <li>{{ keyword }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            No keywords extracted.
+        {% endif %}
+    </div>
+
+        <div class="result-column">
+            <h2>Extracted Text:</h2>
+            <div class="result">
+                {% if extracted_text %}
+                {{ extracted_text }}
+                {% else %}
+                No text extracted.
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
