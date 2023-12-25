@@ -1,0 +1,33 @@
+{% extends "backorder/base.html" %}
+
+{% block title %}Predict Backorders{% endblock %}
+
+{% block content %}
+    <section class="introduction">
+        <h1 class="index_h1">Predict Backorders and Improve Your Inventory Management</h1>
+        <button onclick="window.location.href='{% url 'predict' %}'" class="cta-button">Start Predicting</button>
+        <article class="article1">
+            <p>
+                Welcome to our Backorder Prediction System, the solution to your inventory management problems. Our
+                system uses machine learning (ML) tools to predict the likelihood of backorders, helping you avoid lost
+                sales and low customer satisfaction. With our system, you can analyze factors such as lead time, current
+                stock levels, and sales forecasts to make informed decisions about your inventory management.
+
+                Our user-friendly interface allows you to easily access and interpret the results of our predictive
+                models, enabling you to optimize your inventory levels and improve your overall business performance.
+                Whether you're a small startup or a large corporation, our Backorder Prediction System can help you
+                enhance customer satisfaction, reduce costs, and grow your business. Join us today and experience the
+                benefits of efficient inventory management.
+            </p>
+        </article>
+
+        <h2>Say goodbye to stock outs and lost sales. Our Backorder Prediction System offers:</h2>
+
+        <ul class="benefits-list">
+            <li>Improve inventory management and reduce stockouts.</li>
+            <li>Optimize inventory levels to minimize holding costs.</li>
+            <li>Enhance customer satisfaction by meeting demand more effectively.</li>
+            <li>Make data-driven decisions to support business growth.</li>
+        </ul>
+    </section>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "backorder/base.html" %}
+
+{% block title %}Predict Backorders{% endblock %}
+
+{% block content %}
+    <h1>Backorder Prediction Results</h1>
+    <div class="result-row">
+        <p>Predicted values: {{ y_pred }}</p>
+        <p>Comment: {{ comment }}</p>
+        {#        <p>Actual values: {{ y_actual }}</p>#}
+        {#        <p>Accuracy: {{ accuracy }}</p>#}
+    </div>
+{% endblock %}
