@@ -14,8 +14,8 @@ jobs:
         id: build-push-acr
         uses: azure/acr-build@v1
         with:
-          service_principal: d5fd9002-e379-4f48-8a34-c2e10119f81b
-          service_principal_password: Vc68Q~ZCw_I_3G1_uBXgtVIc_Ee1YjOJyXft8c75
+          service_principal: {{ secrets.service_principal }}
+          service_principal_password: {{ secrets.service_principal_password }}
           tenant: c2c7577c-0754-49cc-8fa5-ee89ab7910e3
           registry: gptapp.azurecr.io
           repository: pdfchat_backend
