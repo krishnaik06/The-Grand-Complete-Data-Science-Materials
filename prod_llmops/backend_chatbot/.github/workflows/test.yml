@@ -16,14 +16,14 @@ jobs:
         with:
           service_principal: {{ secrets.service_principal }}
           service_principal_password: {{ secrets.service_principal_password }}
-          tenant: c2c7577c-0754-49cc-8fa5-ee89ab7910e3
+          tenant: {{ secrets.tenant }}
           registry: gptapp.azurecr.io
-          repository: pdfchat_backend
-          image:  pdfchat_backend
+          repository: {{ secrets.repository }}
+          image:  {{ secrets.image }}
           folder: backend/app
           branch: main
           tag: kube4
-          git_access_token: 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
+          git_access_token: {{ secrets.git_access_token }} 
       
       - name: Azure login
         id: login
