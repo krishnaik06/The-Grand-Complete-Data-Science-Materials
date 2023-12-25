@@ -1,0 +1,5 @@
+What are the technologies used in the project?
+What is the installation process?
+Can you talk about the dataset used in the project?
+Can you explain the usage of the project?
+What is the process of deployment used in the project?
