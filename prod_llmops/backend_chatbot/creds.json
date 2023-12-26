@@ -1,0 +1,18 @@
+[
+    {
+      "cloudName": "AzureCloud",
+      "homeTenantId": "",
+      "id": "",
+      "isDefault": true,
+      "managedByTenants": [],
+      "name": "",
+      "state": "Enabled",
+      "tenantId": "",
+      "user": {
+        "name": "",
+        "type": "user"
+      }
+    }
+  ]
+  
+  

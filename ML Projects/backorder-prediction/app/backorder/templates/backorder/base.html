@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Title{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}?{% now 'U' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+<header>
+    <nav class="header-nav">
+        <ul>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'predict' %}">Predict</a></li>
+            <li><a href="https://github.com/Pradyothsp/backorder-prediction" target="_blank">Contribute in Github</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main content goes here -->
+<main>
+    {% block content %}{% endblock %}
+</main>
+
+<!-- Footer goes here -->
+<footer>
+    <nav class="footer-nav">
+        <ul>
+            <li><a href="{% url 'about_us' %}">About Us</a></li>
+            <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+            <li><a href="https://github.com/Pradyothsp/backorder-prediction" target="_blank">Contribute in Github</a>
+            </li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+.idea
+.static/
+.venv
+.github
+.gitignore
+models_pkl
+model.ipynb

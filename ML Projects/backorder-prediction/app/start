@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -o errexit
+set -o pipefail
+set -o nounset
+
+
+python /app/manage.py collectstatic --noinput
+
+# python3 /app/manage.py runserver 0.0.0.0:8000
+gunicorn -b 0.0.0.0:8000 adm.wsgi:application

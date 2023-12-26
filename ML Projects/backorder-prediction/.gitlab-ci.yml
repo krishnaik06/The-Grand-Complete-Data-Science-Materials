@@ -1,0 +1,32 @@
+stages:
+  - build
+  - deploy
+
+build_and_push:
+  stage: build
+  image: docker:24.0.5
+  services:
+    - docker:24.0.5-dind
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+  before_script:
+    - docker login -u $REGISTRY_USER -p $REGISTRY_PASS
+  script:
+    - docker build -t $IMAGE_NAME:$IMAGE_TAG app/
+    - docker push $IMAGE_NAME:$IMAGE_TAG
+
+deploy:
+  stage: deploy
+  before_script:
+    - chmod 400 $SSH_KEY
+    - scp -o StrictHostKeyChecking=no -i $SSH_KEY production.yml $SSH_USER@$SSH_HOST:~/
+  script:
+    - ssh -o StrictHostKeyChecking=no -i $SSH_KEY $SSH_USER@$SSH_HOST "
+      docker login -u $REGISTRY_USER -p $REGISTRY_PASS &&
+      docker-compose -f production.yml down &&
+      docker-compose rm -f -v &&
+      docker-compose -f production.yml up -d
+
+variables:
+  IMAGE_NAME: 846832333864863498482683585485/backorder_prediction
+  IMAGE_TAG: python-django-app-1.0
