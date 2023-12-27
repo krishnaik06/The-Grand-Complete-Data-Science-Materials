@@ -1,0 +1,30 @@
+stages:
+  data_ingestion:
+    cmd: python src/Indian_Coin_Detection/pipeline/stage_01_data_ingestion.py
+    deps:
+      - src/Indian_Coin_Detection/pipeline/stage_01_data_ingestion.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_ingestion/coin-data-small
+
+
+  data_validation:
+    cmd: python src/Indian_Coin_Detection/pipeline/stage_02_data_validation.py
+    deps:
+      - src/Indian_Coin_Detection/pipeline/stage_02_data_validation.py
+      - config/config.yaml
+    outs:
+      - artifacts/data_validation/
+
+
+  training:
+    cmd: python src/Indian_Coin_Detection/pipeline/stage_03_training.py
+    deps:
+      - src/Indian_Coin_Detection/pipeline/stage_03_training.py
+      - config/config.yaml
+      - artifacts/data_ingestion/coin-data-small
+    params:
+      - IMAGE_SIZE
+      - EPOCHS
+    outs:
+      - artifacts/training/model/temporary_model/

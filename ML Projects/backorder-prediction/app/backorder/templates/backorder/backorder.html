@@ -1,0 +1,65 @@
+{% extends "backorder/base.html" %}
+
+{% block title %}Predict Backorders{% endblock %}
+
+{% block content %}
+    <section class="introduction">
+        <h2>Welcome to the Backorder Prediction System</h2>
+        <article class="article1">
+            <p>
+                Backorders are products that are temporarily out of stock, but a customer is allowed to place an order
+                against future stock. The problem is when a product is not immediately available, customers may not have
+                the patience to wait. This results into lost sales and low customer satisfaction. In order to avoid such
+                scenarios machine learning (ML) tools can be applied to identify products that are at a risk of
+                backorders.
+                Our Backorder Prediction System helps businesses manage their inventory efficiently by predicting
+                the likelihood of backorders. By analyzing factors such as lead time, current stock levels, and
+                sales forecasts, the system provides valuable insights to help businesses make informed decisions
+                about their inventory management.
+            </p>
+        </article>
+
+        <h2>Benefits of using our system:</h2>
+        <article>
+            <p>Improve inventory management and reduce stockouts.</p>
+        </article>
+        <article>
+            <p>Optimize inventory levels to minimize holding costs.</p>
+        </article>
+        <article>
+            <p>Enhance customer satisfaction by meeting demand more effectively.</p>
+        </article>
+        <article>
+            <p>Make data-driven decisions to support business growth.</p>
+        </article>
+
+        <button onclick="window.location.href='{% url 'predict' %}'" class="wiggle-button">Start Predicting Here
+        </button>
+
+        <h2>Team Members</h2>
+        <div class="team-container">
+            <article class="article2">
+                <div class="team-member">
+                    <h3 class="team-member-name">Pradyoth</h3>
+                    <p class="team-member-role">Developer</p>
+                    <p class="team-member-bio"> Pradyoth is a graduate student currently pursuing a Master's degree in
+                        Data Science at the University of Massachusetts Dartmouth (UMassD).Pradyoth's academic focus
+                        includes machine learning, data visualization, and statistical analysis. With a strong
+                        foundation in programming and data analysis, he is eager to apply his skills to real-world data
+                        challenges. </p>
+                </div>
+            </article>
+            <article class="article2">
+                <div class="team-member">
+                    <h3 class="team-member-name">Varun</h3>
+                    <p class="team-member-role">Developer</p>
+                    <p class="team-member-bio">Varun is a graduate student currently pursuing a Master's degree in Data
+                        Science at the University of Massachusetts Dartmouth (UMassD).Varun's academic focus includes
+                        machine learning, data visualization, and statistical analysis. With a strong foundation in
+                        programming and data analysis, he is eager to apply his skills to real-world data
+                        challenges.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+{% endblock %}

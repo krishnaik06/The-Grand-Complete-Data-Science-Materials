@@ -1,0 +1,2 @@
+[ 2023-11-20 18:01:40,559 ] 21 root - INFO - Started data ingestion component
+[ 2023-11-20 18:01:40,571 ] 28 root - INFO - Read the required data as pandas dataframe

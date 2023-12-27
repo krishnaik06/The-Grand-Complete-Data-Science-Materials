@@ -1,0 +1,56 @@
+2023-02-18 11:15:28,763 - INFO - Initialization
+2023-02-18 11:15:28,768 - INFO - transformer module initi2023-02-18 11:18:22,769 - INFO - Prediction endpoint execution
+2023-02-18 11:20:15,081 - INFO - Prediction endpoint execution
+2023-02-18 11:21:45,670 - INFO - Prediction endpoint execution
+2023-02-18 11:22:27,992 - INFO - Prediction endpoint execution
+2023-02-18 11:22:53,742 - INFO - Prediction endpoint execution
+18 11:16:30,117 - INFO - Prediction endpoint execution
+2023-02-18 11:16:30,117 - INFO - Executing topic module
+2023-02-18 11:16:30,118 - INFO - Getting embeddings for summary
+2023-02-18 11:16:30,475 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:16:30,484 - INFO - returning the result
+2023-02-18 11:17:04,661 - INFO - Prediction endpoint execution
+2023-02-18 11:17:04,661 - INFO - Executing topic module
+2023-02-18 11:17:04,661 - INFO - Getting embeddings for summary
+2023-02-18 11:17:04,998 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:17:05,010 - INFO - returning the result
+2023-02-18 11:17:44,360 - INFO - Prediction endpoint execution
+2023-02-18 11:17:44,360 - INFO - Executing topic module
+2023-02-18 11:17:44,360 - INFO - Getting embeddings for summary
+2023-02-18 11:17:44,692 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:17:44,704 - INFO - returning the result
+2023-02-18 11:18:03,902 - INFO - Prediction endpoint execution
+2023-02-18 11:18:03,902 - INFO - Executing topic module
+2023-02-18 11:18:03,902 - INFO - Getting embeddings for summary
+2023-02-18 11:18:04,238 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:18:04,251 - INFO - returning the result
+2023-02-18 11:18:22,423 - INFO - Prediction endpoint execution
+2023-02-18 11:18:22,423 - INFO - Executing topic module
+2023-02-18 11:18:22,423 - INFO - Getting embeddings for summary
+2023-02-18 11:18:22,753 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:18:22,762 - INFO - returning the result
+2023-02-18 11:19:57,047 - INFO - Prediction endpoint execution
+2023-02-18 11:19:57,047 - INFO - Executing topic module
+2023-02-18 11:19:57,047 - INFO - Getting embeddings for summary
+2023-02-18 11:19:57,381 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:19:57,392 - INFO - returning the result
+2023-02-18 11:20:14,730 - INFO - Prediction endpoint execution
+2023-02-18 11:20:14,730 - INFO - Executing topic module
+2023-02-18 11:20:14,730 - INFO - Getting embeddings for summary
+2023-02-18 11:20:15,062 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:20:15,075 - INFO - returning the result
+2023-02-18 11:21:45,320 - INFO - Prediction endpoint execution
+2023-02-18 11:21:45,320 - INFO - Executing topic module
+2023-02-18 11:21:45,320 - INFO - Getting embeddings for summary
+2023-02-18 11:21:45,655 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:21:45,665 - INFO - returning the result
+2023-02-18 11:22:27,639 - INFO - Prediction endpoint execution
+2023-02-18 11:22:27,639 - INFO - Executing topic module
+2023-02-18 11:22:27,639 - INFO - Getting embeddings for summary
+2023-02-18 11:22:27,975 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:22:27,985 - INFO - returning the result
+2023-02-18 11:22:53,397 - INFO - Prediction endpoint execution
+2023-02-18 11:22:53,397 - INFO - Executing topic module
+2023-02-18 11:22:53,397 - INFO - Getting embeddings for summary
+2023-02-18 11:22:53,725 - INFO - Getting similarity score for topics and summary
+2023-02-18 11:22:53,735 - INFO - returning the result

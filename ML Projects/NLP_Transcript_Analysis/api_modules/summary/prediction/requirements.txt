@@ -1,0 +1,9 @@
+click
+h11
+pydantic
+starlette
+fastapi
+uvicorn
+transformers
+torch
+nltk

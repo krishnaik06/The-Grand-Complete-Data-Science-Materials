@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medical Costs Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <a href="https://github.com/NvkAnirudh/Medical_Cost_Prediction" class="top-left-link" target="_blank">GitHub Repository Link</a>
+    <h1>Medical Costs Prediction - Anirudh Nuti</h1>
+    <img src="{{url_for('static', filename='/Image/medical.jpeg')}}" alt="Your Profile Picture" class="profile">
+    <div class="form-box">
+    <form action="{{url_for('predict_data')}}" method="POST">
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" placeholder="Enter your age">
+        </div>
+    
+        <div class="form-group">
+            <label for="children">Children:</label>
+            <input type="text" id="children" name="children" placeholder="Enter your number of children">
+        </div>
+
+        <div class="form-group">  
+            <label for="bmi">Body Mass Index(BMI):</label>
+            <input type="text" id="bmi" name="bmi" placeholder="Enter your BMI value (float)">
+        </div>
+      
+    <div class="form-group">
+      <label for="sex">Sex?</label>
+      <select id="sex" name="sex">
+        <option value="">Select Your Option</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+      
+    <div class="form-group">
+      <label for="smoker">Smoker?</label>
+      <select id="smoker" name="smoker">
+        <option value="">Select Your Option</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="region">Region?</label>
+      <select id="region" name="region">
+        <option value="">Select Your Option</option>
+        <option value="northeast">Northeast</option>
+        <option value="northwest">Northwest</option>
+        <option value="southeast">Southeast</option>
+        <option value="southwest">Southwest</option>
+      </select>
+    </div>
+    
+    <div style="clear:both;"></div>
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+    <div>      
+    <h2>
+      Predicted Medical Cost is : ${{ results }}
+    </h2>
+  </body>
+</html>

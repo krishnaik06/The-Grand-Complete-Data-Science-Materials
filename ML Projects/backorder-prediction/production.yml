@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  django:
+    # build:
+    #   context: app
+    image: $IMAGE_NAME:$IMAGE_TAG
+    command: /start
+    ports:
+      - "8000:8000"

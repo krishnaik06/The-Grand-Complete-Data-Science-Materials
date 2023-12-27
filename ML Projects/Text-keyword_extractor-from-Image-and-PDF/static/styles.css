@@ -1,0 +1,116 @@
+/* CSS for the container and layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.column {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+    margin-top: 0;
+}
+
+.upload-form {
+    text-align: center;
+}
+
+.upload-form label.file-label {
+    position: relative;
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.upload-form label.file-label input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-form label.file-label span {
+    font-size: 16px;
+}
+
+.upload-form label.file-label:hover {
+    background-color: #2980b9;
+}
+
+.upload-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.upload-btn:hover {
+    background-color: #2980b9;
+}
+
+/* CSS for the Extracted Text section */
+.result-column {
+    float: left;
+    width: 100%;
+    margin: 1%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-column h2 {
+    margin-top: 0;
+}
+
+.result {
+    white-space: pre-line;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.keywords {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.keywords ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.keywords li {
+    margin: 5px 0;
+}

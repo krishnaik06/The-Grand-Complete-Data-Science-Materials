@@ -1,0 +1,5 @@
+[ 2023-11-21 15:46:19,968 ] 23 root - INFO - Started data ingestion component
+[ 2023-11-21 15:46:19,971 ] 27 root - INFO - Read the required data as pandas dataframe
+[ 2023-11-21 15:46:19,972 ] 32 root - INFO - Applied necessary data cleaning and feature engineering techniques
+[ 2023-11-21 15:46:19,976 ] 38 root - INFO - Initiating train test split
+[ 2023-11-21 15:46:19,981 ] 49 root - INFO - Data Ingestion is completed

@@ -1,0 +1,13 @@
+django
+djangorestframework
+
+pandas
+numpy
+joblib
+scipy
+imblearn
+
+# [ML]
+scikit-learn==1.2.2
+lightgbm
+xgboost

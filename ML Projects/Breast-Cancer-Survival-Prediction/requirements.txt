@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+comet_ml
+scikit-learn
+optuna
+catboost

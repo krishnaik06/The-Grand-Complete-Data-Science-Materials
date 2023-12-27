@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crop Recommendation System</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      h1 {
+        color: mediumseagreen;
+        text-align: center;
+      }
+
+      .warning {
+        color: red;
+        font-weight: bold;
+        text-align: center;
+      }
+      .card {
+        margin-left: 410px;
+        margin-top: 20px;
+        color: white;
+      }
+      .container {
+        font-weight: bold;
+        padding-bottom: 10px;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body style="background: #bcbbb8">
+    <!--=======================navbar=====================================================-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Crop Recommendation</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!--===============================================================================-->
+    <div class="container my-5 mt-5 bg-light">
+      <h1 class="text-success">
+        Crop Recommendation System <span class="text-success">🌱</span>
+      </h1>
+
+      <form method="POST" action="{{ url_for('predict') }}" class="mt-5">
+        <div class="row">
+          <div class="col-md-4">
+            <label for="Nitrogen">Nitrogen</label>
+            <input
+              type="number"
+              id="Nitrogen"
+              name="Nitrogen"
+              placeholder="Enter Nitrogen"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="Phosporus">Phosphorus</label>
+            <input
+              type="number"
+              id="Phosporus"
+              name="Phosporus"
+              placeholder="Enter Phosphorus"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="Potassium">Potassium</label>
+            <input
+              type="number"
+              id="Potassium"
+              name="Potassium"
+              placeholder="Enter Potassium"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <label for="Temperature">Temperature</label>
+            <input
+              type="number"
+              step="0.01"
+              id="Temperature"
+              name="Temperature"
+              placeholder="Enter Temperature in °C"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="Humidity">Humidity</label>
+            <input
+              type="number"
+              step="0.01"
+              id="Humidity"
+              name="Humidity"
+              placeholder="Enter Humidity in %"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="col-md-4">
+            <label for="pH">pH</label>
+            <input
+              type="number"
+              step="0.01"
+              id="pH"
+              name="pH"
+              placeholder="Enter pH value"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <label for="Rainfall">Rainfall</label>
+            <input
+              type="number"
+              step="0.01"
+              id="Rainfall"
+              name="Rainfall"
+              placeholder="Enter Rainfall in mm"
+              class="form-control"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary btn-lg">
+              Get Recommendation
+            </button>
+          </div>
+        </div>
+      </form>
+
+      {% if prediction %}
+      <div class="card bg-dark" style="width: 18rem">
+        <!-- <img src="{{url_for('static', filename='img.jpg')}}" class="card-img-top" alt="..."> -->
+        <div class="card-body">
+          <h5 class="card-title">Recommend Crop</h5>
+          <p class="card-text">{{prediction }}</p>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </body>
+</html>

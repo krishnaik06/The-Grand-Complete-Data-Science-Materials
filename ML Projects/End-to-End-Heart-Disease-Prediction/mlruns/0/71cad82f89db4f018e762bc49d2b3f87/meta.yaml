@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/KALYAN/Desktop/Heart%20Disease%20Prediction/mlruns/0/71cad82f89db4f018e762bc49d2b3f87/artifacts
+end_time: 1701190394975
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 71cad82f89db4f018e762bc49d2b3f87
+run_name: intrigued-wren-261
+run_uuid: 71cad82f89db4f018e762bc49d2b3f87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701190390465
+status: 3
+tags: []
+user_id: KALYAN

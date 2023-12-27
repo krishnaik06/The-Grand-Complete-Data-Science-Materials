@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyrsistent
+Version: 0.19.3
+Summary: Persistent/Functional/Immutable data structures
+Home-page: https://github.com/tobgu/pyrsistent/
+Author: Tobias Gustafsson
+Author-email: tobias.l.gustafsson@gmail.com
+License: MIT
+Project-URL: Changelog, https://pyrsistent.readthedocs.io/en/latest/changes.html
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.mit
+
+Persistent collections, see https://github.com/tobgu/pyrsistent/ for details.

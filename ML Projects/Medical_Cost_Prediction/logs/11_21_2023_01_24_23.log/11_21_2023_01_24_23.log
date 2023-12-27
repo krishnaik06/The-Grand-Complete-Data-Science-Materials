@@ -1,0 +1,8 @@
+[ 2023-11-21 01:24:23,696 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-11-21 01:24:23,703 ] 96 werkzeug - INFO -  * Debugger PIN: 759-366-912
+[ 2023-11-21 01:24:26,625 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:24:26] "[35m[1mPOST /prediction HTTP/1.1[0m" 500 -
+[ 2023-11-21 01:24:26,653 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:24:26] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:24:26,654 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:24:26] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:24:26,670 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:24:26] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:24:26,708 ] 96 werkzeug - INFO - 127.0.0.1 - - [21/Nov/2023 01:24:26] "[36mGET /prediction?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-11-21 01:25:51,063 ] 96 werkzeug - INFO -  * Detected change in '/Users/anirudhnuti/Documents/MLOps_Projects/Medical_Cost_Prediction/src/pipeline/prediction_pipeline.py', reloading

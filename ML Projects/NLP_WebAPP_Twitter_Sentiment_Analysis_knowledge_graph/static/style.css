@@ -1,0 +1,166 @@
+/* Body */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/static/loading.gif');
+    background-color: #6ec3f8;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* Header */
+
+header {
+    background-color: #1DA1F2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Main Content */
+
+main {
+    margin: 20px;
+    max-width: 960px;
+}
+
+
+/* Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+    color: black;
+    background-color: #6ec3f8;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"],
+form input[type="date"],
+form input[type="time"],
+form input[type="number"],
+form select,
+form textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+    color: black;
+    background-color: #98d7fe;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="tel"]:focus,
+form input[type="date"]:focus,
+form input[type="time"]:focus,
+form select:focus,
+form textarea:focus {
+    outline: none;
+    border-bottom: 5px solid #0d4a71;
+}
+
+form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+
+/* Buttons */
+
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    background-color: #005f9a;
+}
+
+
+/* Result */
+
+.result {
+    margin: 20px auto;
+    max-width: 960px;
+    zoom: 30%;
+    overflow: scroll;
+}
+
+.result-body {
+    background-image: url('/assets/tweet.png');
+    background-color: white;
+    background-size: cover;
+}
+
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #1ca6fc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #ddd;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
