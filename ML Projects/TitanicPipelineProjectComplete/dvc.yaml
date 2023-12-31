@@ -1,0 +1,74 @@
+stages:
+
+  # First Stage
+  data_ingestion:
+
+    cmd: python src/titanic/pipeline/stage_01_data_ingestion.py
+
+    deps:
+      - src/titanic/pipeline/stage_01_data_ingestion.py
+      - config/config.yaml
+    
+    outs:
+      - artifacts/data_ingestion/
+
+  # Second Stage
+  data_validation:
+
+    cmd: python src/titanic/pipeline/stage_02_data_validation.py
+
+    deps:
+      - src/titanic/pipeline/stage_02_data_validation.py
+      - artifacts/data_ingestion
+      - config/config.yaml
+    
+    outs:
+      - artifacts/data_validation
+  
+  # Third Stage
+  data_transformation:
+    
+    cmd: python src/titanic/pipeline/stage_03_data_transformation.py
+
+    deps:
+      - src/titanic/pipeline/stage_03_data_transformation.py
+      - config/config.yaml
+      - artifacts/data_ingestion
+      - artifacts/data_validation
+    
+    outs:
+      - artifacts/data_transformation
+    
+  
+  # Fourth Stage
+  model_trainer:
+
+    cmd: python src/titanic/pipeline/stage_04_model_trainer.py
+
+    deps:
+      - src/titanic/pipeline/stage_04_model_trainer.py
+      - config/config.yaml
+    
+    outs:
+      - artifacts/model_trainer/model.pkl
+
+  # Fifth Stage
+  model_evaluation:
+
+    cmd: python src/titanic/pipeline/stage_05_model_evaluation.py
+
+    deps:
+      - src/titanic/pipeline/stage_05_model_evaluation.py
+      - config/config.yaml
+      - artifacts/model_trainer
+    
+    outs:
+      - artifacts/model_evaluation
+
+    metrics:
+    - metrics.yaml:
+        cache: false
+      
+
+
+  

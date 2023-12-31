@@ -1,0 +1,110 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/titanic/pipeline/stage_01_data_ingestion.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 9c93c9e9cfeac29068051e800b524e63
+      size: 856
+    - path: src/titanic/pipeline/stage_01_data_ingestion.py
+      hash: md5
+      md5: fb8dfdfc302bbd1ca9a4b6da041bb85b
+      size: 974
+    outs:
+    - path: artifacts/data_ingestion/
+      hash: md5
+      md5: acf7f2f04c7ea10b532deffecdd48e34.dir
+      size: 83758
+      nfiles: 2
+  data_validation:
+    cmd: python src/titanic/pipeline/stage_02_data_validation.py
+    deps:
+    - path: artifacts/data_ingestion
+      hash: md5
+      md5: acf7f2f04c7ea10b532deffecdd48e34.dir
+      size: 83758
+      nfiles: 2
+    - path: config/config.yaml
+      hash: md5
+      md5: 9c93c9e9cfeac29068051e800b524e63
+      size: 856
+    - path: src/titanic/pipeline/stage_02_data_validation.py
+      hash: md5
+      md5: 5f466b84342ae5daf244efe7e1b21c59
+      size: 953
+    outs:
+    - path: artifacts/data_validation
+      hash: md5
+      md5: 7d522d56ecf8d6bcdea9f75f1c28196d.dir
+      size: 23
+      nfiles: 1
+  data_transformation:
+    cmd: python src/titanic/pipeline/stage_03_data_transformation.py
+    deps:
+    - path: artifacts/data_ingestion
+      hash: md5
+      md5: acf7f2f04c7ea10b532deffecdd48e34.dir
+      size: 83758
+      nfiles: 2
+    - path: artifacts/data_validation
+      hash: md5
+      md5: 7d522d56ecf8d6bcdea9f75f1c28196d.dir
+      size: 23
+      nfiles: 1
+    - path: config/config.yaml
+      hash: md5
+      md5: 9c93c9e9cfeac29068051e800b524e63
+      size: 856
+    - path: src/titanic/pipeline/stage_03_data_transformation.py
+      hash: md5
+      md5: fb7ced491740a203f8e72bb0276a8e08
+      size: 989
+    outs:
+    - path: artifacts/data_transformation
+      hash: md5
+      md5: eb09d3b2dc17c1a3862845defc614007.dir
+      size: 15993
+      nfiles: 1
+  model_trainer:
+    cmd: python src/titanic/pipeline/stage_04_model_trainer.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 9c93c9e9cfeac29068051e800b524e63
+      size: 856
+    - path: src/titanic/pipeline/stage_04_model_trainer.py
+      hash: md5
+      md5: 9d245ba7b5b5ae64defd35e58e4c2990
+      size: 927
+    outs:
+    - path: artifacts/model_trainer/model.pkl
+      hash: md5
+      md5: e7b6eb29ecc268566f5cdc16b7655cb3
+      size: 33334
+  model_evaluation:
+    cmd: python src/titanic/pipeline/stage_05_model_evaluation.py
+    deps:
+    - path: artifacts/model_trainer
+      hash: md5
+      md5: 5be09a496260b2b58d1303e8bacc813d.dir
+      size: 33346
+      nfiles: 2
+    - path: config/config.yaml
+      hash: md5
+      md5: 9c93c9e9cfeac29068051e800b524e63
+      size: 856
+    - path: src/titanic/pipeline/stage_05_model_evaluation.py
+      hash: md5
+      md5: 8de679eafe98321dc5a178e0ee6e92c3
+      size: 945
+    outs:
+    - path: artifacts/model_evaluation
+      hash: md5
+      md5: d751713988987e9331980363e24189ce.dir
+      size: 0
+      nfiles: 0
+    - path: metrics.yaml
+      hash: md5
+      md5: d9e999e4ffe7b87b8360ef76ad1c17c2
+      size: 77
