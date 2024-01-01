@@ -45,3 +45,11 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 
 
 Reference: A. Saxena, K. Goebel, D. Simon, and N. Eklund, “Damage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation”, in the Proceedings of the Ist International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
+
+kaggle dataset : https://www.kaggle.com/datasets/behrad3d/nasa-cmaps/code?datasetId=276801&sortBy=dateRun&tab=profile
+
+my contribution on this kaggle dataset : https://www.kaggle.com/code/yashh2417/c-mapss
+
+github : https://github.com/yashh2417/c-mapss
+
+linkedin profile : https://www.linkedin.com/in/yashh2417?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDwS6Zzt6R0yri4ZW9Eliew%3D%3D
