@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Loan Approval Prediction</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .banner{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .content{
+        margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="bg-primary text-center mt-5">
+    <div class="container">
+        <h1 class="font-weight-light text-white banner">Home Loan Approval System</h1>
+    </div>
+</header>
+
+<div class="container content">
+
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Input Features</div>
+            <div class="panel-body">
+                <form  action="{{ url_for('predictRoute') }}" method="post">
+
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select class="form-control" id="gender" name="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="married">Marital status:</label>
+                        <select class="form-control" id="married" name="married">
+                            <option value="Yes">Married</option>
+                            <option value="No">Single</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="dependents">No. of dependents:</label>
+                        <select class="form-control" id="dependents" name="dependents">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3+">3+</option>
+                          </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="education">Educational qualification:</label>
+                        <select class="form-control" id="education" name="education">
+                            <option value="Graduate">Graduate</option>
+                            <option value="Not Graduate">Not Graduate</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="self_employed">Is self employed:</label>
+                        <select class="form-control" id="self_employed" name="self_employed">
+                          <option value="Yes">Yes</option>
+                          <option value="No">No</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                      <label for="applicant_income">Income:</label>
+                      <input type="number" class="form-control" id="applicant_income" placeholder="Income" name="applicant_income" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="coapplicant_income">Coapplicant Income:</label>
+                        <input type="number" class="form-control" id="coapplicant_income" placeholder="Coapplicant Income" name="coapplicant_income" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="loan_amount">Loan Amount:</label>
+                        <input type="number" class="form-control" id="loan_amount" placeholder="Loan Amount" name="loan_amount" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="loan_amount_term">Loan Amount Term:</label>
+                        <select class="form-control" id="loan_amount_term" name="loan_amount_term">
+                          <option value="12">12</option>
+                          <option value="36">36</option>
+                          <option value="60">60</option>
+                          <option value="84">84</option>
+                          <option value="120">120</option>
+                          <option value="180">180</option>
+                          <option value="240">240</option>
+                          <option value="300">300</option>
+                          <option value="360">360</option>
+                          <option value="480">480</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="credit_history">Credit history:</label>
+                        <select class="form-control" id="credit_history" name="credit_history">
+                          <option value="1">Good</option>
+                          <option value="0">Bad</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="property_area">Property area:</label>
+                        <select class="form-control" id="property_area" name="property_area">
+                          <option value="Urban">Urban</option>
+                          <option value="Semiurban">Semiurban</option>
+                          <option value="Rural">Rural</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-success btn-block">Submit</button>
+                    </div>
+                  </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Prediction</div>
+            <div class="panel-body"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

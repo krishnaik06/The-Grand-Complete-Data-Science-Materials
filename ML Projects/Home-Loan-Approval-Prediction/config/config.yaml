@@ -1,0 +1,19 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://drive.google.com/file/d/1_2PM1emVVVMgnzbjdoUDp-0dlJVaupjf/view?usp=sharing
+  raw_dataset_dir: artifacts/data_ingestion/raw_dataset
+  dataset_dir: artifacts/data_ingestion/dataset
+  raw_data_path: artifacts/data_ingestion/raw_dataset/raw.csv
+  train_data_path: artifacts/data_ingestion/dataset/train.csv
+  test_data_path: artifacts/data_ingestion/dataset/test.csv
+
+data_preprocessor:
+  root_dir: artifacts/preprocessor
+  preprocessor_path: artifacts/preprocessor/preprocessor.pkl
+
+model_training:
+  root_dir: artifacts/model_training
+  best_model_path: artifacts/model_training/model.pkl
