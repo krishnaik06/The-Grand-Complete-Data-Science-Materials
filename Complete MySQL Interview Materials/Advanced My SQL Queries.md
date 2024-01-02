@@ -271,17 +271,7 @@ I hope these questions help. If you need more questions or any further clarifica
 
 
 
-------------------
 
-**You:**
-
-provide more further questions on very complex queries
-
-------------------
-
-**ChatGPT:**
-
-Of course! Here are some more questions based on complex SQL queries:
 
 **31. How would you retrieve the total count of rows, but only count each distinct value in a column once?**
 
