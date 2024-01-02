@@ -1,0 +1,90 @@
+/* styling webapp header */
+.header {
+    padding: 10px;
+    text-align: center;
+    /* background: #1abc9c; */
+    background: linear-gradient(110deg, #b76319 60%, #ffe74b 60%);
+    /* background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('Background.jpg'); */
+    color: white;
+    font-size: 100px;
+}
+
+h1[id='shopwisely'] div a+span {
+    font-size: 250%;
+    padding-bottom: 0px;
+    text-shadow: 4px 3px 4px #180105;
+}
+
+.header div+p {
+    text-decoration: overline;
+    color: rgb(38, 71, 96);
+    font-size: 30%;
+    padding-top: 15px;
+    position: relative;
+    left: 9.7%;
+    top: -26px;
+}
+
+/* button */
+.stButton  {
+    text-align: center;
+}
+
+/* spinner widget */
+.stSpinner div {
+    justify-content: center;
+    scale: 110%
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+    font-size: 150%;
+}
+
+a:hover {
+    color: #1abc9c !important;
+    text-decoration: underline;
+    /* font-size: 205%; */
+    transition: 0.1s;
+    /* text-decoration: underline; */
+}
+
+/*center metric label*/
+[data-testid="stMetricLabel"] > div:nth-child(1) {
+    justify-content: center;
+}
+
+/*center metric value*/
+[data-testid="stMetricValue"] > div:nth-child(1) {
+    justify-content: center;
+}
+
+
+/* hiding elements */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* .css-ocqkz7.e1tzin5v4{
+    position: fixed;
+    width: inherit;
+    bottom: 0%;
+    background-color: slategray;
+    padding-right: 1%;
+    padding-bottom: 4px;
+} */
+
+[data-testid='column']:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}

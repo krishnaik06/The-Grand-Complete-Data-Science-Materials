@@ -1,0 +1,284 @@
+
+
+/* styling webapp header */
+.header {
+    padding: 10px;
+    text-align: center;
+    /* background: #1abc9c; */
+    background: linear-gradient(110deg, #fdcc3bd2 60%, #ffed4bcb 60%);
+    /* background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 30%), url('Background.jpg'); */
+    color: white;
+    font-size: 100px;
+}
+
+h1[id='shopwisely'] div a+span {
+    font-size: 250%;
+    padding-bottom: 0px;
+    text-shadow: 4px 3px 5px #763b04;
+}
+
+.header div+p {
+    text-decoration: overline;
+    color: rgb(38, 71, 96);
+    font-size: 30%;
+    padding-top: 15px;
+    position: relative;
+    left: 9.7%;
+    top: -26px; 
+}
+
+/* button */
+.stButton  {
+    text-align: center;
+}
+
+/* spinner widget */
+.stSpinner div {
+    justify-content: center;
+    scale: 110%
+}
+
+a {
+    text-decoration: none;
+    color: #610014 !important;
+    font-weight: 500;
+    font-size: 40px;
+}
+a:hover {
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+/* piechart */
+.plotly:hover{
+    border-radius: 46%;
+    background-color: rgb(219 163 93 / 27%);
+    transition: 0.05s;
+}
+
+/* metrics */
+div[data-testid="metric-container"]{
+    text-align: center; 
+}
+
+div[data-testid="stMetricValue"] div{
+    text-align: center;
+}
+
+div[data-testid="stMetricValue"]{
+    text-align: center;
+    font-weight: 600;
+    color: #610014;
+    font-size: 300%;
+}
+
+label[data-testid="stMetricLabel"] div div{
+    text-align: center;
+}
+
+label[data-testid="stMetricLabel"] div div p{
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    color: #3d3d49;
+}
+
+/* radio header */
+h3[id$="-pages-available-do-you-want-to-run-for-all-pages"]{
+    color: #610014;
+    font-size: 250%;
+}
+/* radio buttons */
+div[role="radiogroup"]{
+    transform: scale(1.2);
+    /* text-align: center; */
+}
+
+label[data-baseweb="radio"] div + input + div:hover{
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+/* number input  */
+
+h4[id*="specify-the-number-of-pages-to-analyze-from"]{
+    color: #610014;
+    font-size: 190%;
+}
+
+
+.step-down{
+    background-color: #ac6440;
+}
+.step-up{
+    background-color: #ac6440;
+}
+
+/* progree bar */
+.stCaptionContainer{
+    font-size: 110%;
+}
+
+h3[id^="total-number-of-pages-to-fetch-"] div a+span{
+    color: #610014;
+    font-size: 120%;
+}
+
+/* message */
+[id*="product"] div a + span{
+    text-align: center;
+    font-size: 140%;
+    color: #610014;
+}
+
+/* dropdowns */
+div[data-testid="stExpander"] ul li div div p{
+    font-size: 130%;
+    font-weight: bolder;
+}
+
+/* tables */
+th[scope="col"]{
+    text-align: centre;
+    font-weight: bolder;
+    color: #610014
+} 
+
+th{
+    text-align: center;
+}
+
+/* spinner */
+.stSpinner{
+    transform: scale(1.3);
+}
+
+
+/* hiding elements */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* url field */
+div[data-baseweb='input']{
+    background: transparent;
+    box-shadow: 1px 4px 9px #180105;
+}
+
+div[data-baseweb='input']:hover{
+    background: transparent;
+    box-shadow: 1px 7px 13px #180105;
+    transition: .3s;
+}
+
+div[data-baseweb='base-input']{
+    background: transparent;
+}
+
+input[aria-label='Enter the url: ']:focus{
+    background-color: rgb(219 163 93 / 27%);
+    color: #571c25;
+    font-weight: 600;
+}
+
+input[aria-label='Enter the url: ']::placeholder{
+    color: black;
+    font-weight: 600;
+}
+input[aria-label='Enter the url: ']:focus::placeholder{
+    color: #571c25;
+    font-weight: 600;
+}
+
+/* button */
+.stButton>button{
+    color: #610014;
+    box-sizing: 5%;
+    font-size:50px;
+    background: transparent;
+    width: 10%;
+    height: 20%;
+    border: 3px #610014 solid;
+    border-radius: 10px;
+}
+.stButton>button:hover{
+    color: beige;
+    box-sizing: 5%;
+    font-size:50px;
+    background: #610014;
+    width: 10%;
+    height: 20%;
+    border: 3px #610014 solid;
+    border-radius: 10px;
+}
+.stButton>button:focus:hover{
+    color: beige;
+    box-sizing: 5%;
+    font-size:50px;
+    background: #610014;
+    width: 10%;
+    height: 20%;
+    border: 3px #610014 solid;
+    border-radius: 10px;
+}
+
+.stButton>button:active{
+    color: beige;
+    box-sizing: 5%;
+    font-size:50px;
+    background: #610014;
+    width: 10%;
+    height: 20%;
+    border: 3px #610014 solid;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.css-5uatcg:focus{
+    border-color: #610014;
+    color: #610014;
+}
+
+button[kind='secondary']:focus{
+    border: 3px #610014 solid;
+    border-radius: 10px;
+}
+
+strong{
+    font-size: 120%;
+}
+
+/* icons */
+a[href*="instagram"] img{
+    opacity: 0.7;
+}
+a[href*="instagram"] img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+a[href*="linkedin"] img{
+    opacity: 0.7;
+}
+a[href*="linkedin"] img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.1s;
+}
+
+a[href*="github"] img{
+    opacity: 0.7;
+}
+a[href*="github"] img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 0.1s;
+}

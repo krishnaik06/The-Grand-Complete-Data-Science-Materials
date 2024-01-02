@@ -1,0 +1,177 @@
+span {
+    text-align: center;
+}
+
+/* Header bar */
+header.css-18ni7ap.e8zbici2 {
+    background-image: linear-gradient(to right, rgb(41, 17, 5) , rgb(77, 39, 16));
+}
+
+/* Title */
+a[href="#amazon-review-analyst"]+span.css-10trblm.e16nr0p30 {
+    font-size: 200%;
+    color: #571c25;
+    text-shadow: 3px 3px 5px #180105;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+
+
+/* url field  */
+div[data-baseweb='input']{
+    background: transparent;
+    box-shadow: 1px 4px 9px #180105;
+}
+
+div[data-baseweb='input']:hover{
+    background: transparent;
+    box-shadow: 1px 7px 13px #180105;
+    transition: .3s;
+}
+
+div[data-baseweb='base-input']{
+    background: transparent;
+}
+
+input[aria-label='Enter the url: ']{
+    color: #571c25;
+    background: transparent;
+    font-weight: 600;
+}
+
+input[aria-label='Enter the url: ']:focus{
+    /* background-color: bisque; */
+    background-color: rgb(87, 28, 37, 0.2);
+    color: #571c25;
+    font-weight: 600;
+}
+
+input[aria-label='Enter the url: ']::placeholder{
+    color: black;
+    font-weight: 600;
+}
+input[aria-label='Enter the url: ']:focus::placeholder{
+    color: #571c25;
+    font-weight: 600;
+}
+
+/* submit button */
+div.css-ocqkz7.e1tzin5v4{
+    text-align: center;
+}
+
+button.css-1jp3mo4.edgvbvh10 div p strong{
+    font-weight: 600;
+}
+
+button.css-1jp3mo4.edgvbvh10{
+    width: 70%;
+    background: transparent;
+    border: 3px solid rgba(41, 5, 8, 0.6);
+}
+
+button.css-1jp3mo4.edgvbvh10:hover{
+    background-color: #571c25;
+    border: 3px solid rgba(41, 5, 8, 0.6);
+    color: beige;
+    opacity: 1;
+    box-shadow: 1px 7px 13px #180105
+}
+
+button.css-1jp3mo4.edgvbvh10:focus{
+    border: 3px solid rgba(41, 5, 8, 0.6);
+    box-shadow: none;
+}
+
+button.css-1jp3mo4.edgvbvh10:active{
+    color: #571c25;
+    transform: scale(1.1);
+}
+button.css-1jp3mo4.edgvbvh10:active:hover{
+    color: beige;
+    transform: scale(1.1);
+}
+
+/* product name left allign */
+div.element-container.css-1ludsx.e1tzin5v3 div div div h3 div a+span {
+    text-align: left;
+    font-size: 140%;
+}
+
+div.element-container.css-1ludsx.e1tzin5v3 div div div h3 div a+span:hover {
+    transform: scale(0.99);
+    transition: .2s;
+}
+
+/* removing product name hyperlink underline */
+div.element-container.css-1ludsx.e1tzin5v3 div div div h3 div a+span a {
+    text-decoration: none;
+    color: #571c25
+}
+div.element-container.css-1ludsx.e1tzin5v3 div div div h3 div a+span a:hover {
+    text-decoration: underline;
+    color: #243e81
+}
+
+div.css-1v0mbdj.etr89bj1 img {
+    border: 3px solid #571c25
+}
+
+div[data-testid='metric-container'] label.css-1octt7t.e16fv1kl2 div.css-1yy6isu.e16nr0p34 p {
+    color: #3a1e20;
+    font-weight: bold;
+
+}
+
+div[data-testid='stMetricValue'] div {
+    color: #571c25;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* plotly piechart */
+div.plot-container.plotly:hover{
+    background: rgb(177 110 69 / 20%);
+    border-radius: 100in;
+    transition: 0.2s;
+}
+
+/* metrics background */
+div[data-testid='metric-container']:hover{
+    background: rgb(177 110 69 / 20%);
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+/* pages header */
+h3[id*='pages-available-do-you-want-to-run-for-all-pages'] div a + span{
+    font-size: 140%;
+    font-weight: 600;
+}
+
+/* radio buttons */
+div[role='radiogroup'] label div + input + div{
+    font-size: 120%;
+    font-weight: 400;
+}
+
+div[role="radiogroup"] label div + input + div:hover{
+    font-weight: bolder;
+}
+
+div[role='radiogroup']:hover{
+    background: rgb(177 110 69 / 20%);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+button.css-1jp3mo4.edgvbvh10 div p{
+    font-size: 120%;
+    font-weight: 600;
+}
+
+hr {
+    margin-top:0px;
+    margin-bottom:2%;
+}
