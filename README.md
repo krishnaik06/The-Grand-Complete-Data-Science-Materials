@@ -13,9 +13,9 @@
 
 ## 3. Complete SQL For Data Analytics And Data Science
 
-- Complete SQl Detailed Playlist English: https://www.youtube.com/watch?v=us1XyayQ6fU&list=PLZoTAELRMXVNMRWlVf0bDDSxNEn38u9Cl
-- Complete SQL Detailed Playlist Hindi : **Coming Soon**
-- Complete SQL One Shot : **Coming Soon**
+- Complete SQL Detailed Playlist English: https://www.youtube.com/watch?v=us1XyayQ6fU&list=PLZoTAELRMXVNMRWlVf0bDDSxNEn38u9Cl
+- Complete SQL Detailed Playlist Hindi: **Coming Soon**
+- Complete SQL One Shot: **Coming Soon**
 
 ## 4. Git And Github Tutorials
 
@@ -52,18 +52,18 @@
 ## 9. Complete AWS Sagemaker And Sagemaker Studio Tools
 
 - Sagemaker Detailed Playlist: https://www.youtube.com/watch?v=LkR3GNDB0HI&list=PLZoTAELRMXVONh5mHrXowH6-dgyWoC_Ew
-- Sagemaker End to End Projects- **Coming Soon**
+- Sagemaker End-to-End Projects- **Coming Soon**
 
 ## 10. Complete MLOPS tutorials
 
 - Complete Dockers In One Shot English: https://www.youtube.com/watch?v=8vmKtS8W7IQ
-- MLFLOW End to End Tutorials With Deployment: https://www.youtube.com/watch?v=pxk1Fr33-L4
+- MLFLOW End-to-End Tutorials With Deployment: https://www.youtube.com/watch?v=pxk1Fr33-L4
 - Evidently AI Model Monitoring: https://www.youtube.com/watch?v=cgc3dSEAel0
 - Complete Docker In One Shot Hindi: **Coming soon**
 - Complete Github Action In English: **Coming soon**
 - Complete Kubernetes And Kubeflow Tutorials: **Coming Soon**
 
-## 11. End To End ML,DL and NLP Projects- Entire Lifecycle Till Deployment Using Open Source Tools
+## 11. End To End ML, DL, and NLP Projects- Entire Lifecycle Till Deployment Using Open Source Tools
 
 - End To End ML Projects Playlist In English: https://www.youtube.com/watch?v=S_F_c9e2bz4&list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG&index=1
 - End To End ML Playlist In Hindi: https://www.youtube.com/watch?v=NuwUnRpxq2c&list=PLTDARY42LDV7jzL_f68SY-eOQ9tY2lYvR
@@ -78,7 +78,7 @@
 
 - Pyspark Detailed Playlist: https://www.youtube.com/watch?v=WyZmM6K7ubc&list=PLZoTAELRMXVNjiiawhzZ0afHcPvC8jpcg
 
-## 14. Complete Data Science,Machine Learning And Deep Learning Interview Questions
+## 14. Complete Data Science, Machine Learning, And Deep Learning Interview Questions
 
 https://github.com/iNeuronai/interview-question-data-science-
 
@@ -92,7 +92,7 @@ https://drive.google.com/file/d/18doA_wMja2nAawcE6imIcfnEMf-Pir2n/view
 
 ## Youtube Channels For Referring All Videos. Consider Subscribing and pressing the bell icon.
 
-- Krish Naik : https://www.youtube.com/@krishnaik06
+- Krish Naik: https://www.youtube.com/@krishnaik06
 - Krish Naik Hindi: https://www.youtube.com/@krishnaikhindi
 - Success Stories By Krish(Coming up): https://www.youtube.com/channel/UCNSHtBgZ3dhcpv190JrK_LQ
 - Support Channel and Join this channel to get access to perks: https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join our Data Science Project
