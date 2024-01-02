@@ -1,0 +1,76 @@
+    /* Custom styles for dual-background */
+    body{
+        overflow: hidden;
+    }
+    .dual-background {
+        position: relative;
+        display: flex;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .dual-background img {
+        width: 50vw;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(8px);
+        /* Adjust blur level as needed */
+    }
+
+    .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .overlay.left {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .overlay.right {
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Add styles for responsive design */
+    /* Add styles for responsive design */
+    @media (max-width: 768px) {
+        body{
+            overflow: auto;
+        }
+        .dual-background {
+            flex-direction: column;
+            /* Change the flex direction to column */
+        }
+
+        .dual-background img {
+            width: 100%;
+            height: 50vh;
+            /* Adjust the height for smaller screens */
+        }
+
+        .overlay {
+            width: 100%;
+            /* Set the width to 100% for smaller screens */
+            transform: translate(-50%, -50%);
+            /* Adjust for centering on smaller screens */
+        }
+
+        .overlay.left {
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .overlay.right {
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
