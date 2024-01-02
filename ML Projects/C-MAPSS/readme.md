@@ -1,3 +1,5 @@
+## C_MAPSS
+
 Data Set: FD001
 Train trjectories: 100
 Test trajectories: 100
@@ -26,7 +28,7 @@ Fault Modes: TWO (HPC Degradation, Fan Degradation)
 
 Experimental Scenario
 
-Data sets consists of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine ñ i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data is contaminated with sensor noise.
+Data sets consists of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine ‚Äì i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data is contaminated with sensor noise.
 
 The engine is operating normally at the start of each time series, and develops a fault at some point during the series. In the training set, the fault grows in magnitude until system failure. In the test set, the time series ends some time prior to system failure. The objective of the competition is to predict the number of remaining operational cycles before failure in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate. Also provided a vector of true Remaining Useful Life (RUL) values for the test data.
 
@@ -42,4 +44,12 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 26)	sensor measurement  26
 
 
-Reference: A. Saxena, K. Goebel, D. Simon, and N. Eklund, ìDamage Propagation Modeling for Aircraft Engine Run-to-Failure Simulationî, in the Proceedings of the Ist International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
+Reference: A. Saxena, K. Goebel, D. Simon, and N. Eklund, ‚ÄúDamage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation‚Äù, in the Proceedings of the Ist International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
+
+kaggle dataset : https://www.kaggle.com/datasets/behrad3d/nasa-cmaps/code?datasetId=276801
+
+my contribution to this dataset : https://www.kaggle.com/code/yashh2417/c-mapss
+
+linked in profile : https://www.linkedin.com/in/yashh2417?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhPh0aGAOQAODZWyMwpUiow%3D%3D
+
+github link : https://github.com/yashh2417/c-mapss
