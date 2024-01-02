@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD002-RUL Prediction</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='styles.css') }}">
+</head>
+<body>
+    <h1>FD002-RUL Prediction</h1>
+    
+    
+        <form action="{{url_for('predict_rul2')}}" method="post">
+            <div class="two-column-form">
+                <div class="container">
+                    <input type="text" name="sensor1" placeholder="sensor1" required="required" /><br>
+                    <input type="text" name="sensor2" placeholder="sensor2" required="required" /><br>
+                    <input type="text" name="sensor3" placeholder="sensor3" required="required" /><br>
+        
+                    <input type="text" name="sensor4" placeholder="sensor4" required="required" /><br>
+                    <input type="text" name="sensor5" placeholder="sensor5" required="required" /><br>
+                    <input type="text" name="sensor6" placeholder="sensor6" required="required" /><br>
+                  
+                    <input type="text" name="sensor7" placeholder="sensor7" required="required" /><br>
+                    <input type="text" name="sensor8" placeholder="sensor8" required="required" /><br>
+                    <input type="text" name="sensor9" placeholder="sensor9" required="required" /><br>
+                    </div>
+                    <div class="container">
+                    <input type="text" name="sensor10" placeholder="sensor10" required="required" /><br>
+                    <input type="text" name="sensor11" placeholder="sensor11" required="required" /><br>
+                    <input type="text" name="sensor12" placeholder="sensor12" required="required" /><br>
+                    
+                    <input type="text" name="sensor14" placeholder="sensor14" required="required" /><br>
+                    <input type="text" name="sensor15" placeholder="sensor15" required="required" /><br>
+                   
+                    <input type="text" name="sensor17" placeholder="sensor17" required="required" /><br>
+                    <input type="text" name="sensor18" placeholder="sensor18" required="required" /><br>
+                    <input type="text" name="sensor20" placeholder="sensor20" required="required" /><br>
+                    <input type="text" name="sensor21" placeholder="sensor21" required="required" /><br>
+                    </div>
+            </div>
+            
+            <button type="submit" class="btn">Predict</button>
+        </form>
+    
+        <h2>
+            The RUL Prediction is {{result2}} 
+
+        </h2>
+</body>
+</html>
+
+
