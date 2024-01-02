@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+LangChain_PDF_App.egg-info/PKG-INFO
+LangChain_PDF_App.egg-info/SOURCES.txt
+LangChain_PDF_App.egg-info/dependency_links.txt
+LangChain_PDF_App.egg-info/requires.txt
+LangChain_PDF_App.egg-info/top_level.txt
