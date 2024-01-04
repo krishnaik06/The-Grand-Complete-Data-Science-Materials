@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fake News📰 Detection System</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: 'Arimo', sans-serif;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login {
+      width: 400px;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 36px;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;  
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .results {
+      margin-top: 20px;
+    }
+
+    .results h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .results .fake {
+      color: red;
+    }
+
+    .results .real {
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="login">
+    <h1>Fake News📰 Detector</h1>
+
+    <form action="{{ url_for('predict') }}" method="POST">
+      <textarea name="message" rows="6" cols="50" required="required"></textarea>
+      <br><br>
+      <button type="submit">Predict</button>
+    </form>
+
+    <div class="results">
+      {% if prediction == 'FAKE' %}
+        <h2 class="fake">Spam⚠️News📰 Detected</h2>
+      {% elif prediction == 'REAL' %}
+        <h2 class="real">Real News📰 Detected</h2>
+      {% endif %}
+    </div>
+  </div>
+</div>
+</body>
+</html>
