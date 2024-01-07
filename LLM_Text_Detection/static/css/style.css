@@ -1,0 +1,45 @@
+body{
+    background-image: url('/static/images/bg_img.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: #CB6CE6;
+}
+
+.div1{
+    text-align: center;
+}
+
+.div2{
+    text-align: center;
+    padding: 10px;
+    color: #CB6CE6;
+}
+
+h3{
+    text-align: center;
+    margin-top: 15%;
+}
+
+#text{
+   width:50%;
+   padding: 1%;
+   border-radius: 20px;
+   margin: 5%;
+}
+
+#button{
+    padding: 0.5% 2%;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size:medium;       
+}
+
+#button:hover{
+    background-color: #CB6CE6;
+    cursor: pointer;
+}

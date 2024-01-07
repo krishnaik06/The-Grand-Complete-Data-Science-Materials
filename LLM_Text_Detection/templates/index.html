@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <h1>Detect who wrote the Text?</h1>
+    <div class="div1">
+        <form method = "post">
+            <input type="text" name="text" id="text" placeholder="Enter Text.....">
+            <br>
+            <button id="button">Detect</button>
+        </form>
+    </div>
+    {% if result %}
+    <div class="div2">
+        <h3>
+            Text is written by {{result}}
+        </h3>
+    </div>
+    {% endif %}
+</body>
+</html>
