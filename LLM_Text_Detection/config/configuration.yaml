@@ -1,0 +1,43 @@
+# Directory where artifacts will be stored
+artifacts_dir: artifacts
+
+# Data Ingestion Configuration
+data_ingestion:
+    # Directory for storing ingested data
+    ingestion_dir: artifacts/data_ingestion
+    # File containing the raw data for ingestion
+    data_file: artifacts/data_ingestion/texts.csv
+
+# Data Transformation Configuration
+data_transformation:
+    # Directory for storing transformed data
+    transformation_dir: artifacts/data_transformation
+    # Directory for storing cleaned data after transformation
+    cleaned_data_dir: artifacts/data_transformation/cleaned_texts.csv
+    # train cleaned data after transformation
+    train_data_dir: artifacts/data_transformation/train_texts.csv
+    # test cleaned data after transformation
+    test_data_dir: artifacts/data_transformation/test_texts.csv
+    # validation cleaned data after transformation
+    validation_data_dir: artifacts/data_transformation/validation_texts.csv
+
+# Data Validation Configuration
+data_validation:
+    # Directory for storing validation status file
+    validation_dir: artifacts/data_validation
+    # status file for storing validation status
+    status_filepath: artifacts/data_validation/status.txt
+    required_files: ["train_texts.csv", "test_texts.csv", "validation_texts.csv"]
+
+# Model Training Configuration
+model_training:
+    # Directory for storing model training artifacts
+    model_trainer_dir: artifacts/model_trainer
+    trained_model: artifacts/model_trainer/trained_model/
+
+# Model Evaluation Configuration
+model_evaluation:
+    # directory for storing model evaluation artifacts
+    evaluation_dir: artifacts/model_evaluation/
+    evaluation_report: artifacts/model_evaluation/evaluation_report.txt
+    
