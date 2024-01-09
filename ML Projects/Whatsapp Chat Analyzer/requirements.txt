@@ -1,0 +1,8 @@
+numpy==1.21.4
+pickle-mixin==1.0.2
+streamlit==1.2.0
+streamlit-option-menu==0.3.2
+scikit-learn==1.0.1
+urlextract==1.8.0
+emoji==1.6.3
+collection==0.1.6
