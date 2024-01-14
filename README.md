@@ -17,6 +17,7 @@
 - Complete SQL Detailed Playlist Hindi : **Coming Soon**
 - Complete SQL One Shot : **Coming Soon**
 
+
 ## 4. Git And Github Tutorials
 
 - Git and Github Tutorials In English: https://www.youtube.com/watch?v=GW7B6vwktPA&list=PLZoTAELRMXVOSsBerFZKsdCaA4RYr4RGW
@@ -35,11 +36,13 @@
 - Machine Learning One Shot In English: https://www.youtube.com/watch?v=JxgmHe2NyeY
 - Machine Learning Playlist In Hindi: https://www.youtube.com/watch?v=7uwa9aPbBRU&list=PLTDARY42LDV7WGmlzZtY-w9pemyPrKNUZ
 
+
 ## 7. Complete Deep Learning And NLP Playlist:
 
 - Complete Deep Learning And NLP Detailed Playlist In English: https://www.youtube.com/watch?v=YFNKnUhm_-s&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi
 - Complete NLP Live Playlist English: https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn
 - Complete Deep Learning And NLP Playlist Hindi: **Coming soon**
+
 
 ## 8. Important Frameworks for Production Deployments
 
@@ -53,6 +56,7 @@
 
 - Sagemaker Detailed Playlist: https://www.youtube.com/watch?v=LkR3GNDB0HI&list=PLZoTAELRMXVONh5mHrXowH6-dgyWoC_Ew
 - Sagemaker End to End Projects- **Coming Soon**
+
 
 ## 10. Complete MLOPS tutorials
 
@@ -74,6 +78,7 @@
 - Langchain Playlist(In Progress): https://www.youtube.com/watch?v=_FpT1cwcSLg&list=PLZoTAELRMXVORE4VF7WQ_fAl0L1Gljtar
 - ChainLit Playlist **(In Progress)**
 
+
 ## 13. Pyspark Complete Tutorials
 
 - Pyspark Detailed Playlist: https://www.youtube.com/watch?v=WyZmM6K7ubc&list=PLZoTAELRMXVNjiiawhzZ0afHcPvC8jpcg
@@ -81,6 +86,7 @@
 ## 14. Complete Data Science,Machine Learning And Deep Learning Interview Questions
 
 https://github.com/iNeuronai/interview-question-data-science-
+
 
 ## Internships
 
