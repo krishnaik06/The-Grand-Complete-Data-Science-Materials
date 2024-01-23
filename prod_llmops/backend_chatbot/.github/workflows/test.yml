@@ -1,0 +1,50 @@
+
+name: build_deploy_aks
+on:
+  push:
+    branches:
+      - "main1"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code 
+        uses: actions/checkout@v3
+      - name: ACR build
+        id: build-push-acr
+        uses: azure/acr-build@v1
+        with:
+          service_principal: {{ secrets.service_principal }}
+          service_principal_password: {{ secrets.service_principal_password }}
+          tenant: {{ secrets.tenant }}
+          registry: gptapp.azurecr.io
+          repository: {{ secrets.repository }}
+          image:  {{ secrets.image }}
+          folder: backend/app
+          branch: main
+          tag: kube4
+          git_access_token: {{ secrets.git_access_token }} 
+      
+      - name: Azure login
+        id: login
+        uses: azure/login@v1.4.3
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Set AKS context
+        id: set-context
+        uses: azure/aks-set-context@v3
+        with:
+          resource-group: 'raj' 
+          cluster-name: 'gpt-app'
+      - name: Setup kubectl
+        id: install-kubectl
+        uses: azure/setup-kubectl@v3
+      - name: Deploy to AKS
+        id: deploy-aks
+        uses: Azure/k8s-deploy@v4
+        with:
+          namespace: 'gptapp-backend'
+          manifests: |
+             backend/app/k8s/app-deployment.yml
+          # images: 'gptapp.azurecr.io/pdfchat_backend/pdfchat_backend:kube4'
+          # pull-images: false

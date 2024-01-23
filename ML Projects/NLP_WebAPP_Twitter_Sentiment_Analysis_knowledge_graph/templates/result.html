@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <!--Linking css file-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+<body class="result-body">
+    <h1>First Five Rows:</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Serial No.</th>
+                {% for col in first_five.columns %}
+                <th>{{ col }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for index, row in first_five.iterrows() %}
+            <tr>
+                <td>{{ index+1 }}</td>
+                {% for val in row.values %}
+                <td>{{ val }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h1>Last Five Rows:</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Serial No.</th>
+                {% for col in last_five.columns %}
+                <th>{{ col }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for index, row in last_five.iterrows() %}
+            <tr>
+                <td>{{ index+1 }}</td>
+                {% for val in row.values %}
+                <td>{{ val }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h1>Sentiments Analyzed on Tweets :</h1>
+    <p style="font-size: 70px; ">{{ result }}</p>
+    <img src="data:image/png;base64,{{ plot_url }}" alt="bar plot">
+
+</body>
+
+</html>
