@@ -36,7 +36,7 @@
 - Machine Learning Playlist In Hindi: https://www.youtube.com/watch?v=7uwa9aPbBRU&list=PLTDARY42LDV7WGmlzZtY-w9pemyPrKNUZ
 
 ## 7. Complete Deep Learning And NLP Playlist:
-
+- Complete Deep Learning One Shot In English: https://www.youtube.com/watch?v=d2kxUVwWWwU
 - Complete Deep Learning And NLP Detailed Playlist In English: https://www.youtube.com/watch?v=YFNKnUhm_-s&list=PLZoTAELRMXVPGU70ZGsckrMdr0FteeRUi
 - Complete NLP Live Playlist English: https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn
 - Complete Deep Learning And NLP Playlist Hindi: **Coming soon**
