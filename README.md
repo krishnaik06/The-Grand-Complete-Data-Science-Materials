@@ -13,7 +13,7 @@
 
 ## 3. Complete SQL For Data Analytics And Data Science
 
-- [Complete SQl Detailed Playlist English](https://www.youtube.com/watch?v=us1XyayQ6fU&list=PLZoTAELRMXVNMRWlVf0bDDSxNEn38u9Cl) ![YouTube](https://img.shields.io/badge/-YouTube-red)
+- [Complete SQL Detailed Playlist English](https://www.youtube.com/watch?v=us1XyayQ6fU&list=PLZoTAELRMXVNMRWlVf0bDDSxNEn38u9Cl) ![YouTube](https://img.shields.io/badge/-YouTube-red)
 - Complete SQL Detailed Playlist Hindi : **Coming Soon**
 - Complete SQL One Shot : **Coming Soon**
 
@@ -73,6 +73,7 @@
 
 - [OPENAI Playlist English (In Progress)](https://www.youtube.com/watch?v=CbpsDMwFG2g&list=PLZoTAELRMXVMTWGW9iS45ZTcMsntos6VO) ![YouTube](https://img.shields.io/badge/-YouTube-red)
 - [Langchain Playlist (In Progress)](https://www.youtube.com/watch?v=_FpT1cwcSLg&list=PLZoTAELRMXVORE4VF7WQ_fAl0L1Gljtar) ![YouTube](https://img.shields.io/badge/-YouTube-red)
+- ChainLit Playlist **(In Progress)**
 
 ## 13. Pyspark Complete Tutorials
 
@@ -100,4 +101,3 @@
 ## Join Our Data Science Project Neuron
 
 [![Join Our Project](https://img.shields.io/badge/-Join%20Now-blue)](https://ineuron.ai/one-neuron/Data-science-Projects-Neuron?source=one_neuron_listing)
-
