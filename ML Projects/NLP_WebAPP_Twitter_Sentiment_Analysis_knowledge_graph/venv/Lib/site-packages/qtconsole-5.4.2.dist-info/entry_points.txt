@@ -1,2 +1,0 @@
-[gui_scripts]
-jupyter-qtconsole = qtconsole.qtconsoleapp:main

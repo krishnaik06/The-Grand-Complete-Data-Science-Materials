@@ -1,7 +1,0 @@
-2023-02-10 11:07:12,842 - INFO - Module Initialization
-2023-02-10 11:07:55,476 - INFO - Executing Prediction API
-2023-02-10 11:07:55,497 - INFO - Performing transcript cleaning
-2023-02-10 11:07:55,499 - INFO - Preprocessing transcript
-2023-02-10 11:07:55,593 - INFO - Dividing the transcript into chunks
-2023-02-10 11:07:55,594 - INFO - Executing summarization module
-2023-02-10 11:11:56,463 - INFO - Returning the output
