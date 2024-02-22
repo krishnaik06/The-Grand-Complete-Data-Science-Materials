@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    elephant_man:
+      email: elephant_lover@gmail.com
+      name: Andro Shanki
+      password: $2b$12$S4Zc5CFYDOSFV9Wi35pOY.qMAzv7f6xQ0g5B4b6DgkzOWzmRPEXTu
+    shankesh:
+      email: hello@gmail.com
+      name: shankesh raju ms
+      password: $2b$12$tMEI/n73JIvNEnwDz97wiuBytU3pjpXbRDneVg1W8CVpT6u8lRtvG
+    testuser:
+      email: sample@gmail.com
+      name: Elon Musk
+      password: $2b$12$h6.IIzlxth.46IM3LhwB8ewuczaoc/JpM.XwX7jZRWLwT3kx4NHIK
+preauthorized:
+  emails:
+  - melsby@gmail.com
