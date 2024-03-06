@@ -3,7 +3,7 @@ In this project we will explain how to create your own dataset using your own im
 
 create a data folder > which includes images, ( actual images)
 
-HOW TO TAKE PICTTURES OF YOURSELF?
+HOW TO TAKE PICTURES OF YOURSELF?
 
 Don't worry I've added a snippet to take your own pictures for every 3 secs.
 
