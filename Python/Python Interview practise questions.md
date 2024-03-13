@@ -484,14 +484,34 @@ The `@property` decorator allows you to define methods in a class that can be ac
 ```python<button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button>
 class Circle:
     def __init__(self, radius):
-        self._radius = radius
+        self.radius = radius
 
     @property
     def diameter(self):
-        return self._radius * 2
+        return self.radius * 2
 
+    @diameter.setter
+    def diameter(self, value):
+        self.radius = value / 2
+
+    @diameter.deleter
+    def diameter(self):
+        del self.radius
+
+# Create an instance of Circle
 circle = Circle(5)
+
+# Access the diameter property (getter method)
 print(circle.diameter)  # Output: 10
+
+# Modify the diameter property (setter method)
+circle.diameter = 14
+print(circle.radius)  # Output: 7
+
+# Delete the diameter property (deleter method)
+del circle.diameter
+print(hasattr(circle, 'radius'))  # Output: False
+
 
 ```
 ### Advanced
