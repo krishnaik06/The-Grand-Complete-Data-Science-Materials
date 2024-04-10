@@ -1,0 +1,8 @@
+streamlit
+openai
+langchain
+firebase_admin
+firebase
+re
+pandas
+base64
