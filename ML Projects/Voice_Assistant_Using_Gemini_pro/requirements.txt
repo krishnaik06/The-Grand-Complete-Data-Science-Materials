@@ -1,0 +1,5 @@
+google-generativeai>=0.3.0  # Ensures version 0.3.0 or higher (recommended for GenerativeModel class)
+SpeechRecognition
+pyttsx3
+pyaudio
+python-dotenv
