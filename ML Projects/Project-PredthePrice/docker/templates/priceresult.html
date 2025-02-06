@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Expected Price{% endblock %}
+
+{% block styles %}
+<style>
+    .price-container {
+        margin-top: 25vh;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container" style="height: 100vh;">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 price-container text-center">
+            <h2 class="mb-4">Expected price for {{ vehicle_name }} of {{ model_year }} with {{ km_driven }} KM travel is </h2>
+            <h1 class="display-4"> ₹ {{ lowprice[0] }} - ₹ {{ highprice[0] }}</h1>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

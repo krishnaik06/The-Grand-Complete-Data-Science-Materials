@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    {% block styles %}{% endblock %}
+
+    <style>
+        body {
+            background: linear-gradient(to right, #343a40, #343a40, #1c1c1c);
+            /* Gradient dark background */
+            color: #fff;
+            /* Set a light text color */
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar bg-dark border-bottom border-body sticky-top navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home">
+                <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Project PredThePrice</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://github.com/AnuraagaNath/Project-PredthePrice", target="_blank">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">More Coming Soon</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+
+    <footer class="text-center py-3 bg-info mt-5">
+        <div class="container">
+            <p>&copy; 2023 Anuraaga Nath. All rights reserved. | Created using Flask and Bootstrap</p>
+            <p>To get in touch, please contact at: anuraaga.oct15@gmail.com</p>
+            <div class="social-links">
+                <a href="https://github.com/AnuraagaNath" target="_blank"><img src="{{ url_for('static', filename='img/icons8-github-24.png') }}" alt="GitHub Logo" style="width: 30px; height: 30px;"></a>
+                <a href="http://linkedin.com/in/anuraaga-nath" target="_blank"><img src="{{ url_for('static', filename='img/icons8-linkedin-48.png') }}" alt="LinkedIn Logo" style="width: 30px; height: 30px;"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

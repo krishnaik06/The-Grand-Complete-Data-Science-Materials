@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Motorcycle{% endblock %}
+
+{% block styles %}
+<style>
+.top {
+    height: 100px; 
+    object-fit: contain;
+    border: 10px solid white;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="container" style="height: -webkit-fit-available;">
+    <div class="row">
+        {% for model, image_link in zipped.items() %}
+        <div class="col-md-4">
+            <div class="card mb-4" style="width: 100%;">
+                <form action="{{ url_for('getindianNames') }}" method="POST" id="{{ model }}Form">
+                    <input type="hidden" name="model" value="{{ model }}">
+                    <a href="#" style="text-decoration: none; color: black;" onclick="document.getElementById('{{ model }}Form').submit();">
+                        <img src="{{ image_link }}" class="card-img-top top" alt="test">
+                        <div class="card-body">
+                            <p class="card-text text-center">{{ model }}</p>
+                        </div>
+                    </a>
+                </form>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
