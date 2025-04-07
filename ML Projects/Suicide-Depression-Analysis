@@ -1,0 +1,1 @@
+This project is an NLP-based suicide detection model that classifies text content into either "suicide" or "not suicide" categories. By analyzing the content of posts, it can provide insights into whether the text indicates a risk of suicidal ideation, supporting mental health professionals and platforms in identifying and addressing at-risk content.
