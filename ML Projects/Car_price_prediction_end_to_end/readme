@@ -1,0 +1,101 @@
+
+---
+
+# 🚗 Car Price Prediction
+
+A machine learning project that predicts the **price of a car** based on its features such as mileage, year, fuel type, etc.
+This project uses **Python, NumPy, pandas, and scikit-learn**. It is implemented in a Jupyter Notebook (`.ipynb`) so even beginners can follow step by step.
+
+---
+
+## 📌 Features
+
+* Predicts car prices using machine learning models
+* Data preprocessing and cleaning with **pandas**
+* Model training using **scikit-learn**
+* Easy-to-understand **Jupyter Notebook** with comments
+
+---
+
+## 🛠️ Requirements
+
+Make sure you have the following installed:
+
+* Python 3.8+
+* Jupyter Notebook / JupyterLab
+* Libraries:
+
+  ```
+  pip install numpy pandas scikit-learn matplotlib
+  ```
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone this repository** (or download the project folder):
+
+   ```
+   git clone https://github.com/your-username/car-price-prediction.git
+   cd car-price-prediction
+   ```
+
+2. **Start Jupyter Notebook**:
+
+   ```
+   jupyter notebook
+   ```
+
+3. Open the notebook file:
+
+   ```
+   Car_Price_Prediction.ipynb
+   ```
+
+4. Run all cells step by step (`Kernel > Restart & Run All`).
+
+---
+
+## 🌐 Run on Google Colab (Beginner Friendly)
+
+You don’t need to install anything if you use **Google Colab**:
+
+1. Go to [Google Colab]
+2. Click **File > Upload Notebook**
+3. Upload `Car_Price_Prediction.ipynb`
+4. Run the cells one by one
+
+---
+
+
+Example output:
+
+```
+Input → Car: 2017, Petrol, 30,000 km  
+Predicted Price → ₹5.2 Lakhs
+```
+
+---
+
+## 📂 Project Structure
+
+```
+├── Car_Price_Prediction.ipynb   # Main notebook
+├── quikr_car.csv                  # Dataset (if provided)
+├── README.md                    # Documentation
+```
+
+---
+
+## 🤝 Contribution
+
+* Beginners are welcome to try different ML models
+* You can improve accuracy by feature engineering and hyperparameter tuning
+
+---
+
+## 📜 License
+
+This project is open-source. You can use it for learning or extend it into a full web app.
+
+---
