@@ -1,4 +1,4 @@
-## Python Ussecases Interview Based Questions
+## Python Use cases Interview Based Questions
 
 Below are some use-case based Python interview questions along with their answers and code.
 
